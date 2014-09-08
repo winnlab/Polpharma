@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAAA,WAAY;EACX,QAAQ,EAAE,QAAQ;EAElB,mBAAQ;IACP,QAAQ,EAAE,QAAQ;IAClB,OAAO,EAAE,CAAC;IACV,KAAK,EAAE,IAAI;IACX,GAAG,EAAE,IAAI",
+"sources": ["mindImages.scss"],
+"names": [],
+"file": "mindImages.css"
+}

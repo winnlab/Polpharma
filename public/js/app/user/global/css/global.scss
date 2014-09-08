@@ -1,0 +1,165 @@
+@charset "UTF-8";
+@import '../../../../../css/bourbon/_bourbon.scss';
+@import '../../../../../scss/base/_variables.scss';
+@import '../../../../../scss/base/_mixins.scss';
+@import '../../../../../scss/base/_placeholders.scss';
+
+#circles {
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	overflow: hidden;
+	z-index: -1;
+
+}
+
+
+.circle {
+	$size: rem(200);
+
+
+	width: $size;
+	height: $size;
+	border-radius: 50%;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	margin-left: -$size/2;
+	margin-top: -$size/2;
+	/*
+				transition: all 0.4s ease-in-out;*/
+}
+
+.mint {
+	.circle0, .circle6, .circle12 {
+		background: #055F17;
+	}
+	.circle1, .circle7, .circle13 {
+		background: #8CA35F;
+	}
+	.circle2, .circle8 {
+		background: #8DC641;
+	}
+	.circle3, .circle9 {
+		background: #CCD035;
+	}
+	.circle4, .circle10 {
+		background: #F2F2F2;
+	}
+	.circle5, .circle11 {
+		background: #8FC742;
+	}
+}
+
+.ginger {
+	.circle0, .circle6, .circle12 {
+		background: #e6bf3d;
+	}
+	.circle1, .circle7, .circle13 {
+		background: #d4d394;
+	}
+	.circle2, .circle8 {
+		background: #0a0708;
+	}
+	.circle3, .circle9 {
+		background: #ffaa1d;
+	}
+	.circle4, .circle10 {
+		background: #e6bf3d;
+	}
+	.circle5, .circle11 {
+		background: #f1f1f1;
+	}
+}
+
+.cola {
+	.circle0, .circle6, .circle12 {
+		background: #ff5228;
+	}
+	.circle1, .circle7, .circle13 {
+		background: #ffaa1d;
+	}
+	.circle2, .circle8 {
+		background: #671305;
+	}
+	.circle3, .circle9 {
+		background: #400406;
+	}
+	.circle4, .circle10 {
+		background: #ff5228;
+	}
+	.circle5, .circle11 {
+		background: #f1f1f1;
+	}
+}
+
+.pulsingCircle {
+	$size: rem(200);
+
+	width: $size;
+	height: $size;
+	border-radius: 50%;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	margin-left: -$size/2;
+	margin-top: -$size/2;
+	background: #CF112B;
+	z-index: -1;
+}
+@-ms-keyframes spin {
+	from { -ms-transform: rotate(0deg); }
+	to { -ms-transform: rotate(360deg); }
+}
+@-moz-keyframes spin {
+	from { -moz-transform: rotate(0deg); }
+	to { -moz-transform: rotate(360deg); }
+}
+@-webkit-keyframes spin {
+	from { -webkit-transform: rotate(0deg); }
+	to { -webkit-transform: rotate(360deg); }
+}
+@keyframes spin {
+	from {
+		transform:rotate(0deg);
+	}
+	to {
+		transform:rotate(360deg);
+	}
+}
+
+.colorSwitcher {
+	$height: rem(90);
+
+	position: fixed;
+	top: 50%;
+	right: 5%;
+	height: $height;
+	margin-top: -$height/2;
+	width: 20%;
+
+
+	a {
+		height: 100%;
+		opacity: 0.5;
+		margin-left: 3%;
+		text-decoration: none;
+		display: block;
+		float: right;
+
+
+		&:hover {
+			opacity: 1;
+		}
+		&.active {
+			opacity: 1;
+		}
+		img {
+			height: 100%;
+		}
+	}
+}

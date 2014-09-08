@@ -1,0 +1,13 @@
+@charset "UTF-8";
+@import '../../css/bourbon/_bourbon.scss';
+@import '../base/_mixins.scss';
+
+@include keyframes(spin) {
+	from {
+		@include rotate(0);
+	}
+	to {
+		@include rotate(360);
+	}
+
+}

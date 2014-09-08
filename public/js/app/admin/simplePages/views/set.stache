@@ -1,0 +1,64 @@
+<div class="content-header">
+    <h3 class="content-title clearfix">Редактирование простой страницы</h3>
+</div>
+<div class="content">
+    <div class="col-md-12">
+
+        <div class="box box-primary">
+            <form class="form-horizontal setSimplePage">
+
+                <div class="box-body">
+
+                    <div class="form-group">
+                        <label class="col-md-2 control-label" for="name">Название:</label>
+                        <div class="col-md-10">
+                            <input class="form-control" type="text" value="{{simplePage.name}}" name="name" placeholder="Название страницы">
+                            <div class="help help-block"></div>
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label class="col-md-2 control-label" for="name">Ссылка:</label>
+                        <div class="col-md-10">
+                            <input class="form-control" type="text" value="{{simplePage.url}}" name="url" placeholder="Ссылка страницы">
+                            <div class="help help-block"></div>
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label class="col-md-2 control-label" for="name">Название альтернативного отображения:</label>
+                        <div class="col-md-10">
+                            <input class="form-control" type="text" value="{{simplePage.alternate_view_path}}" name="alternate_view_path" placeholder="">
+                            <div class="help help-block"></div>
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label class="col-md-2 control-label" for="author">Контент:</label>
+                        <div class="col-md-10">
+                            <textarea name="content" id="" cols="30" rows="10">{{simplePage.content}}</textarea>
+                            <div class="help help-block"></div>
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label class="col-md-2 control-label" for="ready">Готов:</label>
+                        <div class="col-md-10">
+                            <input type="checkbox" name="ready" {{#if simplePage.ready}}checked="checked"{{/if}} />
+                            <div class="help help-block"></div>
+                        </div>
+                    </div>
+
+
+                </div>
+
+                <div class="box-footer">
+                    <button class="btn btn-primary col-md-offset-2" type="submit">
+                        Сохранить изменения
+                    </button>
+                </div>
+            </form>
+        </div>
+
+    </div>
+</div>

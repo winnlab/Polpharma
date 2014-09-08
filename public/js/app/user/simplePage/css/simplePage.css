@@ -1,0 +1,341 @@
+.simplePageContent .mindreaderLabel, .simplePageMainPage .mojoCan .image, .simplePageMainPage .mojoCan .buttons .prev, .simplePageMainPage .mojoCan .buttons .next, .simplePageHelloPage .personInfo .image, .simplePageMindInputPage .discoverMyself .avatar .image, .simplePageMindInputPage #cursor, .simplePageLoadingPage .mojoCan {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center; }
+
+@-webkit-keyframes spin {
+  from {
+    -moz-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg); }
+  to {
+    -moz-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg); } }
+@-moz-keyframes spin {
+  from {
+    -moz-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg); }
+  to {
+    -moz-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg); } }
+@keyframes spin {
+  from {
+    -moz-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg); }
+  to {
+    -moz-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg); } }
+.simplePageContent {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  overflow: hidden; }
+  .simplePageContent .mindreaderLabel {
+    background-image: url("/img/user/mojoMindreader.png");
+    position: absolute;
+    width: 20.625rem;
+    height: 19.75rem;
+    left: 50%;
+    margin-left: -12.3125rem;
+    top: -8rem;
+    z-index: 1; }
+  .simplePageContent .contentCircle {
+    position: absolute;
+    background: #ffffff;
+    height: 90%;
+    border-radius: 50%;
+    left: 50%;
+    top: 50%; }
+
+.simplePageMainPage .motto {
+  position: absolute;
+  top: 30%;
+  width: 100%; }
+  .simplePageMainPage .motto h1 {
+    width: 40%;
+    color: #ffffff;
+    text-transform: uppercase;
+    font-size: 3.750rem;
+    text-align: center;
+    margin: 0 auto; }
+.simplePageMainPage .socialLogin {
+  position: absolute;
+  width: 25rem;
+  left: 50%;
+  top: 60%;
+  margin-left: -12.5rem; }
+  .simplePageMainPage .socialLogin table {
+    height: 2.688rem;
+    border: 3px solid #ffffff; }
+    .simplePageMainPage .socialLogin table:hover {
+      cursor: pointer;
+      background: #14579c; }
+    .simplePageMainPage .socialLogin table img {
+      height: 100%; }
+    .simplePageMainPage .socialLogin table p {
+      color: #ffffff;
+      text-transform: uppercase;
+      font-family: PFDinTextCompPro !important;
+      font-size: 1.375rem;
+      margin: 0 1.5rem; }
+    .simplePageMainPage .socialLogin table td.middle {
+      vertical-align: middle; }
+  .simplePageMainPage .socialLogin .fbLogin {
+    float: left; }
+  .simplePageMainPage .socialLogin .vkLogin {
+    float: right; }
+.simplePageMainPage .mojoCan {
+  position: absolute;
+  bottom: -1rem;
+  width: 100%;
+  text-align: center;
+  height: 35%;
+  /*		img {
+  			height: 100%;
+  		}*/ }
+  @media (min-width: 900px) {
+    .simplePageMainPage .mojoCan {
+      height: 30%; } }
+  .simplePageMainPage .mojoCan .image {
+    width: 6.8125rem;
+    height: 18.375rem;
+    position: absolute;
+    bottom: -2rem;
+    left: 50%;
+    margin-left: -3.40625rem; }
+  .simplePageMainPage .mojoCan .buttons {
+    position: absolute;
+    height: 100%;
+    top: 0;
+    left: 50%; }
+    .simplePageMainPage .mojoCan .buttons .prev, .simplePageMainPage .mojoCan .buttons .next {
+      position: absolute;
+      width: 4.375rem;
+      height: 4.375rem;
+      background-image: url("/img/user/canNext.png");
+      top: 50%;
+      margin-top: -2.1875rem;
+      opacity: 0.5; }
+      .simplePageMainPage .mojoCan .buttons .prev:hover, .simplePageMainPage .mojoCan .buttons .next:hover {
+        opacity: 1;
+        cursor: pointer; }
+    .simplePageMainPage .mojoCan .buttons .prev {
+      left: -10rem;
+      -moz-transform: rotate(180deg);
+      -o-transform: rotate(180deg);
+      -ms-transform: rotate(180deg);
+      -webkit-transform: rotate(180deg);
+      transform: rotate(180deg); }
+    .simplePageMainPage .mojoCan .buttons .next {
+      right: -10rem; }
+
+.simplePageHelloPage .personInfo {
+  position: absolute;
+  width: 100%;
+  top: 25%;
+  text-align: center;
+  text-transform: uppercase; }
+  .simplePageHelloPage .personInfo .image {
+    border-radius: 50%;
+    width: 5rem;
+    height: 5rem;
+    margin: 0 auto 0.3125rem;
+    position: relative; }
+  .simplePageHelloPage .personInfo p {
+    font-size: 1.875rem;
+    color: #333333; }
+.simplePageHelloPage .mindreaderInfo {
+  position: absolute;
+  width: 100%;
+  top: 45%;
+  text-align: center;
+  text-transform: uppercase;
+  padding: 0 15%; }
+  .simplePageHelloPage .mindreaderInfo .red {
+    color: #d0112b; }
+  .simplePageHelloPage .mindreaderInfo img {
+    width: 0.4375rem; }
+  .simplePageHelloPage .mindreaderInfo p {
+    font-size: 2.8125em;
+    color: #d9d9d9; }
+.simplePageHelloPage .mindreaderPushInfo {
+  position: absolute;
+  bottom: 20%;
+  width: 100%;
+  text-transform: uppercase;
+  text-align: center; }
+  .simplePageHelloPage .mindreaderPushInfo p {
+    font-size: 1.875rem;
+    color: #333333; }
+.simplePageHelloPage .start {
+  background: #d0112b;
+  color: #ffffff;
+  font-size: 1.5rem;
+  font-family: 'PFDinTextCondPro';
+  font-weight: 500;
+  padding: 0.8rem 0;
+  position: absolute;
+  left: 50%;
+  bottom: 5%;
+  width: 13.75rem;
+  margin-left: -6.875rem;
+  text-align: center;
+  text-transform: uppercase; }
+  .simplePageHelloPage .start:hover {
+    cursor: pointer; }
+
+.simplePageMindInputPage {
+  overflow: hidden; }
+  .simplePageMindInputPage .motto {
+    position: absolute;
+    width: 100%;
+    top: 25%;
+    text-align: center;
+    text-transform: uppercase; }
+    .simplePageMindInputPage .motto p {
+      font-size: 2.5rem;
+      color: #333333; }
+  .simplePageMindInputPage .instruction {
+    position: absolute;
+    top: 40%;
+    width: 100%; }
+    .simplePageMindInputPage .instruction td {
+      vertical-align: bottom;
+      text-align: center;
+      font-size: 1.25rem;
+      color: #333333;
+      width: 33.3%;
+      text-transform: uppercase; }
+  .simplePageMindInputPage .discoverMyself {
+    position: absolute;
+    width: 120%;
+    bottom: 15%;
+    /*		input {
+    			color: #065f17;
+    			background: #f2f2f2;
+    			font-size: rem(40);
+    			border: none;
+    			float: right;
+    			position: relative;
+    			font-family: 'PFDinTextCompPro';
+    			font-weight: 200;
+    			width: 75%;
+    			height: 3.8rem;
+    			padding: 0 1rem;
+    		}*/ }
+    .simplePageMindInputPage .discoverMyself:before {
+      content: '';
+      display: block;
+      position: absolute;
+      width: 1em;
+      height: 1em;
+      left: -0.5em;
+      top: 50%;
+      margin-top: -0.5em;
+      background: #f2f2f2;
+      -moz-transform: rotate(45deg);
+      -o-transform: rotate(45deg);
+      -ms-transform: rotate(45deg);
+      -webkit-transform: rotate(45deg);
+      transform: rotate(45deg); }
+    .simplePageMindInputPage .discoverMyself .avatar {
+      position: absolute;
+      left: -10rem;
+      height: 150%;
+      top: -25%; }
+      .simplePageMindInputPage .discoverMyself .avatar .image {
+        border-radius: 50%;
+        width: 5rem;
+        height: 5rem;
+        margin: 0 auto 0.3125rem;
+        position: relative; }
+    .simplePageMindInputPage .discoverMyself input {
+      font-size: 2.5rem;
+      border: none;
+      float: right;
+      font-family: 'PFDinTextCompPro';
+      font-weight: 200;
+      width: 75%;
+      height: 3.8rem;
+      padding: 0 1rem;
+      position: absolute;
+      left: -1000px; }
+    .simplePageMindInputPage .discoverMyself button {
+      color: #ffffff;
+      background: #d0112b;
+      font-size: 145%;
+      font-family: 'PFDinTextCondPro';
+      font-weight: 500;
+      float: right;
+      position: relative;
+      padding: 1rem 5%;
+      text-transform: uppercase;
+      width: 25%; }
+      .simplePageMindInputPage .discoverMyself button:hover {
+        cursor: pointer; }
+  .simplePageMindInputPage #cmd {
+    font-family: 'PFDinTextCompPro';
+    background: #f2f2f2;
+    padding: 0.66rem 1rem;
+    overflow: hidden;
+    font-size: 2.5rem; }
+    .simplePageMindInputPage #cmd.ginger {
+      color: #ffaa1d; }
+    .simplePageMindInputPage #cmd.cola {
+      color: #400406; }
+    .simplePageMindInputPage #cmd.mint {
+      color: #065f17; }
+  .simplePageMindInputPage #cmd span {
+    float: left;
+    padding-left: 3px;
+    white-space: pre; }
+  .simplePageMindInputPage #cursor {
+    float: left;
+    height: 2.5rem;
+    width: 0.9rem; }
+  .simplePageMindInputPage input {
+    width: 0;
+    height: 0;
+    opacity: 0; }
+
+.simplePageLoadingPage .mojoCan {
+  width: 11.875rem;
+  height: 31.9375rem;
+  background-image: url("/img/user/mojoLoadingCan.png");
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  margin-left: -5.9375rem;
+  margin-top: -15.96875rem;
+  -webkit-animation: spin 4000ms infinite linear;
+  -moz-animation: spin 4000ms infinite linear;
+  animation: spin 4000ms infinite linear; }
+.simplePageLoadingPage .loadingCounter {
+  position: absolute;
+  bottom: 10%;
+  width: 100%;
+  text-transform: uppercase;
+  text-align: center; }
+  .simplePageLoadingPage .loadingCounter h1 {
+    font-size: 3.75rem;
+    color: #ffffff;
+    font-weight: 200; }
+
+/*# sourceMappingURL=simplePage.css.map */

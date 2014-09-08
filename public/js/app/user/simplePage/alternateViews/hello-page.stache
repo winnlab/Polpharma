@@ -1,0 +1,25 @@
+<div class="content simplePageContent simplePageHelloPage">
+
+    <div class="mindreaderLabel"></div>
+
+    <div class="contentCircle">
+
+        <div class="personInfo">
+            <div class="image" style="background-image: url({{appState.user.image}})"></div>
+            <p>Привет, {{appState.user.username}}</p>
+        </div>
+
+        <div class="mindreaderInfo">
+            <p><span class="red">Невероятно!</span></p>
+            <p>Твои мысли имеют смысл и сейчас ты его узнаешь</p>
+        </div>
+
+        <div class="mindreaderPushInfo">
+            <p>абстрагируйся, концентрируйся, жми</p>
+        </div>
+
+        <button class="start module" data-href="simplePage/mind-input">Пуск</button>
+
+    </div>
+
+</div>

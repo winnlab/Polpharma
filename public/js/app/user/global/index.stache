@@ -1,0 +1,14 @@
+<div id="circles" class="{{appState.colorScheme}}"></div>
+<div class="pulsingCircle"></div>
+
+<div class="colorSwitcher">
+    <a href="" class="colorSwitcherItem mint active" data-color="mint">
+        <img src="{{appState.imgPath}}mintCan.png" alt=""/>
+    </a>
+    <a href="" class="colorSwitcherItem cola" data-color="cola">
+        <img src="{{appState.imgPath}}colaCan.png" alt=""/>
+    </a>
+    <a href="" class="colorSwitcherItem ginger" data-color="ginger">
+        <img src="{{appState.imgPath}}gingerCan.png" alt=""/>
+    </a>
+</div>

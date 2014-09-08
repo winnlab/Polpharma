@@ -1,0 +1,161 @@
+@charset "UTF-8";
+@import '../../../../../css/bourbon/_bourbon.scss';
+@import '../../../../../scss/base/_variables.scss';
+@import '../../../../../scss/base/_mixins.scss';
+@import '../../../../../scss/base/_placeholders.scss';
+@import '../../../../../scss/modules/_animations.scss';
+
+.mindContent {
+
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+
+	.mindreaderLabel {
+		@extend %bg-image-cover;
+		background-image: url('#{$img_path}mojoMindreader.png');
+
+		$mindreaderWidth:20.625rem;
+		$mindreaderHeight: 19.750rem;
+
+		position: absolute;
+		width: $mindreaderWidth;
+		height: $mindreaderHeight;
+		left: 50%;
+		margin-left: -$mindreaderWidth/2 - 2;
+		top: -8rem;
+		z-index: 1;
+	}
+
+	.contentCircle {
+		position: absolute;
+		@extend %bg-image-cover;
+		background-color: #ffffff;
+		height: 90%;
+		border-radius: 50%;
+		left: 50%;
+		top: 50%;
+	}
+
+	.repeatExperience {
+		position: absolute;
+		color: #ffffff;
+		border-radius: rem(50);
+		padding: rem(20);
+		font-size: rem(24);
+		font-family: PFDinTextCondPro;
+		font-weight: 500;
+		text-transform: uppercase;
+		top: 50%;
+		margin-top: -(rem(40));
+		left: -25%;
+		min-width: rem(300);
+
+		&:hover {
+			cursor: pointer;
+		}
+	}
+
+	.shareButton {
+		$size: rem(130);
+
+		position: absolute;
+		bottom: 5%;
+		left: 6%;
+		color: #ffffff;
+		background: #d0112b;
+		font-family: PFDinTextCondPro;
+		font-weight: 200;
+		font-style: italic;
+		font-size: rem(24);
+		border-radius: 50%;
+		text-transform: uppercase;
+		width: $size;
+		height: $size;
+
+		&:hover {
+			cursor: pointer;
+		}
+	}
+
+	.mindBubble {
+		$size: rem(310);
+
+		position: absolute;
+		bottom: 0;
+		right: 0;
+		background: #d0112b;
+		color: #ffffff;
+		vertical-align: middle;
+		text-align: middle;
+		padding: rem(20);
+		border-radius: 50%;
+		width: $size;
+		height: $size;
+
+		&:before {
+			$size: rem(50);
+			content: '';
+			position: relative;
+			display: block;
+			top: 8px;
+			left: 8px;
+			width: 0;
+			height: 0;
+			border-style: solid;
+			border-width: 0 $size/2 $size $size/2;
+			border-color: transparent transparent #d0112b transparent;
+			@include rotate(-40);
+		}
+
+		.text {
+			width: 100%;
+			margin: auto;
+			position: absolute;
+			top: 50%; left: 50%;
+			@include translate(-50%, -50%);
+			text-align: center;
+			text-transform: uppercase;
+			font-size: rem(20);
+			font-weight: 700;
+			line-height: 1.4;
+			padding: rem(25);
+		}
+		
+		.imageBubble {
+			$size: rem(130);
+
+			position: absolute;
+			top: rem(-45);
+			right: rem(-15);
+
+			height: $size;
+			width: $size;
+			border: rem(10) solid #d0112b;
+			border-radius: 50%;
+			overflow: hidden;
+			@extend %bg-image-cover;
+
+			img {
+				width: 100%;
+			}
+			
+		}
+	}
+}
+
+.ginger .repeatExperience {
+	background: #ffaa1d;
+}
+.cola .repeatExperience {
+	background: #400406;
+}
+.mint .repeatExperience {
+	background: #065f16;
+}
+
+#vkShareWrapper {
+	display: none;
+
+}

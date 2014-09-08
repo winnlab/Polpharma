@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAAA,YAAa;EACZ,QAAQ,EAAE,QAAQ;EAElB,oBAAQ;IACP,QAAQ,EAAE,QAAQ;IAClB,OAAO,EAAE,CAAC;IACV,KAAK,EAAE,IAAI;IACX,GAAG,EAAE,IAAI",
+"sources": ["simplePages.scss"],
+"names": [],
+"file": "simplePages.css"
+}

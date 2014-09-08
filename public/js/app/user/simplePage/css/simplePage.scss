@@ -1,0 +1,435 @@
+@charset "UTF-8";
+@import '../../../../../css/bourbon/_bourbon.scss';
+@import '../../../../../scss/base/_variables.scss';
+@import '../../../../../scss/base/_mixins.scss';
+@import '../../../../../scss/base/_placeholders.scss';
+@import '../../../../../scss/modules/_animations.scss';
+
+.simplePageContent {
+
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+
+	.mindreaderLabel {
+		@extend %bg-image-cover;
+		background-image: url('#{$img_path}mojoMindreader.png');
+
+		$mindreaderWidth:20.625rem;
+		$mindreaderHeight: 19.750rem;
+
+		position: absolute;
+		width: $mindreaderWidth;
+		height: $mindreaderHeight;
+		left: 50%;
+		margin-left: -$mindreaderWidth/2 - 2;
+		top: -8rem;
+		z-index: 1;
+	}
+
+	.contentCircle {
+		position: absolute;
+		background: #ffffff;
+		height: 90%;
+		border-radius: 50%;
+		left: 50%;
+		top: 50%;
+	}
+}
+
+.simplePageDefaultPage {
+
+}
+
+.simplePageMainPage {
+
+	.motto {
+		position: absolute;
+		top: 30%;
+		width: 100%;
+
+		h1 {
+			width: 40%;
+			color: #ffffff;
+			text-transform: uppercase;
+			font-size: 3.750rem;
+			text-align: center;
+			margin: 0 auto;
+		}
+	}
+
+	.socialLogin {
+		$width: 25rem;
+
+		position: absolute;
+		width: $width;
+		left: 50%;
+		top: 60%;
+		margin-left: -$width/2;
+
+		table {
+			height: 2.688rem;
+			border: 3px solid #ffffff;
+
+			&:hover {
+				cursor: pointer;
+				background: #14579c;
+			}
+
+			img {
+				height: 100%;
+			}
+			p {
+				color: #ffffff;
+				text-transform: uppercase;
+				font-family: PFDinTextCompPro !important;
+				font-size: 1.375rem;
+				margin: 0 1.5rem;
+
+			}
+			td.middle {
+				vertical-align: middle;
+			}
+		}
+
+		.fbLogin {
+			float: left;
+		}
+		.vkLogin {
+			float: right;
+		}
+	}
+
+	.mojoCan {
+		position: absolute;
+		bottom: -1rem;
+		width: 100%;
+		text-align: center;
+		height: 35%;
+
+		@media (min-width: 900px) {
+			& {
+				height: 30%;
+			}
+		}
+/*		img {
+			height: 100%;
+		}*/
+
+		.image {
+			$height: rem(294);
+			$width: rem(109);
+
+			width: $width;
+			height: $height;
+
+			position: absolute;
+			bottom: -2rem;
+			left: 50%;
+			margin-left: -$width/2;
+			@extend %bg-image-cover;
+		}
+
+		.buttons {
+			position: absolute;
+			height: 100%;
+			top: 0;
+			left: 50%;
+
+
+			.prev, .next {
+				$size: rem(70);
+
+				position: absolute;
+				width: $size;
+				height: $size;
+				@extend %bg-image-cover;
+				background-image: url('#{$img_path}canNext.png');
+				top: 50%;
+				margin-top: -$size/2;
+				opacity: 0.5;
+
+				&:hover {
+					opacity: 1;
+					cursor: pointer;
+				}
+			}
+
+			.prev {
+				left: rem(-160);
+				@include rotate(180);
+			}
+			.next {
+				right: rem(-160);
+
+			}
+		}
+	}
+}
+
+.simplePageHelloPage {
+
+	.personInfo {
+		position: absolute;
+		width: 100%;
+		top: 25%;
+		text-align: center;
+		text-transform: uppercase;
+
+
+		.image {
+			@extend %bg-image-cover;
+			border-radius: 50%;
+			width: rem(80);
+			height: rem(80);
+			margin: 0 auto rem(5);
+			position: relative;
+		}
+		p {
+			font-size: rem(30);
+			color: #333333;
+		}
+	}
+
+	.mindreaderInfo {
+		position: absolute;
+		width: 100%;
+		top: 45%;
+		text-align: center;
+		text-transform: uppercase;
+		padding: 0 15%;
+
+		.red {
+			color: #d0112b;
+		}
+		img {
+			width: rem(7);
+		}
+		p {
+			font-size: 2.8125em;
+			color: #d9d9d9;
+		}
+	}
+
+	.mindreaderPushInfo {
+		position: absolute;
+		bottom: 20%;
+		width: 100%;
+		text-transform: uppercase;
+		text-align: center;
+
+		p {
+			font-size: rem(30);
+			color: #333333;
+		}
+	}
+
+	.start {
+		$width: rem(220);
+
+		background: #d0112b;
+		color: #ffffff;
+		font-size: rem(24);
+		font-family: 'PFDinTextCondPro';
+		font-weight: 500;
+		padding: 0.8rem 0;
+		position: absolute;
+		left: 50%;
+		bottom: 5%;
+		width: $width;
+		margin-left: -$width/2;
+		text-align: center;
+		text-transform: uppercase;
+
+		&:hover {
+			cursor: pointer;
+		}
+	}
+}
+
+.simplePageMindInputPage {
+
+	overflow: hidden;
+
+	.motto {
+		position: absolute;
+		width: 100%;
+		top: 25%;
+		text-align: center;
+		text-transform: uppercase;
+
+		p {
+			font-size: rem(40);
+			color: #333333;
+		}
+	}
+
+	.instruction {
+		position: absolute;
+		top: 40%;
+		width: 100%;
+
+		td {
+			vertical-align: bottom;
+			text-align: center;
+			font-size: rem(20);
+			color: #333333;
+			width: 33.3%;
+			text-transform: uppercase;
+		}
+	}
+
+	.discoverMyself {
+		position: absolute;
+		width: 120%;
+		bottom: 15%;
+
+		&:before {
+			$size: 1em;
+
+			content: '';
+			display: block;
+			position: absolute;
+			width: $size;
+			height: $size;
+			left: -$size/2;
+			top: 50%;
+			margin-top: -$size/2;
+			background: #f2f2f2;
+			@include rotate(45);
+		}
+
+
+		.avatar {
+			position: absolute;
+			left: -10rem;
+			height: 150%;
+			top: -25%;
+
+			.image {
+				@extend %bg-image-cover;
+				border-radius: 50%;
+				width: rem(80);
+				height: rem(80);
+				margin: 0 auto rem(5);
+				position: relative;
+			}
+		}
+
+		input {
+			font-size: rem(40);
+			border: none;
+			float: right;
+			font-family: 'PFDinTextCompPro';
+			font-weight: 200;
+			width: 75%;
+			height: 3.8rem;
+			padding: 0 1rem;
+			position: absolute;
+			left: -1000px;
+		}
+/*		input {
+			color: #065f17;
+			background: #f2f2f2;
+			font-size: rem(40);
+			border: none;
+			float: right;
+			position: relative;
+			font-family: 'PFDinTextCompPro';
+			font-weight: 200;
+			width: 75%;
+			height: 3.8rem;
+			padding: 0 1rem;
+		}*/
+		button {
+			color: #ffffff;
+			background: #d0112b;
+			font-size: 145%;
+			font-family: 'PFDinTextCondPro';
+			font-weight: 500;
+			float: right;
+			position: relative;
+			padding: 1rem 5%;
+			text-transform: uppercase;
+			width: 25%;
+
+			&:hover {
+				cursor: pointer;
+			}
+		}
+	}
+
+	#cmd {
+		font-family: 'PFDinTextCompPro';
+		background: #f2f2f2;
+		padding: 0.66rem 1rem;
+		overflow: hidden;
+		font-size: rem(40);
+
+		&.ginger {
+			color: #ffaa1d;
+		}
+		&.cola {
+			color: #400406;
+
+		}
+		&.mint {
+			color: #065f17;
+		}
+	}
+
+	#cmd span {
+		float: left;
+		padding-left: 3px;
+		white-space: pre;
+	}
+
+	#cursor {
+		float: left;
+		height: rem(40);
+		width: 0.9rem;
+		@extend %bg-image-cover;
+	}
+
+	input {
+		width: 0;
+		height: 0;
+		opacity: 0;
+	}
+	
+}
+
+
+.simplePageLoadingPage {
+
+	.mojoCan {
+		$width: rem(190);
+		$height: rem(511);
+
+		width: $width;
+		height: $height;
+		@extend %bg-image-cover;
+		background-image: url('#{$img_path}mojoLoadingCan.png');
+		position: absolute;
+		left: 50%;
+		top: 50%;
+		margin-left: -$width/2;
+		margin-top: -$height/2;
+		@include animation(spin 4000ms infinite linear);
+	}
+
+	.loadingCounter {
+		position: absolute;
+		bottom: 10%;
+		width: 100%;
+		text-transform: uppercase;
+		text-align: center;
+
+		h1 {
+			font-size: rem(60);
+			color: #ffffff;
+			font-weight: 200;
+		}
+	}
+}

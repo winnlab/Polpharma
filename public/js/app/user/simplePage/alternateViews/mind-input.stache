@@ -1,0 +1,41 @@
+<div class="content simplePageContent simplePageMindInputPage">
+
+    <div class="mindreaderLabel"></div>
+
+    <div class="contentCircle">
+
+        <div class="motto">
+            <p>Следуй инструкции и<br> поймешь себя</p>
+        </div>
+
+        <table class="instruction">
+            <tr>
+                <td><img src="{{appState.imgPath}}closeEyes.png" alt=""/></td>
+                <td><img src="{{appState.imgPath}}handsOnKeyboard.png" alt=""/></td>
+                <td><img src="{{appState.imgPath}}freeMind.png" alt=""/></td>
+            </tr>
+            <tr>
+                <td>Закрой глаза</td>
+                <td>Опусти руки на клавиатуру</td>
+                <td>Освободи свои мысли</td>
+            </tr>
+        </table>
+
+        <form class="discoverMyself" id="discoverMyself">
+
+            <div class="avatar">
+                <div class="image" style="background-image: url('{{appState.user.image}}')"></div>
+            </div>
+
+            <button type="submit">Понять себя</button>
+            <input type="text" name="text"/>
+
+            <div id="cmd" class="{{appState.colorScheme}}">
+                <span></span>
+                <div id="cursor" style="background-image: url('{{appState.imgPath}}{{appState.colorScheme}}Can.png')"></div>
+            </div>
+
+        </form>
+    </div>
+
+</div>
