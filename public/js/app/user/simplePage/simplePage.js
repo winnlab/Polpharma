@@ -3,12 +3,13 @@
 define([
 	'canjs',
 	'core/appState',
+	'app/simplePage/simplePageModel',
 	'core/helpers/preloader',
 	'social/vk/vk_sdk',
 	'social/fb/fb_sdk',
 	'css!app/simplePage/css/simplePage.css'
 ],
-	function (can, appState, Preloader) {
+	function (can, appState, SimplePageModel) {
 
 		return can.Control.extend({
 			defaults: {
@@ -38,23 +39,8 @@ define([
 				);
 
 				if (self.options.isReady) {
-
-					if ( simplePage.name == 'loading') {
-						new Preloader({
-							images: [appState.attr('colorScheme')+'Can500.png'],
-							folder: appState.attr('imgPath'),
-							callback: function () {
-								self.options.isReady.resolve();
-							}
-						});
-					} else {
-						self.options.isReady.resolve();
-					}
-
-					self.calculateSizes();
+					self.options.isReady.resolve();
 				}
-
-				self.initCursor();
 			},
 
 			getSimplePage: function () {
@@ -64,99 +50,7 @@ define([
 				});
 			},
 
-			calculateSizes: function () {
-				var self = this;
-
-				self.calculateCircleContent();
-			},
-
-			calculateCircleContent: function () {
-				var self = this;
-
-				var $contentCircle = $('.contentCircle', self.element);
-
-				if ($contentCircle.length > 0) {
-					var $windowHeight = $(window).height() * 0.9;
-
-					$contentCircle.css({
-						width: $windowHeight,
-						height: $windowHeight,
-						'margin-left': -$windowHeight/2,
-						'margin-top': -$windowHeight/2
-					});
-				}
-			},
-
-			initCursor: function () {
-
-				var cursor;
-
-				$('#cmd').click(function () {
-					$('input').focus();
-					cursor = window.setInterval(function () {
-						if ($('#cursor').css('visibility') === 'visible') {
-							$('#cursor').css({
-								visibility: 'hidden'
-							});
-						} else {
-							$('#cursor').css({
-								visibility: 'visible'
-							});
-						}
-					}, 500);
-
-				});
-
-				$('input').keyup(function () {
-					$('#cmd span').text($(this).val());
-				});
-
-				$('input').blur(function () {
-					clearInterval(cursor);
-					$('#cursor').css({
-						visibility: 'visible'
-					});
-				});
-			},
-
-			initLoadingCounter: function () {
-				var self = this;
-
-				var counterInterval = setInterval(function(){
-					if (appState.attr('loadingCounter') < 100) {
-						appState.attr('loadingCounter', appState.attr('loadingCounter') + 1 );
-					} else {
-						clearInterval(counterInterval);
-						can.route.attr({
-							module: 'mind'
-						}, true);
-					}
-				}, self.options.loadingInterval);
-			},
-
-			'.discoverMyself submit': function (el, ev) {
-				var self = this;
-
-				ev.preventDefault();
-				appState.attr('loadingCounter', 0);
-
-				can.ajax({
-					url: '/mind/getRandomMind',
-					success: function (randomMind) {
-
-						appState.attr('randomMind', randomMind.message.randomMind);
-
-						can.route.attr({
-							module: 'simplePage',
-							id: 'loading'
-						}, true);
-						self.initLoadingCounter();
-					}
-				});
-			},
-
-			'.fbLogin click': function (el, ev) {
-/*				window.location.href = 'auth/facebook';*/
+			'.socNets.fb click': function (el, ev) {
 				var self = this;
 
 				FB.login(can.proxy(self.fbLoginResponse, self), {
@@ -184,7 +78,7 @@ define([
 				}
 			},
 
-			'.vkLogin click': function (el, ev) {
+			'.socNets.vk click': function (el, ev) {
 				var self = this;
 
 				VK.Auth.login(can.proxy(self.vkLoginResponse, self), self.options.vkLoginPermission);
@@ -212,50 +106,106 @@ define([
 
 			saveUser: function (name, image, fbProfile, vkProfile) {
 				appState.attr('user.facebook', fbProfile);
-				appState.attr('user.vkontakte', vkProfile);
+				appState.attr('user.vk', vkProfile);
 				appState.attr('user.username', name);
 				appState.attr('user.image', image);
 
 				can.route.attr({
 					module: 'simplePage',
-					id: 'hello-page'
+					id: 'personal-form'
 				}, true);
 			},
 
-			'.buttons .next click': function (el, ev) {
-				var currentScheme = appState.attr('colorScheme');
-				var colorSchemeArray = appState.attr('colorSchemeArray').attr();
+			'.radioButton click': function (el, ev) {
+				if (!el.hasClass('activeBtn')) {
+					var $wrapper = el.parents('.radioWrapper');
+					var $active = $wrapper.find('.activeBtn');
+					var activeValue = $active.data('value');
+					var $activeInput = $wrapper.find('input[value='+activeValue+']');
 
-				var currentIndex = colorSchemeArray.indexOf(currentScheme);
+					$activeInput.attr('checked', false);
+					$active.removeClass('activeBtn');
 
-				if ( currentIndex != -1 ) {
-					if (colorSchemeArray[currentIndex+1]) {
-						appState.attr('colorScheme', colorSchemeArray[currentIndex+1]);
-					} else {
-						appState.attr('colorScheme', colorSchemeArray[0]);
-					}
+					var newActiveValue = el.data('value');
+					var $newActiveInput = $wrapper.find('input[value='+newActiveValue+']');
 
-					$('.colorSwitcherItem.active').removeClass('active');
-					$('.colorSwitcherItem.'+appState.attr('colorScheme')).addClass('active');
+					$newActiveInput.attr('checked', true);
+					el.addClass('activeBtn');
 				}
 			},
 
-			'.buttons .prev click': function (el, ev) {
-				var currentScheme = appState.attr('colorScheme');
-				var colorSchemeArray = appState.attr('colorSchemeArray');
+			'.checkboxButton click': function (el, ev) {
 
-				var currentIndex = colorSchemeArray.indexOf(currentScheme);
+				var $wrapper = el.parents('.checkboxWrapper');
+				var buttonValue = el.data('value');
+				var $checkboxInput = $wrapper.find('input[value='+buttonValue+']');
 
-				if ( currentIndex != -1 ) {
-					if (colorSchemeArray[currentIndex-1]) {
-						appState.attr('colorScheme', colorSchemeArray[currentIndex-1]);
-					} else {
-						appState.attr('colorScheme', colorSchemeArray[colorSchemeArray.length-1]);
-					}
-
-					$('.colorSwitcherItem.active').removeClass('active');
-					$('.colorSwitcherItem.'+appState.attr('colorScheme')).addClass('active');
+				if (el.hasClass('activeBtn')) {
+					$checkboxInput.attr('checked', false);
+					el.removeClass('activeBtn');
+				} else {
+					$checkboxInput.attr('checked', true);
+					el.addClass('activeBtn');
 				}
+			},
+
+			'.personalData submit': function (el, ev) {
+				ev.preventDefault();
+
+				var self = this;
+
+				var formData = can.deparam(el.serialize());
+
+				if ( appState.attr('user.facebook') != null ) {
+					formData.facebook = {};
+					formData.facebook.id = appState.attr('user.facebook.id');
+				} else if ( appState.attr('user.vk') != null) {
+					formData.vk = {};
+					formData.vk.id = appState.attr('user.vk.uid');
+				}
+
+				var simplePage = new SimplePageModel(formData);
+
+				simplePage.save()
+					.done(function() {
+						can.route.attr({
+							module: 'simplePage',
+							id: 'questions-form'
+						}, true);
+					})
+					.fail(function (data) {
+						console.error(data);
+					});
+			},
+
+			'.questionsForm submit': function (el, ev) {
+
+				ev.preventDefault();
+
+				var self = this;
+
+				var formData = can.deparam(el.serialize());
+
+				if ( appState.attr('user.facebook') != null ) {
+					formData.facebook = {};
+					formData.facebook.id = appState.attr('user.facebook.id');
+				} else if ( appState.attr('user.vk') != null) {
+					formData.vk = {};
+					formData.vk.id = appState.attr('user.vk.uid');
+				}
+
+				var simplePage = new SimplePageModel(formData);
+
+				simplePage.save()
+					.done(function() {
+						can.route.attr({
+							module: 'simplePage',
+							id: 'gratitude'
+						}, true);
+					})
+					.fail(function (data) {
+						console.error(data);
+					});
 			}
 		});
 

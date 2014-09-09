@@ -1,8 +1,4 @@
-.simplePageContent .mindreaderLabel, .simplePageMainPage .mojoCan .image, .simplePageMainPage .mojoCan .buttons .prev, .simplePageMainPage .mojoCan .buttons .next, .simplePageHelloPage .personInfo .image, .simplePageMindInputPage .discoverMyself .avatar .image, .simplePageMindInputPage #cursor, .simplePageLoadingPage .mojoCan {
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center center; }
-
+@charset "UTF-8";
 @-webkit-keyframes spin {
   from {
     -moz-transform: rotate(0deg);
@@ -42,300 +38,322 @@
     -ms-transform: rotate(360deg);
     -webkit-transform: rotate(360deg);
     transform: rotate(360deg); } }
-.simplePageContent {
-  position: absolute;
+.frame1 .header {
   width: 100%;
-  height: 100%;
+  height: 9%;
+  top: 0;
+  left: 0; }
+.frame1 .logo {
+  background: url(/img/user/logo.png) no-repeat 0 0;
+  background-size: 100%;
+  height: 80%;
+  top: 10%;
+  width: 18%;
+  left: 1%;
+  position: absolute; }
+.frame1 .banner {
+  background: url(/img/user/main_banner.jpg) no-repeat 0 0;
+  background-size: 100%;
+  /* Современные браузеры */
+  height: 91%;
+  width: 100%;
+  top: 9%;
+  left: 0;
   overflow: hidden; }
-  .simplePageContent .mindreaderLabel {
-    background-image: url("/img/user/mojoMindreader.png");
-    position: absolute;
-    width: 20.625rem;
-    height: 19.75rem;
-    left: 50%;
-    margin-left: -12.3125rem;
-    top: -8rem;
-    z-index: 1; }
-  .simplePageContent .contentCircle {
-    position: absolute;
-    background: #ffffff;
-    height: 90%;
-    border-radius: 50%;
-    left: 50%;
-    top: 50%; }
-
-.simplePageMainPage .motto {
-  position: absolute;
-  top: 30%;
-  width: 100%; }
-  .simplePageMainPage .motto h1 {
-    width: 40%;
-    color: #ffffff;
-    text-transform: uppercase;
-    font-size: 3.750rem;
-    text-align: center;
-    margin: 0 auto; }
-.simplePageMainPage .socialLogin {
-  position: absolute;
-  width: 25rem;
-  left: 50%;
-  top: 60%;
-  margin-left: -12.5rem; }
-  .simplePageMainPage .socialLogin table {
-    height: 2.688rem;
-    border: 3px solid #ffffff; }
-    .simplePageMainPage .socialLogin table:hover {
-      cursor: pointer;
-      background: #14579c; }
-    .simplePageMainPage .socialLogin table img {
-      height: 100%; }
-    .simplePageMainPage .socialLogin table p {
-      color: #ffffff;
-      text-transform: uppercase;
-      font-family: PFDinTextCompPro !important;
-      font-size: 1.375rem;
-      margin: 0 1.5rem; }
-    .simplePageMainPage .socialLogin table td.middle {
-      vertical-align: middle; }
-  .simplePageMainPage .socialLogin .fbLogin {
-    float: left; }
-  .simplePageMainPage .socialLogin .vkLogin {
-    float: right; }
-.simplePageMainPage .mojoCan {
-  position: absolute;
-  bottom: -1rem;
-  width: 100%;
-  text-align: center;
-  height: 35%;
-  /*		img {
-  			height: 100%;
-  		}*/ }
-  @media (min-width: 900px) {
-    .simplePageMainPage .mojoCan {
-      height: 30%; } }
-  .simplePageMainPage .mojoCan .image {
-    width: 6.8125rem;
-    height: 18.375rem;
-    position: absolute;
-    bottom: -2rem;
-    left: 50%;
-    margin-left: -3.40625rem; }
-  .simplePageMainPage .mojoCan .buttons {
-    position: absolute;
-    height: 100%;
-    top: 0;
-    left: 50%; }
-    .simplePageMainPage .mojoCan .buttons .prev, .simplePageMainPage .mojoCan .buttons .next {
-      position: absolute;
-      width: 4.375rem;
-      height: 4.375rem;
-      background-image: url("/img/user/canNext.png");
-      top: 50%;
-      margin-top: -2.1875rem;
-      opacity: 0.5; }
-      .simplePageMainPage .mojoCan .buttons .prev:hover, .simplePageMainPage .mojoCan .buttons .next:hover {
-        opacity: 1;
-        cursor: pointer; }
-    .simplePageMainPage .mojoCan .buttons .prev {
-      left: -10rem;
-      -moz-transform: rotate(180deg);
-      -o-transform: rotate(180deg);
-      -ms-transform: rotate(180deg);
-      -webkit-transform: rotate(180deg);
-      transform: rotate(180deg); }
-    .simplePageMainPage .mojoCan .buttons .next {
-      right: -10rem; }
-
-.simplePageHelloPage .personInfo {
-  position: absolute;
-  width: 100%;
-  top: 25%;
-  text-align: center;
-  text-transform: uppercase; }
-  .simplePageHelloPage .personInfo .image {
-    border-radius: 50%;
-    width: 5rem;
-    height: 5rem;
-    margin: 0 auto 0.3125rem;
-    position: relative; }
-  .simplePageHelloPage .personInfo p {
-    font-size: 1.875rem;
-    color: #333333; }
-.simplePageHelloPage .mindreaderInfo {
-  position: absolute;
-  width: 100%;
-  top: 45%;
-  text-align: center;
-  text-transform: uppercase;
-  padding: 0 15%; }
-  .simplePageHelloPage .mindreaderInfo .red {
-    color: #d0112b; }
-  .simplePageHelloPage .mindreaderInfo img {
-    width: 0.4375rem; }
-  .simplePageHelloPage .mindreaderInfo p {
-    font-size: 2.8125em;
-    color: #d9d9d9; }
-.simplePageHelloPage .mindreaderPushInfo {
-  position: absolute;
-  bottom: 20%;
-  width: 100%;
-  text-transform: uppercase;
-  text-align: center; }
-  .simplePageHelloPage .mindreaderPushInfo p {
-    font-size: 1.875rem;
-    color: #333333; }
-.simplePageHelloPage .start {
-  background: #d0112b;
+.frame1 .corner {
+  height: 33%;
+  width: 19%;
+  bottom: 0;
+  right: 0; }
+.frame1 .corner img {
+  margin-bottom: -1px; }
+.frame1 .banText {
+  width: 30%;
+  left: 55%;
+  top: 40%;
+  color: #8a8a8a; }
+.frame1 .banTitle {
+  margin-bottom: 4%;
+  font-size: 140%;
+  line-height: 120%; }
+.frame1 .banDesc {
+  line-height: 120%;
+  font-size: 102%; }
+.frame1 .start {
+  margin-top: 7%;
+  width: 40%;
   color: #ffffff;
-  font-size: 1.5rem;
-  font-family: 'PFDinTextCondPro';
-  font-weight: 500;
-  padding: 0.8rem 0;
-  position: absolute;
-  left: 50%;
-  bottom: 5%;
-  width: 13.75rem;
-  margin-left: -6.875rem;
-  text-align: center;
-  text-transform: uppercase; }
-  .simplePageHelloPage .start:hover {
-    cursor: pointer; }
+  padding: 3%;
+  font-size: 120%;
+  height: 50px; }
 
-.simplePageMindInputPage {
-  overflow: hidden; }
-  .simplePageMindInputPage .motto {
-    position: absolute;
-    width: 100%;
-    top: 25%;
-    text-align: center;
-    text-transform: uppercase; }
-    .simplePageMindInputPage .motto p {
-      font-size: 2.5rem;
-      color: #333333; }
-  .simplePageMindInputPage .instruction {
-    position: absolute;
-    top: 40%;
-    width: 100%; }
-    .simplePageMindInputPage .instruction td {
-      vertical-align: bottom;
-      text-align: center;
-      font-size: 1.25rem;
-      color: #333333;
-      width: 33.3%;
-      text-transform: uppercase; }
-  .simplePageMindInputPage .discoverMyself {
-    position: absolute;
-    width: 120%;
-    bottom: 15%;
-    /*		input {
-    			color: #065f17;
-    			background: #f2f2f2;
-    			font-size: rem(40);
-    			border: none;
-    			float: right;
-    			position: relative;
-    			font-family: 'PFDinTextCompPro';
-    			font-weight: 200;
-    			width: 75%;
-    			height: 3.8rem;
-    			padding: 0 1rem;
-    		}*/ }
-    .simplePageMindInputPage .discoverMyself:before {
-      content: '';
-      display: block;
-      position: absolute;
-      width: 1em;
-      height: 1em;
-      left: -0.5em;
-      top: 50%;
-      margin-top: -0.5em;
-      background: #f2f2f2;
-      -moz-transform: rotate(45deg);
-      -o-transform: rotate(45deg);
-      -ms-transform: rotate(45deg);
-      -webkit-transform: rotate(45deg);
-      transform: rotate(45deg); }
-    .simplePageMindInputPage .discoverMyself .avatar {
-      position: absolute;
-      left: -10rem;
-      height: 150%;
-      top: -25%; }
-      .simplePageMindInputPage .discoverMyself .avatar .image {
-        border-radius: 50%;
-        width: 5rem;
-        height: 5rem;
-        margin: 0 auto 0.3125rem;
-        position: relative; }
-    .simplePageMindInputPage .discoverMyself input {
-      font-size: 2.5rem;
-      border: none;
-      float: right;
-      font-family: 'PFDinTextCompPro';
-      font-weight: 200;
-      width: 75%;
-      height: 3.8rem;
-      padding: 0 1rem;
-      position: absolute;
-      left: -1000px; }
-    .simplePageMindInputPage .discoverMyself button {
-      color: #ffffff;
-      background: #d0112b;
-      font-size: 145%;
-      font-family: 'PFDinTextCondPro';
-      font-weight: 500;
-      float: right;
-      position: relative;
-      padding: 1rem 5%;
-      text-transform: uppercase;
-      width: 25%; }
-      .simplePageMindInputPage .discoverMyself button:hover {
-        cursor: pointer; }
-  .simplePageMindInputPage #cmd {
-    font-family: 'PFDinTextCompPro';
-    background: #f2f2f2;
-    padding: 0.66rem 1rem;
-    overflow: hidden;
-    font-size: 2.5rem; }
-    .simplePageMindInputPage #cmd.ginger {
-      color: #ffaa1d; }
-    .simplePageMindInputPage #cmd.cola {
-      color: #400406; }
-    .simplePageMindInputPage #cmd.mint {
-      color: #065f17; }
-  .simplePageMindInputPage #cmd span {
-    float: left;
-    padding-left: 3px;
-    white-space: pre; }
-  .simplePageMindInputPage #cursor {
-    float: left;
-    height: 2.5rem;
-    width: 0.9rem; }
-  .simplePageMindInputPage input {
-    width: 0;
-    height: 0;
-    opacity: 0; }
-
-.simplePageLoadingPage .mojoCan {
-  width: 11.875rem;
-  height: 31.9375rem;
-  background-image: url("/img/user/mojoLoadingCan.png");
-  position: absolute;
-  left: 50%;
-  top: 50%;
-  margin-left: -5.9375rem;
-  margin-top: -15.96875rem;
-  -webkit-animation: spin 4000ms infinite linear;
-  -moz-animation: spin 4000ms infinite linear;
-  animation: spin 4000ms infinite linear; }
-.simplePageLoadingPage .loadingCounter {
-  position: absolute;
-  bottom: 10%;
+.frame2 {
   width: 100%;
-  text-transform: uppercase;
+  height: 85%;
+  top: 5%;
   text-align: center; }
-  .simplePageLoadingPage .loadingCounter h1 {
-    font-size: 3.75rem;
-    color: #ffffff;
-    font-weight: 200; }
+  .frame2 .logo {
+    width: 50%;
+    margin-left: 25%; }
+  .frame2 .text-center {
+    margin-top: 4%;
+    font-size: 115%;
+    color: #8a8a8a; }
+  .frame2 .socNetWrapper {
+    width: 64%;
+    height: 9%;
+    margin: 2% 0 0 18%; }
+    .frame2 .socNetWrapper .socNets {
+      color: #ffffff;
+      cursor: pointer;
+      width: auto;
+      height: 100%;
+      float: left;
+      margin: 0 6%;
+      border-radius: 1px; }
+      .frame2 .socNetWrapper .socNets .icons {
+        float: left;
+        height: 100%;
+        width: 50px;
+        text-align: center; }
+        .frame2 .socNetWrapper .socNets .icons img {
+          width: 76%;
+          margin-top: 10%; }
+        .frame2 .socNetWrapper .socNets .icons .fb_icon {
+          margin-top: 10%; }
+        .frame2 .socNetWrapper .socNets .icons .vk_icon {
+          margin-top: 22%; }
+        .frame2 .socNetWrapper .socNets .icons .od_icon {
+          margin-top: 10%;
+          margin-left: 13%;
+          width: 90%; }
+      .frame2 .socNetWrapper .socNets .socNames {
+        float: left;
+        margin-top: 20px;
+        margin-left: 24px;
+        font-size: 108%;
+        margin-right: 24px; }
+  .frame2 .footer {
+    background: url(/img/user/email_block_fon.png) repeat;
+    width: 100%;
+    height: 35%;
+    bottom: 0;
+    text-align: center; }
+    .frame2 .footer img {
+      height: 100%;
+      width: auto;
+      right: 25%; }
+    .frame2 .footer .text-center {
+      font-size: 110%;
+      margin-bottom: 2%;
+      color: #4b4b4b; }
+    .frame2 .footer .textInput {
+      border: none;
+      background-color: #ffffff;
+      position: relative;
+      margin-right: 0; }
+    .frame2 .footer .start {
+      margin-left: -6px;
+      width: 140px;
+      color: #ffffff;
+      z-index: 3;
+      height: 50px;
+      font-size: 105%;
+      border-radius: 3px;
+      margin-top: 1px; }
+  .frame2 .fb .icons {
+    background: url(/img/user/fb_icon_fon.png) repeat; }
+  .frame2 .vk .icons {
+    background: url(/img/user/vk_icon_fon.png) repeat; }
+  .frame2 .od .icons {
+    background: url(/img/user/od_icon_fon.png) repeat; }
+  .frame2 .fb {
+    background: url(/img/user/fb_button_fon.png) repeat; }
+  .frame2 .vk {
+    background: url(/img/user/vk_button_fon.png) repeat; }
+  .frame2 .od {
+    background: url(/img/user/od_button_fon.png) repeat; }
+
+.frame3 {
+  background-image: url("/img/user/screen3_left_logo.png"), url("/img/user/screen3_right_logo.png");
+  background-size: 24%, 24%;
+  /* Современные браузеры */
+  background-position: left top, right bottom;
+  background-repeat: no-repeat, no-repeat;
+  width: 100%; }
+  .frame3 .content {
+    position: relative;
+    padding-top: 50px;
+    width: 50%;
+    left: 25%;
+    min-height: 666px; }
+    .frame3 .content .left-side {
+      float: left;
+      font-size: 110%;
+      margin-top: 8px;
+      color: #8a8a8a; }
+    .frame3 .content .right-side {
+      width: 25%;
+      margin-right: 70px;
+      margin-bottom: 25px; }
+    .frame3 .content .question {
+      margin-top: 17px;
+      position: relative;
+      clear: both; }
+      .frame3 .content .question input {
+        width: 87%;
+        margin-right: -24px; }
+      .frame3 .content .question .symb {
+        width: 50px;
+        cursor: pointer;
+        position: absolute;
+        height: 50px;
+        border: 1px solid #4b4b4b;
+        border-left: none;
+        bottom: 0px;
+        right: 10%;
+        border-right: none;
+        text-align: center;
+        background: url("/img/user/input_right_fon.png") repeat 0 0; }
+        .frame3 .content .question .symb span {
+          position: relative;
+          top: 14px;
+          font-size: 120%;
+          color: #ffffff; }
+      .frame3 .content .question .quesBtn {
+        width: 43%;
+        margin-right: 3.5%;
+        height: 50px; }
+      .frame3 .content .question .day {
+        width: 110px;
+        margin-right: 25px; }
+      .frame3 .content .question .month {
+        width: 200px;
+        margin-right: 25px; }
+      .frame3 .content .question .year {
+        width: 160px; }
+    .frame3 .content .select .symb {
+      border: none;
+      width: 51px;
+      height: 52px;
+      border-radius: 2px; }
+    .frame3 .content .quesLabel {
+      margin-top: 21px;
+      margin-bottom: 20px; }
+    .frame3 .content .comment {
+      margin-top: 10px;
+      text-align: right;
+      width: 42%;
+      font-size: 80%;
+      color: #8a8a8a; }
+    .frame3 .content .specializ {
+      width: 91%; }
+    .frame3 .content .toQues {
+      margin: 20px 0 100px;
+      width: 91%;
+      height: 50px;
+      background-image: url("/img/user/valid_correct.png");
+      background-repeat: no-repeat;
+      background-position-x: 35%;
+      background-position-y: 70%;
+      padding-left: 75px; }
+
+.frame4 {
+  background-image: url("/img/user/screen3_left_logo.png"), url("/img/user/screen3_right_logo.png"), url("/img/user/email_block_fon.png");
+  background-size: 24%, 24%;
+  /* Современные браузеры */
+  background-position: left top, right bottom;
+  background-repeat: no-repeat, no-repeat, repeat; }
+  .frame4 .content {
+    position: relative;
+    padding-top: 70px;
+    width: 50%;
+    left: 25%;
+    min-height: 666px; }
+    .frame4 .content .quesLabel {
+      clear: both;
+      margin-top: 25px;
+      margin-bottom: 10px; }
+    .frame4 .content .toQues {
+      margin: 10px 0;
+      background-image: none;
+      width: 91%;
+      height: 50px; }
+    .frame4 .content .left-side {
+      float: left;
+      font-size: 110%;
+      margin-top: 8px;
+      color: #8a8a8a; }
+    .frame4 .content .right-side {
+      width: 25%;
+      margin-right: 70px;
+      margin-bottom: 25px; }
+    .frame4 .content .question {
+      margin-top: 20px;
+      margin-bottom: 17px;
+      position: relative;
+      clear: both; }
+      .frame4 .content .question textarea {
+        width: 89.5%;
+        height: 150px; }
+    .frame4 .content .quesBtn {
+      width: 91%;
+      margin-right: 3.5%;
+      height: 50px;
+      background: url("/img/user/email_block_fon.png") repeat;
+      border: 1px solid #8a8a8a;
+      color: #8a8a8a; }
+    .frame4 .content .halfBtn {
+      width: 43%; }
+    .frame4 .content .activeBtn {
+      background: #222c6a;
+      border: 1px solid #222c6a;
+      color: #ffffff; }
+    .frame4 .content .ready {
+      margin: 20px 0 100px;
+      width: 91%;
+      height: 50px;
+      background-image: url("/img/user/valid_correct.png");
+      background-repeat: no-repeat;
+      background-position-x: 45%;
+      background-position-y: 70%;
+      padding-left: 75px; }
+
+.frame5 {
+  height: 100%;
+  width: 100%;
+  background: #ffffff; }
+  .frame5 .banner {
+    background-image: url("/img/user/footer_picture.png"), url("/img/user/screen5_right_logo.png");
+    background-repeat: repeat, no-repeat;
+    background-position: 0 0, right bottom;
+    background-size: 100%, 24%;
+    height: 118%;
+    width: 100%;
+    top: -18%;
+    left: 0;
+    overflow: hidden; }
+  .frame5 .logo {
+    background: url("/img/user/main_logo.png") no-repeat 0 0;
+    background-size: 100%;
+    height: 80%;
+    top: 25%;
+    width: 50%;
+    left: 42%;
+    z-index: 2;
+    position: absolute; }
+  .frame5 .banText {
+    width: 30%;
+    top: 45%;
+    color: #242e68;
+    text-align: right;
+    right: 9%; }
+  .frame5 .banTitle {
+    margin-bottom: 4%;
+    font-size: 120%;
+    line-height: 120%; }
+  .frame5 .banDesc {
+    line-height: 120%;
+    font-size: 90%; }
 
 /*# sourceMappingURL=simplePage.css.map */

@@ -2,1218 +2,139 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="550f5691-9265-4354-b327-79290a18cf34" name="Default" comment="first commit">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/user/stishkiImages/1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/user/stishkiImages/2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/user/stishkiImages/3.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/user/stishkiImages/4.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/user/stishkiImages/5.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/user/stishkiImages/6.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/user/stishkiImages/7.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/user/stishkiImages/8.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/fonts/FontAwesome.otf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/fonts/PFDinTextCompPro-Medium/_.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/fonts/PFDinTextCompPro-Thin/_.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/fonts/PFDinTextCompPro-XBlack/_.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/fonts/PFDinTextCondPro-Bold/_.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/fonts/PFDinTextCondPro-Medium/_.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/fonts/PFDinTextCondPro-Thin/_.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/fonts/PFDinTextPro-Light/_.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/fonts/PFDinTextPro-Thin/_.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/fonts/PFDinTextCompPro-Medium/_.otf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/fonts/PFDinTextCompPro-Thin/_.otf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/fonts/PFDinTextCompPro-XBlack/_.otf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/fonts/PFDinTextCondPro-Bold/_.otf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/fonts/PFDinTextCondPro-Medium/_.otf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/fonts/PFDinTextCondPro-Thin/_.otf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/fonts/PFDinTextPro-Light/_.otf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/fonts/PFDinTextPro-Thin/_.otf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/fonts/PFDinTextCompPro-Medium/_.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/fonts/PFDinTextCompPro-Thin/_.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/fonts/PFDinTextCompPro-XBlack/_.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/fonts/PFDinTextCondPro-Bold/_.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/fonts/PFDinTextCondPro-Medium/_.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/fonts/PFDinTextCondPro-Thin/_.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/fonts/PFDinTextPro-Light/_.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/fonts/PFDinTextPro-Thin/_.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/fonts/PFDinTextCompPro-Medium/_.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/fonts/PFDinTextCompPro-Thin/_.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/fonts/PFDinTextCompPro-XBlack/_.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/fonts/PFDinTextCondPro-Bold/_.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/fonts/PFDinTextCondPro-Medium/_.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/fonts/PFDinTextCondPro-Thin/_.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/fonts/PFDinTextPro-Light/_.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/fonts/PFDinTextPro-Thin/_.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/admin/iCheck/flat/aero.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/admin/iCheck/minimal/aero.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/admin/iCheck/square/aero.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/admin/iCheck/flat/aero@2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/admin/iCheck/minimal/aero@2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/admin/iCheck/square/aero@2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/admin/ajax-loader.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/admin/ajax-loader1.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/admin/bootstrap-colorpicker/alpha-horizontal.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/admin/bootstrap-colorpicker/alpha.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/admin/credit/american-express.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/admin/plugins/ckeditor/plugins/link/images/anchor.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/admin/plugins/ckeditor/plugins/link/images/hidpi/anchor.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/admin/images/animated-overlay.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/admin/jQueryUI/images/animated-overlay.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/admin/plugins/ckeditor/skins/moono/images/arrow.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/admin/iCheck/flat/blue.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/admin/iCheck/minimal/blue.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/admin/iCheck/square/blue.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/admin/iCheck/flat/blue@2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/admin/iCheck/minimal/blue@2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/admin/iCheck/square/blue@2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/admin/blur-background04.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/admin/blur-background08.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/admin/blur-background09.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/user/canNext.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/user/caret.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/admin/credit/cirrus.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/admin/plugins/ckeditor/skins/moono/images/close.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/admin/plugins/ckeditor/skins/moono/images/hidpi/close.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/user/closeEyes.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/user/colaCan.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/user/colaCan500.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/user/colaCanLarge.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/user/dima.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/user/favicon.ico" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/user/fb_login.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/admin/iCheck/flat/flat.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/admin/iCheck/flat/flat@2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/fonts/fontawesome-webfont.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/fonts/fontawesome-webfont.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/fonts/fontawesome-webfont.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/user/freeMind.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/admin/iCheck/futurico/futurico.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/admin/iCheck/futurico/futurico@2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/user/gagarin.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/user/gingerCan.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/user/gingerCanLarge.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/fonts/glyphicons-halflings-regular.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/fonts/glyphicons-halflings-regular.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/fonts/glyphicons-halflings-regular.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/admin/iCheck/flat/green.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/admin/iCheck/minimal/green.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/admin/iCheck/square/green.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/admin/iCheck/flat/green@2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/admin/iCheck/minimal/green@2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/admin/iCheck/square/green@2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/admin/iCheck/flat/grey.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/admin/iCheck/minimal/grey.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/admin/iCheck/square/grey.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/admin/iCheck/flat/grey@2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/admin/iCheck/minimal/grey@2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/admin/iCheck/square/grey@2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/user/handsOnKeyboard.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/admin/bootstrap-colorpicker/hue-horizontal.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/admin/bootstrap-colorpicker/hue.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/admin/plugins/ckeditor/plugins/magicline/images/icon.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/admin/plugins/ckeditor/plugins/magicline/images/hidpi/icon.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/admin/icons.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/admin/plugins/ckeditor/plugins/icons.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/admin/plugins/ckeditor/skins/moono/icons.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/admin/plugins/ckeditor/plugins/icons_hidpi.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/admin/plugins/ckeditor/skins/moono/icons_hidpi.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/fonts/ionicons.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/fonts/ionicons.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/fonts/ionicons.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/admin/iCheck/line/line.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/admin/iCheck/line/line@2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/user/loader.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/admin/plugins/ckeditor/skins/moono/images/lock-open.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/admin/plugins/ckeditor/skins/moono/images/hidpi/lock-open.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/admin/plugins/ckeditor/skins/moono/images/lock.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/admin/plugins/ckeditor/skins/moono/images/hidpi/lock.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/admin/plugins/ckeditor/plugins/about/dialogs/logo_ckeditor.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/admin/plugins/ckeditor/plugins/about/dialogs/hidpi/logo_ckeditor.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/admin/credit/mastercard.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/admin/credit/mestro.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/admin/iCheck/minimal/minimal.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/admin/iCheck/minimal/minimal@2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/user/mintCan.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/user/mintCan500.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/user/mintCanLarge.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/user/mojoCan.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/user/mojoLoadingCan.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/user/mojoMindreader.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/admin/plugins/ckeditor/plugins/image/images/noimage.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/admin/iCheck/flat/orange.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/admin/iCheck/minimal/orange.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/admin/iCheck/square/orange.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/admin/iCheck/flat/orange@2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/admin/iCheck/minimal/orange@2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/admin/iCheck/square/orange@2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/admin/credit/paypal.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/admin/credit/paypal2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/admin/iCheck/flat/pink.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/admin/iCheck/minimal/pink.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/admin/iCheck/square/pink.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/admin/iCheck/flat/pink@2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/admin/iCheck/minimal/pink@2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/admin/iCheck/square/pink@2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/admin/iCheck/polaris/polaris.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/admin/iCheck/polaris/polaris@2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/admin/iCheck/flat/purple.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/admin/iCheck/minimal/purple.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/admin/iCheck/square/purple.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/admin/iCheck/flat/purple@2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/admin/iCheck/minimal/purple@2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/admin/iCheck/square/purple@2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/admin/iCheck/flat/red.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/admin/iCheck/minimal/red.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/admin/iCheck/square/red.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/admin/iCheck/flat/red@2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/admin/iCheck/minimal/red@2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/admin/iCheck/square/red@2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/admin/plugins/ckeditor/skins/moono/images/refresh.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/admin/plugins/ckeditor/skins/moono/images/hidpi/refresh.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/admin/bootstrap-colorpicker/saturation.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/admin/datatables/images/sort_asc.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/admin/datatables/images/sort_asc_disabled.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/admin/datatables/images/sort_both.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/admin/datatables/images/sort_desc.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/admin/datatables/images/sort_desc_disabled.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/admin/plugins/ckeditor/plugins/fakeobjects/images/spacer.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/admin/sprite-skin-flat.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/admin/sprite-skin-nice.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/admin/iCheck/square/square.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/admin/iCheck/square/square@2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/admin/images/ui-bg_flat_0_aaaaaa_40x100.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/admin/jQueryUI/images/ui-bg_flat_0_aaaaaa_40x100.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/admin/jQueryUI/images/ui-bg_flat_100_e6e7e8_40x100.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/admin/jQueryUI/images/ui-bg_flat_100_f56954_40x100.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/admin/jQueryUI/images/ui-bg_flat_55_f39c12_40x100.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/admin/images/ui-bg_flat_55_fbec88_40x100.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/admin/jQueryUI/images/ui-bg_flat_65_ffffff_40x100.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/admin/jQueryUI/images/ui-bg_flat_75_dadada_40x100.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/admin/jQueryUI/images/ui-bg_flat_75_e6e6e6_40x100.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/admin/jQueryUI/images/ui-bg_flat_75_ffffff_40x100.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/admin/images/ui-bg_glass_75_d0e5f5_1x400.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/admin/images/ui-bg_glass_85_dfeffc_1x400.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/admin/images/ui-bg_glass_95_fef1ec_1x400.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/admin/images/ui-bg_gloss-wave_55_5c9ccc_500x100.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/admin/images/ui-bg_inset-hard_100_f5f8f9_1x100.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/admin/images/ui-bg_inset-hard_100_fcfdfd_1x100.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/admin/images/ui-icons_217bc0_256x240.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/admin/jQueryUI/images/ui-icons_222222_256x240.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/admin/images/ui-icons_2e83ff_256x240.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/admin/jQueryUI/images/ui-icons_454545_256x240.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/admin/images/ui-icons_469bdd_256x240.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/admin/images/ui-icons_6da8d5_256x240.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/admin/jQueryUI/images/ui-icons_888888_256x240.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/admin/images/ui-icons_cd0a0a_256x240.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/admin/images/ui-icons_d8e7f3_256x240.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/admin/images/ui-icons_f9bd01_256x240.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/admin/jQueryUI/images/ui-icons_ffffff_256x240.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/admin/user-bg.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/admin/credit/visa.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/user/vk_login.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/admin/iCheck/flat/yellow.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/admin/iCheck/minimal/yellow.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/admin/iCheck/square/yellow.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/admin/iCheck/flat/yellow@2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/admin/iCheck/minimal/yellow@2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/admin/iCheck/square/yellow@2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/lib/canjs/.bower.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/lib/jquery/.bower.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/lib/require-css/.bower.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/lib/underscore/.bower.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/lib/underscore/.editorconfig" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cache/.gitignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/lib/underscore/.gitignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/.gitignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/admin/board/pages/examples/404.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/admin/board/pages/examples/500.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/admin/AdminLTE.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/app/user/managers/BaseObjectActive.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/admin/plugins/ckeditor/CHANGES.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/lib/greensock/CSSPlugin.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/lib/jsOOP/Class.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/lib/jquery/src/data/Data.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/lib/greensock/EasePack.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/admin/plugins/ckeditor/LICENSE.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/admin/plugins/ckeditor/plugins/scayt/LICENSE.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/admin/plugins/ckeditor/plugins/wsc/LICENSE.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/lib/require-css/LICENSE" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/lib/underscore/LICENSE" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/lib/jquery/MIT-LICENSE.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/admin/plugins/ckeditor/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/admin/plugins/ckeditor/plugins/scayt/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/admin/plugins/ckeditor/plugins/wsc/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/lib/require-css/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/lib/underscore/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/app/user/managers/RenderManager.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/app/user/managers/SceneManager.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/lib/greensock/ScrollToPlugin.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/app/user/managers/TextManager.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/app/user/managers/TitleManager.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/lib/jquery/src/effects/Tween.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/lib/greensock/TweenLite.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/fonts/PFDinTextCompPro-Medium/_.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/fonts/PFDinTextCompPro-Thin/_.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/fonts/PFDinTextCompPro-XBlack/_.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/fonts/PFDinTextCondPro-Bold/_.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/fonts/PFDinTextCondPro-Medium/_.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/fonts/PFDinTextCondPro-Thin/_.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/fonts/PFDinTextPro-Light/_.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/fonts/PFDinTextPro-Thin/_.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/admin/iCheck/flat/_all.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/admin/iCheck/line/_all.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/admin/iCheck/minimal/_all.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/admin/iCheck/square/_all.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/bourbon/css3/_animation.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/scss/modules/_animations.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/bourbon/css3/_appearance.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/bourbon/functions/_assign.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/bourbon/css3/_backface-visibility.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/bourbon/css3/_background-image.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/bourbon/css3/_background.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/bourbon/css3/_border-image.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/bourbon/css3/_border-radius.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/bourbon/_bourbon-deprecated-upcoming.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/bourbon/_bourbon.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/bourbon/css3/_box-sizing.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/bourbon/addons/_button.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/bourbon/css3/_calc.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/bourbon/addons/_clearfix.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/bourbon/functions/_color-lightness.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/bourbon/css3/_columns.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/bourbon/helpers/_convert-units.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/bourbon/addons/_directional-values.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/bourbon/addons/_ellipsis.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/lib/jquery/src/manipulation/_evalUrl.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/bourbon/css3/_filter.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/bourbon/css3/_flex-box.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/bourbon/functions/_flex-grid.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/bourbon/css3/_font-face.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/bourbon/addons/_font-family.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/bourbon/css3/_font-feature-settings.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/bourbon/functions/_golden-ratio.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/bourbon/helpers/_gradient-positions-parser.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/bourbon/functions/_grid-width.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/scss/framework/_grid.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/bourbon/addons/_hide-text.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/bourbon/css3/_hidpi-media-query.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/bourbon/addons/_html5-input-types.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/bourbon/css3/_hyphens.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/bourbon/css3/_image-rendering.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/bourbon/helpers/_is-num.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/bourbon/css3/_keyframes.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/bourbon/helpers/_linear-angle-parser.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/bourbon/helpers/_linear-gradient-parser.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/bourbon/css3/_linear-gradient.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/bourbon/helpers/_linear-positions-parser.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/bourbon/helpers/_linear-side-corner-parser.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/scss/base/_mixins.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/bourbon/functions/_modular-scale.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/bourbon/css3/_perspective.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/bourbon/css3/_placeholder.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/scss/base/_placeholders.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/bourbon/addons/_position.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/bourbon/addons/_prefixer.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/bourbon/settings/_prefixer.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/bourbon/functions/_px-to-em.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/bourbon/settings/_px-to-em.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/bourbon/functions/_px-to-rem.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/bourbon/helpers/_radial-arg-parser.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/bourbon/helpers/_radial-gradient-parser.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/bourbon/css3/_radial-gradient.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/bourbon/helpers/_radial-positions-parser.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/bourbon/helpers/_render-gradients.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/bourbon/addons/_retina-image.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/bourbon/helpers/_shape-size-stripper.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/bourbon/addons/_size.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/bourbon/helpers/_str-to-num.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/bourbon/functions/_strip-units.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/bourbon/addons/_timing-functions.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/bourbon/functions/_tint-shade.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/bourbon/css3/_transform.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/bourbon/functions/_transition-property-name.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/bourbon/css3/_transition.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/admin/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/_translationstatus.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/admin/plugins/ckeditor/plugins/specialchar/dialogs/lang/_translationstatus.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/bourbon/addons/_triangle.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/bourbon/functions/_unpack.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/bourbon/css3/_user-select.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/scss/base/_variables.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/bourbon/addons/_word-wrap.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/admin/plugins/ckeditor/plugins/a11yhelp/dialogs/a11yhelp.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/admin/plugins/ckeditor/plugins/about/dialogs/about.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/lib/jquery/src/data/accepts.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/lib/jquery/src/core/access.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/lib/jquery/src/css/addGetHookIf.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/controllers/admin.coffee" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/admin.coffee" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/admin/board/pages/forms/advanced.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/admin/iCheck/flat/aero.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/admin/iCheck/line/aero.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/admin/iCheck/minimal/aero.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/admin/iCheck/square/aero.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/admin/plugins/ckeditor/lang/af.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/ajax.coffee" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/lib/jquery/src/ajax.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/lib/jquery/src/event/alias.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/admin/iCheck/all.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/lib/jquery/src/exports/amd.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/admin/plugins/ckeditor/plugins/link/dialogs/anchor.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/lib/jquery/src/effects/animatedSelector.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/lib/soundcloud/api.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/admin/AdminLTE/app.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/app/admin/core/appState.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/app/user/core/appState.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/init/application.coffee" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/admin/plugins/ckeditor/lang/ar.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/admin/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/ar.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/admin/plugins/ckeditor/plugins/specialchar/dialogs/lang/ar.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/lib/jquery/src/var/arr.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/models/article.coffee" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/lib/canjs/amd-dev/can/util/attr.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/lib/canjs/amd/can/util/attr.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/lib/canjs/steal/canjs/util/attr/attr.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/lib/jquery/src/attributes/attr.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/lib/canjs/amd-dev/can/map/attributes.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/lib/canjs/amd/can/map/attributes.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/lib/canjs/steal/canjs/map/attributes/attributes.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/lib/jquery/src/attributes.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/init/auth.coffee" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/auth.coffee" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/admin/auth.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/lib/canjs/amd-dev/can/map/backup.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/lib/canjs/amd/can/map/backup.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/lib/canjs/steal/canjs/map/backup/backup.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/lib/jsOOP/baseClass.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/lib/canjs/amd-dev/can/util/batch.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/lib/canjs/amd/can/util/batch.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/lib/canjs/steal/canjs/util/batch/batch.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/admin/plugins/ckeditor/lang/bg.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/admin/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/bg.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/admin/plugins/ckeditor/plugins/specialchar/dialogs/lang/bg.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/lib/canjs/amd-dev/can/util/bind.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/lib/canjs/amd/can/util/bind.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/lib/canjs/steal/canjs/util/bind/bind.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/lib/canjs/amd-dev/can/view/bindings.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/lib/canjs/amd/can/view/bindings.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/lib/canjs/steal/canjs/view/bindings/bindings.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/admin/board/pages/examples/blank.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/admin/iCheck/flat/blue.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/admin/iCheck/line/blue.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/admin/iCheck/minimal/blue.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/admin/iCheck/square/blue.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/admin/plugins/ckeditor/lang/bn.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/admin/colorpicker/bootstrap-colorpicker.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/admin/plugins/colorpicker/bootstrap-colorpicker.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/admin/colorpicker/bootstrap-colorpicker.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/admin/plugins/colorpicker/bootstrap-colorpicker.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/admin/plugins/bootstrap-slider/bootstrap-slider.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/admin/timepicker/bootstrap-timepicker.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/admin/plugins/timepicker/bootstrap-timepicker.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/admin/timepicker/bootstrap-timepicker.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/admin/plugins/timepicker/bootstrap-timepicker.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/admin/bootstrap.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/admin/bootstrap.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/admin/bootstrap.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/admin/bootstrap.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/admin/plugins/bootstrap-wysihtml5/bootstrap3-wysihtml5.all.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/admin/bootstrap-wysihtml5/bootstrap3-wysihtml5.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/admin/plugins/bootstrap-wysihtml5/bootstrap3-wysihtml5.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/admin/bootstrap-wysihtml5/bootstrap3-wysihtml5.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/lib/canjs/bower.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/lib/jquery/bower.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/lib/require-css/bower.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/lib/underscore/bower.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/admin/plugins/ckeditor/lang/bs.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/lib/canjs/amd-dev/can/map/bubble.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/lib/canjs/amd-dev/can/map/lazy/bubble.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/lib/canjs/amd/can/map/bubble.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/lib/canjs/amd/can/map/lazy/bubble.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/lib/canjs/steal/canjs/map/bubble.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/lib/canjs/steal/canjs/map/lazy/bubble.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/admin/plugins/ckeditor/build-config.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/admin/board/pages/UI/buttons.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/admin/plugins/ckeditor/lang/ca.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/admin/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/ca.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/admin/plugins/ckeditor/plugins/specialchar/dialogs/lang/ca.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/cache.coffee" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/admin/board/pages/calendar.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/lib/canjs/amd-dev/can/view/callbacks.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/lib/canjs/amd/can/view/callbacks.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/lib/canjs/steal/canjs/view/callbacks/callbacks.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/lib/jquery/src/callbacks.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/lib/canjs/can.construct.proxy.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/lib/canjs/can.construct.super.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/lib/canjs/can.control.plugin.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/lib/canjs/can.dojo.dev.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/lib/canjs/can.dojo.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/lib/canjs/can.dojo.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/lib/canjs/can.ejs.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/lib/canjs/can.fixture.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/lib/canjs/can.jquery.dev.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/lib/canjs/can.jquery.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/lib/canjs/can.jquery.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/lib/canjs/amd/can.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/lib/canjs/amd-dev/can.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/lib/canjs/amd-dev/can/util/can.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/lib/canjs/amd/can/util/can.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/lib/canjs/steal/canjs/can.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/lib/canjs/steal/canjs/util/can.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/lib/canjs/can.list.promise.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/lib/canjs/can.list.sort.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/lib/canjs/can.map.attributes.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/lib/canjs/can.map.backup.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/lib/canjs/can.map.define.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/lib/canjs/can.map.delegate.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/lib/canjs/can.map.lazy.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/lib/canjs/can.map.list.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/lib/canjs/can.map.setter.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/lib/canjs/can.map.validations.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/lib/canjs/can.model.queue.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/lib/canjs/can.mootools.dev.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/lib/canjs/can.mootools.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/lib/canjs/can.mootools.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/lib/canjs/can.object.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/lib/canjs/can.route.pushstate.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/lib/canjs/can.stache.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/lib/canjs/can.view.modifiers.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/lib/canjs/can.yui.dev.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/lib/canjs/can.yui.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/lib/canjs/can.yui.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/lib/canjs/can.zepto.dev.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/lib/canjs/can.zepto.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/lib/canjs/can.zepto.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/admin/plugins/ckeditor/plugins/wsc/dialogs/ciframe.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/scss/blocks/circleAnimation.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/scss/blocks/circleAnimation.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/admin/plugins/ckeditor/ckeditor.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/lib/jquery/src/var/class2type.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/lib/jquery/src/attributes/classes.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/models/client.coffee" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/lib/canjs/amd-dev/can/component.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/lib/canjs/amd/can/component.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/lib/canjs/steal/canjs/component/component.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/lib/underscore/component.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/lib/canjs/amd-dev/can/compute.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/lib/canjs/amd/can/compute.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/lib/canjs/steal/canjs/compute/compute.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/lib/jquery/src/var/concat.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/admin/plugins/ckeditor/config.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/app/admin/core/config.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/app/user/core/config.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/lib/canjs/amd-dev/can/construct.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/lib/canjs/amd/can/construct.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/lib/canjs/steal/canjs/construct/construct.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/admin/plugins/ckeditor/contents.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/lib/canjs/amd-dev/can/control.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/lib/canjs/amd/can/control.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/lib/canjs/steal/canjs/control/control.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/app/admin/core/core.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/app/user/core/core.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/lib/jquery/src/core.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/utils/crypto.coffee" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/admin/plugins/ckeditor/lang/cs.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/admin/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/cs.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/admin/plugins/ckeditor/plugins/specialchar/dialogs/lang/cs.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/lib/require-css/css-builder.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/lib/jquery/src/css.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/lib/require-css/css.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/lib/require-css/css.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/lib/jquery/src/css/var/cssExpand.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/lib/jquery/src/css/curCSS.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/admin/plugins/ckeditor/lang/cy.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/admin/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/cy.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/admin/plugins/ckeditor/plugins/specialchar/dialogs/lang/cy.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/admin/plugins/ckeditor/lang/da.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/admin/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/da.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/admin/AdminLTE/dashboard.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/app/admin/dashboard/dashboard.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/admin/board/pages/tables/data.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/lib/jquery/src/data.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/admin/datatables/dataTables.bootstrap.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/admin/plugins/datatables/dataTables.bootstrap.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/lib/jquery/src/data/var/data_priv.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/lib/jquery/src/data/var/data_user.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/init/database.coffee" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/admin/daterangepicker/daterangepicker-bs3.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/admin/plugins/daterangepicker/daterangepicker.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/admin/plugins/ckeditor/lang/de.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/admin/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/de.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/admin/plugins/ckeditor/plugins/specialchar/dialogs/lang/de.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/admin/plugins/ckeditor/plugins/pastefromword/filter/default.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/lib/jquery/src/css/defaultDisplay.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/lib/canjs/amd-dev/can/util/deferred.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/lib/canjs/amd/can/util/deferred.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/lib/canjs/steal/canjs/util/deferred.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/lib/jquery/src/deferred.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/lib/canjs/amd-dev/can/map/define.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/lib/canjs/amd/can/map/define.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/lib/canjs/steal/canjs/map/define/define.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/lib/jquery/src/queue/delay.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/lib/canjs/amd-dev/can/map/delegate.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/lib/canjs/amd/can/map/delegate.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/lib/canjs/steal/canjs/map/delegate/delegate.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/admin/AdminLTE/demo.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/lib/canjs/amd-dev/can/util/string/deparam.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/lib/canjs/amd/can/util/string/deparam.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/lib/canjs/steal/canjs/util/string/deparam/deparam.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/lib/jquery/src/deprecated.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/admin/plugins/ckeditor/skins/moono/dialog.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/admin/plugins/ckeditor/plugins/dialog/dialogDefinition.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/admin/plugins/ckeditor/skins/moono/dialog_ie.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/admin/plugins/ckeditor/skins/moono/dialog_ie7.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/admin/plugins/ckeditor/skins/moono/dialog_ie8.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/admin/plugins/ckeditor/skins/moono/dialog_iequirks.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/admin/plugins/ckeditor/skins/moono/dialog_opera.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/lib/jquery/src/dimensions.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/utils/document.coffee" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/lib/canjs/amd-dev/can/util/dojo.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/lib/canjs/amd/can/util/dojo.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/lib/canjs/steal/canjs/util/dojo/dojo.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/lib/canjs/amd-dev/can/util/array/each.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/lib/canjs/amd/can/util/array/each.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/lib/canjs/steal/canjs/util/array/each.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/admin/plugins/ckeditor/skins/moono/editor.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/admin/plugins/ckeditor/skins/moono/editor_gecko.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/admin/plugins/ckeditor/skins/moono/editor_ie.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/admin/plugins/ckeditor/skins/moono/editor_ie7.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/admin/plugins/ckeditor/skins/moono/editor_ie8.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/admin/plugins/ckeditor/skins/moono/editor_iequirks.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/admin/board/pages/forms/editors.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/lib/jquery/src/effects.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/lib/canjs/amd-dev/can/view/ejs.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/lib/canjs/amd/can/view/ejs.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/lib/canjs/steal/canjs/view/ejs/ejs.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/admin/plugins/ckeditor/lang/el.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/admin/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/el.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/admin/plugins/ckeditor/plugins/specialchar/dialogs/lang/el.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/lib/canjs/amd-dev/can/view/elements.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/lib/canjs/amd/can/view/elements.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/lib/canjs/steal/canjs/view/elements.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/admin/board/pages/empty.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/admin/board/pages/UI/empty.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/admin/board/pages/charts/empty.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/admin/board/pages/forms/empty.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/admin/board/pages/tables/empty.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/admin/plugins/ckeditor/lang/en-au.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/admin/plugins/ckeditor/lang/en-ca.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/admin/plugins/ckeditor/lang/en-gb.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/locale/en.coffee" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/admin/plugins/ckeditor/lang/en.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/admin/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/en.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/admin/plugins/ckeditor/plugins/specialchar/dialogs/lang/en.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/admin/plugins/ckeditor/lang/eo.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/admin/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/eo.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/admin/plugins/ckeditor/plugins/specialchar/dialogs/lang/eo.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/admin/plugins/ckeditor/lang/es.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/admin/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/es.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/admin/plugins/ckeditor/plugins/specialchar/dialogs/lang/es.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/admin/plugins/ckeditor/lang/et.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/admin/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/et.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/admin/plugins/ckeditor/plugins/specialchar/dialogs/lang/et.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/admin/plugins/ckeditor/lang/eu.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/lib/canjs/amd-dev/can/event.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/lib/canjs/amd/can/event.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/lib/canjs/steal/canjs/event/event.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/lib/jquery/src/event.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/admin/plugins/flot/excanvas.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/admin/plugins/flot/excanvas.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/admin/plugins/ckeditor/lang/fa.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/admin/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/fa.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/admin/plugins/ckeditor/plugins/specialchar/dialogs/lang/fa.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/lib/social/fb/fb_sdk.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/admin/plugins/ckeditor/lang/fi.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/admin/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/fi.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/admin/plugins/ckeditor/plugins/specialchar/dialogs/lang/fi.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/files.coffee" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/lib/jquery/src/traversing/findFilter.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/lib/canjs/amd-dev/can/util/fixture.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/lib/canjs/amd/can/util/fixture.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/lib/canjs/steal/canjs/util/fixture/fixture.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/admin/iCheck/flat/flat.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/admin/board/pages/charts/flot.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/admin/plugins/ckeditor/lang/fo.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/admin/font-awesome.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/admin/font-awesome.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/fonts/fontawesome-webfont.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/admin/plugins/ckeditor/lang/fr-ca.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/admin/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/fr-ca.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/admin/plugins/ckeditor/plugins/specialchar/dialogs/lang/fr-ca.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/admin/plugins/ckeditor/lang/fr.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/admin/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/fr.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/admin/plugins/ckeditor/plugins/specialchar/dialogs/lang/fr.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/lib/canjs/amd-dev/can/util/fragment.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/lib/canjs/amd/can/util/fragment.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/lib/canjs/steal/canjs/util/fragment.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/fragments.coffee" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/admin/fullcalendar/fullcalendar.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/admin/plugins/fullcalendar/fullcalendar.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/admin/plugins/fullcalendar/fullcalendar.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/admin/fullcalendar/fullcalendar.print.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/admin/iCheck/futurico/futurico.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/admin/board/pages/UI/general.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/admin/board/pages/forms/general.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/lib/jquery/src/css/var/getStyles.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/admin/plugins/ckeditor/lang/gl.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/admin/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/gl.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/admin/plugins/ckeditor/plugins/specialchar/dialogs/lang/gl.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/app/user/core/css/global.css.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/app/user/global/css/global.css.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/app/user/core/css/global.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/app/user/global/css/global.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/app/user/global/global.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/lib/jquery/src/exports/global.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/app/user/core/css/global.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/app/user/global/css/global.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/fonts/glyphicons-halflings-regular.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/admin/iCheck/flat/green.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/admin/iCheck/line/green.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/admin/iCheck/minimal/green.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/admin/iCheck/square/green.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/admin/iCheck/flat/grey.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/admin/iCheck/line/grey.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/admin/iCheck/minimal/grey.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/admin/iCheck/square/grey.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/admin/plugins/ckeditor/lang/gu.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/admin/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/gu.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/lib/jquery/src/var/hasOwn.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/lib/canjs/amd-dev/can/util/hashchange.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/lib/canjs/amd/can/util/hashchange.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/lib/canjs/steal/canjs/util/hashchange.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/admin/plugins/ckeditor/lang/he.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/admin/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/he.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/admin/plugins/ckeditor/plugins/specialchar/dialogs/lang/he.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/app/user/simplePage/alternateViews/hello-page.stache" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/admin/plugins/ckeditor/lang/hi.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/admin/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/hi.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/lib/jquery/src/css/hiddenVisibleSelectors.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/admin/plugins/ckeditor/lang/hr.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/admin/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/hr.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/admin/plugins/ckeditor/plugins/specialchar/dialogs/lang/hr.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/admin/plugins/misc/html5shiv.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/lib/canjs/amd-dev/can/view/stache/html_section.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/lib/canjs/amd/can/view/stache/html_section.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/lib/canjs/steal/canjs/view/stache/html_section.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/admin/plugins/ckeditor/lang/hu.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/admin/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/hu.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/admin/plugins/ckeditor/plugins/specialchar/dialogs/lang/hu.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/app/user/core/hub.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/admin/plugins/iCheck/icheck.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/admin/plugins/iCheck/icheck.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/admin/board/pages/UI/icons.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/admin/plugins/ckeditor/lang/id.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/admin/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/id.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/admin/plugins/ckeditor/plugins/specialchar/dialogs/lang/id.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/user/ie.jade" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/admin/plugins/ckeditor/plugins/image/dialogs/image.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/init/index.coffee" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/locale/index.coffee" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/modules/product/index.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/admin/board/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/admin/auth/index.jade" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/admin/board/index.jade" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/admin/days/index.jade" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/admin/fragments/index.jade" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/admin/message/index.jade" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/admin/products/index.jade" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/user/index.jade" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/modules/product/index.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/app/admin/mindImages/views/index.stache" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/app/admin/minds/views/index.stache" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/app/admin/simplePages/views/index.stache" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/app/user/global/index.stache" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/app/user/mind/index.stache" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/app/user/simplePage/index.stache" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/lib/jquery/src/var/indexOf.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/lib/jquery/src/core/init.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/admin/board/pages/charts/inline.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/lib/canjs/amd-dev/can/util/inserted.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/lib/canjs/amd/can/util/inserted.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/lib/canjs/steal/canjs/util/inserted/inserted.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/lib/jquery/src/intro.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/admin/board/pages/examples/invoice.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/admin/ionslider/ion.rangeSlider.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/admin/plugins/ionslider/ion.rangeSlider.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/admin/ionslider/ion.rangeSlider.skinFlat.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/admin/ionslider/ion.rangeSlider.skinNice.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/admin/ionicons.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/admin/ionicons.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/fonts/ionicons.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/admin/plugins/ckeditor/lang/is.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/lib/jquery/src/css/var/isHidden.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/lib/canjs/amd-dev/can/util/object/isplain.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/lib/canjs/amd/can/util/object/isplain.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/lib/canjs/steal/canjs/util/object/isplain/isplain.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/admin/plugins/ckeditor/lang/it.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/admin/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/it.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/admin/plugins/ckeditor/plugins/specialchar/dialogs/lang/it.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/admin/plugins/ckeditor/lang/ja.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/admin/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/ja.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/admin/plugins/ckeditor/plugins/specialchar/dialogs/lang/ja.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/jquery-1.11.1.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/admin/jvectormap/jquery-jvectormap-1.2.2.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/admin/plugins/jvectormap/jquery-jvectormap-1.2.2.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/admin/plugins/jvectormap/jquery-jvectormap-world-mill-en.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/admin/jQueryUI/jquery-ui-1.10.3.custom.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/admin/jQueryUI/jquery-ui-1.10.3.custom.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/admin/jquery-ui-1.10.3.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/admin/jquery-ui-1.10.3.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/admin/board/pages/UI/jquery-ui.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/admin/plugins/misc/jquery.ba-resize.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/admin/plugins/flot/jquery.colorhelpers.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/admin/plugins/flot/jquery.colorhelpers.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/admin/plugins/datatables/jquery.dataTables.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/admin/plugins/flot/jquery.flot.canvas.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/admin/plugins/flot/jquery.flot.canvas.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/admin/plugins/flot/jquery.flot.categories.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/admin/plugins/flot/jquery.flot.categories.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/admin/plugins/flot/jquery.flot.crosshair.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/admin/plugins/flot/jquery.flot.crosshair.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/admin/plugins/flot/jquery.flot.errorbars.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/admin/plugins/flot/jquery.flot.errorbars.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/admin/plugins/flot/jquery.flot.fillbetween.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/admin/plugins/flot/jquery.flot.fillbetween.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/admin/plugins/flot/jquery.flot.image.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/admin/plugins/flot/jquery.flot.image.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/admin/plugins/flot/jquery.flot.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/admin/plugins/flot/jquery.flot.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/admin/plugins/flot/jquery.flot.navigate.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/admin/plugins/flot/jquery.flot.navigate.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/admin/plugins/flot/jquery.flot.pie.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/admin/plugins/flot/jquery.flot.pie.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/admin/plugins/flot/jquery.flot.resize.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/admin/plugins/flot/jquery.flot.resize.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/admin/plugins/flot/jquery.flot.selection.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/admin/plugins/flot/jquery.flot.selection.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/admin/plugins/flot/jquery.flot.stack.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/admin/plugins/flot/jquery.flot.stack.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/admin/plugins/flot/jquery.flot.symbol.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/admin/plugins/flot/jquery.flot.symbol.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/admin/plugins/flot/jquery.flot.threshold.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/admin/plugins/flot/jquery.flot.threshold.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/admin/plugins/flot/jquery.flot.time.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/admin/plugins/flot/jquery.flot.time.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/lib/jquery.form.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/admin/plugins/input-mask/jquery.inputmask.date.extensions.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/admin/plugins/input-mask/jquery.inputmask.extensions.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/admin/plugins/input-mask/jquery.inputmask.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/admin/plugins/input-mask/jquery.inputmask.numeric.extensions.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/admin/plugins/input-mask/jquery.inputmask.phone.extensions.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/admin/plugins/input-mask/jquery.inputmask.regex.extensions.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/admin/plugins/ckeditor/adapters/jquery.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/lib/canjs/amd-dev/can/util/jquery.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/lib/canjs/amd/can/util/jquery.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/lib/canjs/steal/canjs/util/jquery/jquery.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/lib/jquery/dist/jquery.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/lib/jquery/src/jquery.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/admin/plugins/jqueryKnob/jquery.knob.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/lib/jquery/dist/jquery.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/lib/jquery/dist/jquery.min.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/admin/plugins/misc/jquery.placeholder.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/admin/plugins/slimScroll/jquery.slimscroll.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/admin/plugins/slimScroll/jquery.slimscroll.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/admin/plugins/sparkline/jquery.sparkline.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/admin/plugins/sparkline/jquery.sparkline.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/lib/jquery.uploadfile.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/lib/jquery/src/ajax/jsonp.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/admin/plugins/ckeditor/lang/ka.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/admin/plugins/ckeditor/lang/km.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/admin/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/km.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/admin/plugins/ckeditor/plugins/specialchar/dialogs/lang/km.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/admin/plugins/ckeditor/lang/ko.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/admin/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/ko.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/admin/plugins/ckeditor/lang/ku.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/admin/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/ku.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/admin/plugins/ckeditor/plugins/specialchar/dialogs/lang/ku.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/scss/blocks/langs.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/models/language.coffee" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/admin/layout.jade" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/lib/canjs/amd-dev/can/map/lazy.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/lib/canjs/amd/can/map/lazy.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/lib/canjs/steal/canjs/map/lazy/lazy.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/lib/canjs/amd-dev/can/util/library.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/lib/canjs/amd/can/util/library.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/admin/iCheck/line/line.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/admin/plugins/ckeditor/plugins/link/dialogs/link.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/lib/canjs/amd-dev/can/list.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/lib/canjs/amd-dev/can/map/list.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/lib/canjs/amd/can/list.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/lib/canjs/amd/can/map/list.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/lib/canjs/steal/canjs/list/list.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/lib/canjs/steal/canjs/map/list/list.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/lib/canjs/amd-dev/can/view/live.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/lib/canjs/amd/can/view/live.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/lib/canjs/steal/canjs/view/live/live.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/lib/jquery/src/ajax/load.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/app/user/simplePage/alternateViews/loading.stache" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/admin/board/pages/examples/lockscreen.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/logger.coffee" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/admin/board/pages/examples/login.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/admin/plugins/ckeditor/lang/lt.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/admin/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/lt.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/admin/plugins/ckeditor/lang/lv.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/admin/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/lv.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/admin/plugins/ckeditor/plugins/specialchar/dialogs/lang/lv.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/admin/board/pages/mailbox.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/controllers/admin/main.coffee" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/controllers/user/main.coffee" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/app/user/simplePage/alternateViews/mainPage.stache" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/lib/jquery/src/manipulation.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/lib/canjs/amd-dev/can/map.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/lib/canjs/amd/can/map.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/lib/canjs/steal/canjs/map/map.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/init/migrate.coffee" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/meta/migrate.coffee" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/app/user/simplePage/alternateViews/mind-input.stache" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/models/mind.coffee" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/app/user/mind/css/mind.css.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/app/user/mind/css/mind.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/app/admin/minds/mind.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/app/user/mind/mind.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/app/user/mind/css/mind.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/models/mindImage.coffee" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/app/admin/mindImages/mindImage.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/controllers/admin/mindImages.coffee" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/app/admin/mindImages/css/mindImages.css.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/app/admin/mindImages/css/mindImages.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/app/admin/mindImages/mindImages.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/app/admin/mindImages/css/mindImages.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/app/admin/mindImages/mindImagesModel.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/controllers/admin/minds.coffee" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/app/admin/minds/css/minds.css.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/app/admin/minds/css/minds.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/app/admin/minds/minds.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/app/admin/minds/css/minds.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/app/admin/minds/mindsModel.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/admin/iCheck/minimal/minimal.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/admin/plugins/ckeditor/lang/mk.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/admin/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/mk.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/admin/plugins/ckeditor/lang/mn.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/admin/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/mn.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/model.coffee" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/lib/canjs/amd-dev/can/model.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/lib/canjs/amd/can/model.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/lib/canjs/steal/canjs/model/model.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/admin/plugins/misc/modernizr.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/lib/canjs/amd-dev/can/view/modifiers.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/lib/canjs/amd/can/view/modifiers.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/lib/canjs/steal/canjs/view/modifiers/modifiers.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/app/user/core/components/module.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/lib/canjs/amd-dev/can/util/mootools.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/lib/canjs/amd/can/util/mootools.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/lib/canjs/steal/canjs/util/mootools/mootools.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/admin/morris/morris.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/admin/board/pages/charts/morris.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/admin/plugins/morris/morris.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/admin/plugins/morris/morris.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/init/mpload.coffee" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/admin/plugins/ckeditor/lang/ms.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/lib/canjs/amd-dev/can/view/mustache.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/lib/canjs/amd/can/view/mustache.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/lib/canjs/steal/canjs/view/mustache/mustache.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/lib/canjs/amd-dev/can/view/stache/mustache_core.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/lib/canjs/amd/can/view/stache/mustache_core.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/lib/canjs/steal/canjs/view/stache/mustache_core.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/lib/canjs/amd-dev/can/view/stache/mustache_helpers.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/lib/canjs/amd/can/view/stache/mustache_helpers.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/lib/canjs/steal/canjs/view/stache/mustache_helpers.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/admin/plugins/ckeditor/lang/nb.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/admin/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/nb.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/admin/plugins/ckeditor/plugins/specialchar/dialogs/lang/nb.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/lib/canjs/amd-dev/can/map/lazy/nested_reference.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/lib/canjs/amd/can/map/lazy/nested_reference.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/lib/canjs/steal/canjs/map/lazy/nested_reference.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/admin/plugins/ckeditor/lang/nl.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/admin/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/nl.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/admin/plugins/ckeditor/plugins/specialchar/dialogs/lang/nl.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/admin/plugins/ckeditor/lang/no.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/admin/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/no.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/admin/plugins/ckeditor/plugins/specialchar/dialogs/lang/no.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/lib/canjs/amd-dev/can/view/node_lists.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/lib/canjs/amd/can/view/node_lists.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/lib/canjs/steal/canjs/view/node_lists/node_lists.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/lib/jquery/src/ajax/var/nonce.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/lib/require-css/normalize.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/app/admin/core/notification.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/notifier.coffee" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/lib/canjs/amd-dev/can/util/object.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/lib/canjs/amd/can/util/object.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/lib/canjs/steal/canjs/util/object/object.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/lib/canjs/amd-dev/can/observe.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/lib/canjs/amd/can/observe.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/lib/canjs/steal/canjs/observe/observe.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/lib/jquery/src/offset.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/admin/plugins/ckeditor/plugins/scayt/dialogs/options.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/admin/iCheck/flat/orange.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/admin/iCheck/line/orange.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/admin/iCheck/minimal/orange.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/admin/iCheck/square/orange.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/lib/jquery/src/outro.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/lib/require-css/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/lib/underscore/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/meta/pages.coffee" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/lib/jquery/src/core/parseHTML.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/lib/jquery/src/ajax/parseJSON.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/lib/jquery/src/ajax/parseXML.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/lib/canjs/amd-dev/can/view/parser.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/lib/canjs/amd/can/view/parser.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/lib/canjs/steal/canjs/view/parser/parser.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/admin/plugins/ckeditor/plugins/clipboard/dialogs/paste.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/models/permission.coffee" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/admin/plugins/input-mask/phone-codes/phone-be.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/admin/plugins/input-mask/phone-codes/phone-codes.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/admin/iCheck/flat/pink.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/admin/iCheck/line/pink.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/admin/iCheck/minimal/pink.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/admin/iCheck/square/pink.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/admin/plugins/ckeditor/lang/pl.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/admin/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/pl.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/admin/plugins/ckeditor/plugins/specialchar/dialogs/lang/pl.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/lib/canjs/amd-dev/can/control/plugin.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/lib/canjs/amd/can/control/plugin.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/lib/canjs/steal/canjs/control/plugin/plugin.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/lib/jquery/src/var/pnum.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/admin/iCheck/polaris/polaris.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/app/user/core/helpers/preloader.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/product.coffee" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/lib/canjs/amd-dev/can/list/promise.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/lib/canjs/amd/can/list/promise.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/lib/canjs/steal/canjs/list/promise/promise.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/lib/jquery/src/attributes/prop.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/lib/canjs/amd-dev/can/construct/proxy.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/lib/canjs/amd/can/construct/proxy.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/lib/canjs/steal/canjs/construct/proxy/proxy.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/admin/plugins/ckeditor/lang/pt-br.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/admin/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/pt-br.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/admin/plugins/ckeditor/plugins/specialchar/dialogs/lang/pt-br.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/admin/plugins/ckeditor/lang/pt.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/admin/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/pt.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/admin/plugins/ckeditor/plugins/specialchar/dialogs/lang/pt.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/admin/iCheck/flat/purple.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/admin/iCheck/line/purple.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/admin/iCheck/minimal/purple.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/admin/iCheck/square/purple.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/lib/jquery/src/var/push.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/lib/canjs/amd-dev/can/route/pushstate.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/lib/canjs/amd/can/route/pushstate.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/lib/canjs/steal/canjs/route/pushstate/pushstate.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/lib/canjs/amd-dev/can/model/queue.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/lib/canjs/amd/can/model/queue.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/lib/canjs/steal/canjs/model/queue/queue.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/lib/jquery/src/queue.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/lib/jquery/src/manipulation/var/rcheckableType.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/admin/plugins/ckeditor/skins/moono/readme.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/lib/canjs/readme.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/admin/plugins/input-mask/phone-codes/readme.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/lib/jquery/src/core/ready.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/admin/iCheck/flat/red.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/admin/iCheck/line/red.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/admin/iCheck/minimal/red.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/admin/iCheck/square/red.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/admin/board/pages/examples/register.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/lib/canjs/amd-dev/can/view/render.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/lib/canjs/amd/can/view/render.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/lib/canjs/steal/canjs/view/render.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/lib/requestAnimationFrame.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/lib/require.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/app/user/core/css/reset.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/admin/plugins/misc/respond.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/lib/jquery/src/css/var/rmargin.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/lib/jquery/src/traversing/var/rneedsContext.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/lib/jquery/src/var/rnotwhite.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/lib/jquery/src/css/var/rnumnonpx.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/admin/plugins/ckeditor/lang/ro.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/admin/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/ro.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/models/role.coffee" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/lib/canjs/amd-dev/can/route.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/lib/canjs/amd-dev/can/control/route.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/lib/canjs/amd/can/route.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/lib/canjs/amd/can/control/route.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/lib/canjs/steal/canjs/control/route/route.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/lib/canjs/steal/canjs/route/route.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/app/admin/core/views/route.stache" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/app/user/core/views/route.stache" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/app/admin/core/router.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/app/user/core/router.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/lib/jquery/src/ajax/var/rquery.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/lib/jquery/src/core/var/rsingleTag.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/locale/ru.coffee" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/admin/plugins/ckeditor/lang/ru.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/admin/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/ru.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/admin/plugins/ckeditor/plugins/specialchar/dialogs/lang/ru.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/lib/canjs/amd-dev/can/view/scanner.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/lib/canjs/amd/can/view/scanner.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/lib/canjs/steal/canjs/view/scanner.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/lib/canjs/amd-dev/can/view/scope.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/lib/canjs/amd/can/view/scope.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/lib/canjs/steal/canjs/view/scope/scope.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/lib/jquery/src/ajax/script.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/lib/soundcloud/sdk.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/lib/jquery/src/selector-native.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/lib/jquery/src/selector-sizzle.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/lib/jquery/src/selector.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/lib/jquery/src/serialize.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/admin/days/set.jade" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/admin/fragments/set.jade" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/admin/products/set.jade" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/app/admin/mindImages/views/set.stache" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/app/admin/minds/views/set.stache" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/app/admin/simplePages/views/set.stache" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/lib/canjs/amd-dev/can/map/setter.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/lib/canjs/amd/can/map/setter.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/lib/canjs/steal/canjs/map/setter/setter.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/lib/social/vk/share.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/admin/plugins/ckeditor/lang/si.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/admin/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/si.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/admin/plugins/ckeditor/plugins/specialchar/dialogs/lang/si.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/admin/board/pages/tables/simple.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/models/simplePage.coffee" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/app/user/simplePage/css/simplePage.css.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/app/user/simplePage/css/simplePage.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/app/admin/simplePages/simplePage.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/app/user/simplePage/simplePage.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/app/user/simplePage/css/simplePage.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/controllers/admin/simplePages.coffee" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/app/admin/simplePages/css/simplePages.css.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/app/admin/simplePages/css/simplePages.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/app/admin/simplePages/simplePages.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/app/admin/simplePages/css/simplePages.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/app/admin/simplePages/simplePagesModel.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/lib/jquery/src/sizzle/dist/sizzle.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/lib/jquery/src/sizzle/dist/sizzle.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/lib/jquery/src/sizzle/dist/sizzle.min.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/admin/plugins/ckeditor/lang/sk.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/admin/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/sk.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/admin/plugins/ckeditor/plugins/specialchar/dialogs/lang/sk.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/admin/plugins/ckeditor/lang/sl.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/admin/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/sl.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/admin/plugins/ckeditor/plugins/specialchar/dialogs/lang/sl.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/lib/jquery/src/var/slice.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/admin/bootstrap-slider/slider.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/admin/board/pages/UI/sliders.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/admin/plugins/slimScroll/slimScroll.jquery.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/scss/blocks/socIcons.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/scss/blocks/socIcons.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/app/user/core/views/socIcons.stache" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/meta/socialConfig.coffee" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/meta/socket.coffee" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/lib/canjs/amd-dev/can/map/sort.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/lib/canjs/amd/can/map/sort.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/lib/canjs/steal/canjs/map/sort/sort.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/lib/soundcloud/soundmanager2.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/admin/plugins/ckeditor/plugins/specialchar/dialogs/specialchar.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/admin/plugins/ckeditor/lang/sq.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/admin/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/sq.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/admin/plugins/ckeditor/plugins/specialchar/dialogs/lang/sq.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/admin/iCheck/square/square.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/admin/plugins/ckeditor/lang/sr-latn.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/admin/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/sr-latn.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/admin/plugins/ckeditor/lang/sr.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/admin/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/sr.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/lib/canjs/amd-dev/can/view/stache.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/lib/canjs/amd/can/view/stache.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/lib/canjs/steal/canjs/view/stache/stache.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/models/stat.coffee" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/lib/canjs/amd-dev/can/util/string.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/lib/canjs/amd/can/util/string.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/lib/canjs/steal/canjs/util/string/string.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/lib/jquery/src/var/strundefined.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/app/admin/core/css/style.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/app/admin/core/css/style.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/admin/plugins/ckeditor/styles.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/lib/canjs/amd-dev/can/construct/super.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/lib/canjs/amd/can/construct/super.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/lib/canjs/steal/canjs/construct/super/super.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/lib/jquery/src/attributes/support.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/lib/jquery/src/css/support.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/lib/jquery/src/event/support.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/lib/jquery/src/manipulation/support.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/lib/jquery/src/var/support.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/admin/plugins/ckeditor/lang/sv.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/admin/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/sv.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/admin/plugins/ckeditor/plugins/specialchar/dialogs/lang/sv.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/lib/jquery/src/css/swap.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/admin/plugins/ckeditor/plugins/table/dialogs/table.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/admin/plugins/ckeditor/plugins/tabletools/dialogs/tableCell.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/app/admin/core/tabs.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/lib/canjs/amd-dev/can/view/target.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/lib/canjs/amd/can/view/target.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/lib/canjs/steal/canjs/view/target/target.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/lib/canjs/amd-dev/can/view/stache/text_section.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/lib/canjs/amd/can/view/stache/text_section.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/lib/canjs/steal/canjs/view/stache/text_section.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/admin/plugins/ckeditor/lang/th.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/admin/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/th.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/admin/plugins/ckeditor/plugins/specialchar/dialogs/lang/th.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/lib/three.r60.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/utils/time.coffee" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/admin/board/pages/UI/timeline.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/admin/plugins/ckeditor/plugins/wsc/dialogs/tmp.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/admin/plugins/ckeditor/plugins/wsc/dialogs/tmpFrameset.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/lib/jquery/src/var/toString.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/admin/plugins/ckeditor/plugins/scayt/dialogs/toolbar.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/admin/plugins/ckeditor/lang/tr.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/admin/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/tr.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/admin/plugins/ckeditor/plugins/specialchar/dialogs/lang/tr.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/lib/jquery/src/traversing.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/locale/ua.coffee" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/admin/plugins/ckeditor/lang/ug.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/admin/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/ug.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/admin/plugins/ckeditor/plugins/specialchar/dialogs/lang/ug.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/admin/plugins/ckeditor/lang/uk.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/admin/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/uk.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/admin/plugins/ckeditor/plugins/specialchar/dialogs/lang/uk.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/lib/underscore/underscore.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/app/admin/core/css/upload.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/app/admin/core/upload.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/app/admin/core/css/upload.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/controllers/user.coffee" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/models/user.coffee" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/meta/userStatuses.coffee" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/lib/canjs/steal/canjs/util/util.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/lib/canjs/amd-dev/can/view/stache/utils.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/lib/canjs/amd/can/view/stache/utils.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/lib/canjs/steal/canjs/view/stache/utils.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/lib/jquery/src/attributes/val.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/utils/validate.coffee" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/lib/canjs/amd-dev/can/map/validations.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/lib/canjs/amd/can/map/validations.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/lib/canjs/steal/canjs/map/validations/validations.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/lib/velocity/velocity.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/lib/velocity/velocity.ui.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/admin/plugins/ckeditor/lang/vi.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/admin/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/vi.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/admin/plugins/ckeditor/plugins/specialchar/dialogs/lang/vi.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/view.coffee" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/lib/canjs/amd-dev/can/view.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/lib/canjs/amd/can/view.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/lib/canjs/steal/canjs/view/view.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/app/admin/core/viewHelpers.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/app/user/core/helpers/viewHelpers.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/lib/social/vk/vk_sdk.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/admin/board/pages/widgets.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/lib/jquery/src/wrap.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/admin/plugins/ckeditor/plugins/wsc/dialogs/wsc.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/admin/plugins/ckeditor/plugins/wsc/dialogs/wsc.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/admin/plugins/ckeditor/plugins/wsc/dialogs/wsc_ie.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/lib/jquery/src/ajax/xhr.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/admin/iCheck/flat/yellow.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/admin/iCheck/line/yellow.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/admin/iCheck/minimal/yellow.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/admin/iCheck/square/yellow.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/lib/canjs/amd-dev/can/util/yui.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/lib/canjs/amd/can/util/yui.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/lib/canjs/steal/canjs/util/yui/yui.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/lib/canjs/amd-dev/can/util/zepto.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/lib/canjs/amd/can/util/zepto.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/lib/canjs/steal/canjs/util/zepto/zepto.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/admin/plugins/ckeditor/lang/zh-cn.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/admin/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/zh-cn.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/admin/plugins/ckeditor/plugins/specialchar/dialogs/lang/zh-cn.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/admin/plugins/ckeditor/lang/zh.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/admin/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/zh.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/admin/plugins/ckeditor/plugins/specialchar/dialogs/lang/zh.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/user/checkbox_arrow_down.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/user/corner_logo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/user/email_block_fon.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/user/email_block_logo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/user/email_button_fon.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/user/fb_button_fon.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/user/fb_icon.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/user/fb_icon_fon.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/user/footer_picture.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/user/input_right_fon.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/user/logo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/user/main_banner.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/user/main_logo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/user/od_button_fon.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/user/od_icon.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/user/od_icon_fon.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/user/screen3_left_logo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/user/screen3_mini_logo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/user/screen3_right_logo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/user/screen4_left_logo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/user/screen4_right_logo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/user/screen5_right_logo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/user/valid_correct.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/user/valid_wrong.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/user/valid_wrong_fon.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/user/vk_button_fon.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/user/vk_icon.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/user/vk_icon_fon.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/app/user/simplePage/alternateViews/gratitude.stache" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/app/user/simplePage/alternateViews/login-page.stache" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/app/user/simplePage/alternateViews/main-page.stache" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/app/user/simplePage/alternateViews/personal-form.stache" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/app/user/simplePage/alternateViews/questions-form.stache" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/app/user/simplePage/simplePageModel.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/models/visitor.coffee" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/fonts/PFDinTextCompPro-Medium/_.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/fonts/PFDinTextCompPro-Medium/_.otf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/fonts/PFDinTextCompPro-Medium/_.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/fonts/PFDinTextCompPro-Medium/_.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/fonts/PFDinTextCompPro-Medium/_.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/fonts/PFDinTextCompPro-Thin/_.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/fonts/PFDinTextCompPro-Thin/_.otf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/fonts/PFDinTextCompPro-Thin/_.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/fonts/PFDinTextCompPro-Thin/_.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/fonts/PFDinTextCompPro-Thin/_.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/fonts/PFDinTextCompPro-XBlack/_.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/fonts/PFDinTextCompPro-XBlack/_.otf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/fonts/PFDinTextCompPro-XBlack/_.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/fonts/PFDinTextCompPro-XBlack/_.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/fonts/PFDinTextCompPro-XBlack/_.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/fonts/PFDinTextCondPro-Bold/_.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/fonts/PFDinTextCondPro-Bold/_.otf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/fonts/PFDinTextCondPro-Bold/_.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/fonts/PFDinTextCondPro-Bold/_.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/fonts/PFDinTextCondPro-Bold/_.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/fonts/PFDinTextCondPro-Medium/_.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/fonts/PFDinTextCondPro-Medium/_.otf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/fonts/PFDinTextCondPro-Medium/_.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/fonts/PFDinTextCondPro-Medium/_.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/fonts/PFDinTextCondPro-Medium/_.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/fonts/PFDinTextCondPro-Thin/_.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/fonts/PFDinTextCondPro-Thin/_.otf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/fonts/PFDinTextCondPro-Thin/_.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/fonts/PFDinTextCondPro-Thin/_.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/fonts/PFDinTextCondPro-Thin/_.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/fonts/PFDinTextPro-Light/_.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/fonts/PFDinTextPro-Light/_.otf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/fonts/PFDinTextPro-Light/_.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/fonts/PFDinTextPro-Light/_.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/fonts/PFDinTextPro-Light/_.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/fonts/PFDinTextPro-Thin/_.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/fonts/PFDinTextPro-Thin/_.otf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/fonts/PFDinTextPro-Thin/_.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/fonts/PFDinTextPro-Thin/_.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/fonts/PFDinTextPro-Thin/_.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/user/canNext.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/user/caret.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/user/closeEyes.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/user/colaCan.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/user/colaCan500.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/user/colaCanLarge.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/user/dima.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/user/favicon.ico" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/user/fb_login.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/user/freeMind.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/user/gagarin.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/user/gingerCan.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/user/gingerCanLarge.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/user/handsOnKeyboard.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/user/mintCan.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/user/mintCan500.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/user/mintCanLarge.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/user/mojoCan.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/user/mojoLoadingCan.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/user/mojoMindreader.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/user/stishkiImages/1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/user/stishkiImages/2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/user/stishkiImages/3.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/user/stishkiImages/4.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/user/stishkiImages/5.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/user/stishkiImages/6.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/user/stishkiImages/7.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/user/stishkiImages/8.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/user/vk_login.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/app/user/mind/css/mind.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/app/user/mind/css/mind.css.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/app/user/mind/css/mind.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/app/user/mind/index.stache" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/app/user/mind/mind.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/app/user/simplePage/alternateViews/hello-page.stache" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/app/user/simplePage/alternateViews/loading.stache" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/app/user/simplePage/alternateViews/mainPage.stache" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/app/user/simplePage/alternateViews/mind-input.stache" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/scss/base/_variables.scss" afterPath="$PROJECT_DIR$/public/scss/base/_variables.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/app/user/core/config.js" afterPath="$PROJECT_DIR$/public/js/app/user/core/config.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/init/database.coffee" afterPath="$PROJECT_DIR$/init/database.coffee" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/app/user/core/css/global.css.map" afterPath="$PROJECT_DIR$/public/js/app/user/core/css/global.css.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/app/user/global/css/global.css.map" afterPath="$PROJECT_DIR$/public/js/app/user/global/css/global.css.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/app/user/core/css/global.css" afterPath="$PROJECT_DIR$/public/js/app/user/core/css/global.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/app/user/global/css/global.css" afterPath="$PROJECT_DIR$/public/js/app/user/global/css/global.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/app/user/global/global.js" afterPath="$PROJECT_DIR$/public/js/app/user/global/global.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/app/user/core/css/global.scss" afterPath="$PROJECT_DIR$/public/js/app/user/core/css/global.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/app/user/global/css/global.scss" afterPath="$PROJECT_DIR$/public/js/app/user/global/css/global.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/app/user/global/index.stache" afterPath="$PROJECT_DIR$/public/js/app/user/global/index.stache" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/controllers/user/main.coffee" afterPath="$PROJECT_DIR$/controllers/user/main.coffee" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/app/user/simplePage/css/simplePage.css.map" afterPath="$PROJECT_DIR$/public/js/app/user/simplePage/css/simplePage.css.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/app/user/simplePage/css/simplePage.css" afterPath="$PROJECT_DIR$/public/js/app/user/simplePage/css/simplePage.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/app/user/simplePage/simplePage.js" afterPath="$PROJECT_DIR$/public/js/app/user/simplePage/simplePage.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/app/user/simplePage/css/simplePage.scss" afterPath="$PROJECT_DIR$/public/js/app/user/simplePage/css/simplePage.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/meta/socialConfig.coffee" afterPath="$PROJECT_DIR$/meta/socialConfig.coffee" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/controllers/user.coffee" afterPath="$PROJECT_DIR$/controllers/user.coffee" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Polpharma.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -1234,6 +155,37 @@
   <component name="FavoritesManager">
     <favorites_list name="Polpharma" />
   </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="simplePage.js" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/public/js/app/user/simplePage/simplePage.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="202" column="42" selection-start="5197" selection-end="5197" vertical-scroll-proportion="0.68281937" vertical-offset="3016" max-vertical-offset="3924">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="visitor.coffee" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/models/visitor.coffee">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="11" column="23" selection-start="248" selection-end="248" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1890">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="questions-form.stache" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/js/app/user/simplePage/alternateViews/questions-form.stache">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="93" column="31" selection-start="5812" selection-end="5812" vertical-scroll-proportion="-31.5" vertical-offset="918" max-vertical-offset="1872">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
   <component name="FindManager">
     <FindUsagesManager>
       <setting name="OPEN_NEW_TAB" value="false" />
@@ -1241,6 +193,33 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="changedFiles">
+      <list>
+        <option value="$PROJECT_DIR$/init/database.coffee" />
+        <option value="$PROJECT_DIR$/Polpharma_layout/index.html" />
+        <option value="$PROJECT_DIR$/public/js/app/user/core/config.js" />
+        <option value="$PROJECT_DIR$/public/js/app/user/global/index.stache" />
+        <option value="$PROJECT_DIR$/public/js/app/user/global/global.js" />
+        <option value="$PROJECT_DIR$/public/js/app/user/core/css/global.scss" />
+        <option value="$PROJECT_DIR$/public/scss/base/_variables.scss" />
+        <option value="$PROJECT_DIR$/public/js/app/user/simplePage/alternateViews/main-page.stache" />
+        <option value="$PROJECT_DIR$/public/js/app/user/simplePage/alternateViews/login-page.stache" />
+        <option value="$PROJECT_DIR$/meta/socialConfig.coffee" />
+        <option value="$PROJECT_DIR$/public/js/app/user/simplePage/css/simplePage.scss" />
+        <option value="$PROJECT_DIR$/public/js/app/user/simplePage/alternateViews/gratitude.stache" />
+        <option value="$PROJECT_DIR$/public/js/app/user/global/css/global.scss" />
+        <option value="$PROJECT_DIR$/public/js/app/admin/simplePages/simplePage.js" />
+        <option value="$PROJECT_DIR$/controllers/user.coffee" />
+        <option value="$PROJECT_DIR$/public/js/app/user/simplePage/simplePageModel.js" />
+        <option value="$PROJECT_DIR$/controllers/user/main.coffee" />
+        <option value="$PROJECT_DIR$/public/js/app/user/simplePage/alternateViews/personal-form.stache" />
+        <option value="$PROJECT_DIR$/public/js/app/user/simplePage/simplePage.js" />
+        <option value="$PROJECT_DIR$/models/visitor.coffee" />
+        <option value="$PROJECT_DIR$/public/js/app/user/simplePage/alternateViews/questions-form.stache" />
+      </list>
+    </option>
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
@@ -1274,6 +253,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -1292,22 +272,248 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Polpharma" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Polpharma" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="public" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Polpharma" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Polpharma" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="public" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Polpharma" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Polpharma" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="public" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="user" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="simplePage" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Polpharma" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Polpharma" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="public" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="user" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="simplePage" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="alternateViews" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Polpharma" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Polpharma" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="public" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="user" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Polpharma" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Polpharma" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="public" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Polpharma" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Polpharma" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="models" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Polpharma" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Polpharma" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="controllers" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Polpharma" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Polpharma" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="controllers" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="user" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Polpharma" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Polpharma" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="controllers" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="admin" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Mojo" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="options.lastSelected" value="settings.nodejs" />
+    <property name="options.lastSelected" value="settings" />
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
+    <property name="FullScreen" value="false" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/public/img/user" />
+    </key>
   </component>
   <component name="RunManager">
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug" singleton="true">
+      <method />
+    </configuration>
     <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" working-dir="">
       <browser start="false" url="" with-js-debugger="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpUnitRemoteRunConfigurationType" factoryName="PHPUnit on Server">
+      <method />
+    </configuration>
+    <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
+      <TestRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpLocalRunConfigurationType" factoryName="PHP Console">
       <method />
     </configuration>
     <list size="0" />
@@ -1323,25 +529,25 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="24" width="1680" height="1026" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24969475" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25274727" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32870865" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -1362,6 +568,304 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/Polpharma_layout/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="28" column="0" selection-start="1249" selection-end="2908" vertical-scroll-proportion="0.0" vertical-offset="324" max-vertical-offset="3852">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/js/app/user/simplePage/alternateViews/login-page.stache">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="28" column="53" selection-start="1034" selection-end="1034" vertical-scroll-proportion="0.0" vertical-offset="504" max-vertical-offset="702">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/js/app/user/simplePage/alternateViews/main-page.stache">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="42" selection-start="579" selection-end="599" vertical-scroll-proportion="0.0" vertical-offset="198" max-vertical-offset="360">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/js/app/user/simplePage/simplePage.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="79" column="22" selection-start="1905" selection-end="1905" vertical-scroll-proportion="0.0" vertical-offset="892" max-vertical-offset="2250">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/js/app/user/simplePage/css/simplePage.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="153" column="33" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3366">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Polpharma_layout/index.jade">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="908" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/init/database.coffee">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="33" selection-start="388" selection-end="388" vertical-scroll-proportion="0.2853907" vertical-offset="0" max-vertical-offset="883" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/js/app/user/core/config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="9" selection-start="219" selection-end="219" vertical-scroll-proportion="0.23788546" vertical-offset="0" max-vertical-offset="908" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/js/app/user/global/index.stache">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="908" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/js/app/user/global/css/global.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2196">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/js/app/user/core/appState.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="27" column="18" selection-start="681" selection-end="681" vertical-scroll-proportion="0.5352423" vertical-offset="0" max-vertical-offset="908" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/js/app/user/core/css/global.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="24" column="22" selection-start="454" selection-end="454" vertical-scroll-proportion="0.48868778" vertical-offset="0" max-vertical-offset="1242">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Polpharma_layout/public/scss/utils/_variables.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="66" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="884">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Polpharma_layout/public/scss/blocks/frame1.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="0" selection-start="132" selection-end="132" vertical-scroll-proportion="-0.26244345" vertical-offset="394" max-vertical-offset="1278">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/scss/base/_variables.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="20" selection-start="176" selection-end="176" vertical-scroll-proportion="0.14253394" vertical-offset="0" max-vertical-offset="884">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Polpharma_layout/public/scss/blocks/frame2.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="109" column="1" selection-start="37" selection-end="2445" vertical-scroll-proportion="0.87782806" vertical-offset="1186" max-vertical-offset="2070">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/meta/socialConfig.coffee">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="22" selection-start="197" selection-end="197" vertical-scroll-proportion="0.14269535" vertical-offset="0" max-vertical-offset="883" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Polpharma_layout/public/scss/blocks/frame3.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="112" column="1" selection-start="2188" selection-end="2188" vertical-scroll-proportion="0.875" vertical-offset="1260" max-vertical-offset="2124">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Polpharma_layout/public/scss/blocks/frame4.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="89" column="0" selection-start="37" selection-end="2044" vertical-scroll-proportion="0.875" vertical-offset="846" max-vertical-offset="1710">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Polpharma_layout/public/scss/blocks/frame5.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="49" column="1" selection-start="37" selection-end="918" vertical-scroll-proportion="-30.75" vertical-offset="144" max-vertical-offset="1008">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/js/app/user/simplePage/alternateViews/main-page.stache">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="60" selection-start="617" selection-end="617" vertical-scroll-proportion="0.22347629" vertical-offset="0" max-vertical-offset="886">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/js/app/user/simplePage/alternateViews/login-page.stache">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="28" column="53" selection-start="1034" selection-end="1034" vertical-scroll-proportion="0.5688487" vertical-offset="0" max-vertical-offset="886">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Polpharma_layout/public/scss/style.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="908">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Polpharma_layout/public/scss/base/grid.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="0" selection-start="91" selection-end="91" vertical-scroll-proportion="0.08126411" vertical-offset="0" max-vertical-offset="1512">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Polpharma_layout/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="204" column="18" selection-start="10582" selection-end="11089" vertical-scroll-proportion="-28.5" vertical-offset="2988" max-vertical-offset="3852">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/js/app/user/simplePage/alternateViews/gratitude.stache">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="6" selection-start="367" selection-end="367" vertical-scroll-proportion="0.20316027" vertical-offset="0" max-vertical-offset="886">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/js/app/user/global/css/global.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="78" column="0" selection-start="1206" selection-end="1206" vertical-scroll-proportion="0.95936793" vertical-offset="554" max-vertical-offset="1548">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/js/app/user/simplePage/css/simplePage.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="426" column="5" selection-start="7089" selection-end="7089" vertical-scroll-proportion="-30.166666" vertical-offset="6944" max-vertical-offset="7830">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/js/app/admin/simplePages/simplePagesModel.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="448" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="910">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models/user.coffee">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="1495" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1800">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/js/app/user/global/global.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="27" column="14" selection-start="483" selection-end="483" vertical-scroll-proportion="0.4845815" vertical-offset="46" max-vertical-offset="954">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controllers/user.coffee">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="26" column="24" selection-start="691" selection-end="691" vertical-scroll-proportion="0.5154185" vertical-offset="0" max-vertical-offset="908">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/js/app/admin/simplePages/simplePages.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="34" selection-start="218" selection-end="218" vertical-scroll-proportion="0.17841409" vertical-offset="54" max-vertical-offset="2862">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/js/app/admin/simplePages/simplePage.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="29" column="49" selection-start="579" selection-end="579" vertical-scroll-proportion="0.57488984" vertical-offset="0" max-vertical-offset="1134">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/js/app/user/simplePage/simplePageModel.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="42" selection-start="299" selection-end="299" vertical-scroll-proportion="0.3370044" vertical-offset="0" max-vertical-offset="908">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controllers/admin/mindImages.coffee">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-1.0022026" vertical-offset="910" max-vertical-offset="1818">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/email-templates/node_modules/node-sass/node_modules/sinon/test/rhino/env.rhino.1.2.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12064" column="0" selection-start="634339" selection-end="634339" vertical-scroll-proportion="0.3329609" vertical-offset="216764" max-vertical-offset="251820">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/utils/document.coffee">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="8" selection-start="8" selection-end="8" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="908">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controllers/admin/simplePages.coffee">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="41" selection-start="193" selection-end="193" vertical-scroll-proportion="-0.07048458" vertical-offset="172" max-vertical-offset="1080">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controllers/user/main.coffee">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="109" column="21" selection-start="2631" selection-end="2631" vertical-scroll-proportion="0.4845815" vertical-offset="1522" max-vertical-offset="2430">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/js/app/user/simplePage/alternateViews/personal-form.stache">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="46" column="50" selection-start="2147" selection-end="2147" vertical-scroll-proportion="0.12443439" vertical-offset="718" max-vertical-offset="1602">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models/visitor.coffee">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="23" selection-start="248" selection-end="248" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1890">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/js/app/user/simplePage/alternateViews/questions-form.stache">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="93" column="31" selection-start="5812" selection-end="5812" vertical-scroll-proportion="-31.5" vertical-offset="918" max-vertical-offset="1872">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/js/app/user/simplePage/simplePage.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="202" column="42" selection-start="5197" selection-end="5197" vertical-scroll-proportion="0.68281937" vertical-offset="3016" max-vertical-offset="3924">
+          <folding />
+        </state>
+      </provider>
+    </entry>
   </component>
 </project>
 

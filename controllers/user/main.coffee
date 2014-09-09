@@ -5,6 +5,7 @@ View = require '../../lib/view'
 Model = require '../../lib/model'
 Auth = require '../../lib/auth'
 socialConfig = require '../../meta/socialConfig'
+Document = require '../../utils/document'
 
 locale = require '../../locale'
 
@@ -101,3 +102,28 @@ exports.ie = (req, res) ->
 	View.render 'user/ie', res, {}
 
 exports.facebookLogin = Auth.authenticate 'facebook'
+
+exports.setPersonalData = (req, res) ->
+	_id = req.body._id
+	data = req.body
+
+	async.waterfall [
+		(next) ->
+			if _id
+				Model 'Visitor', 'findOne', next, {_id}
+			else if data.facebook and data.facebook.id
+				Model 'Visitor', 'findOne', next, {'facebook.id': data.facebook.id}
+			else if data.vk and data.vk.id
+				Model 'Visitor', 'findOne', next, {'vk.id': data.vk.id}
+			else
+				next null, null
+		(doc, next) ->
+			if doc
+				doc = Document.setDocumentData doc, data
+				doc.save next
+			else
+				Model 'Visitor', 'create', next, data
+		(doc, next) ->
+			View.clientSuccess _id: doc._id, res
+	], (err) ->
+		res.send err

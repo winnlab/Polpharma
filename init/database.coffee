@@ -7,7 +7,7 @@ opts =
 	pass: '8mvclqXSvv',
 	host: 'localhost'
 	port: '27017'
-	database: 'Mojo'
+	database: 'Polpharma'
 	primary: null
 
 connString = 'mongodb://'+opts.user+":"+opts.pass+"@"+opts.host+":"+opts.port+"/"+opts.database+"?auto_reconnect=true"

@@ -10,10 +10,6 @@ define({
 			name: 'simplePage',
 			path: 'app/simplePage/simplePage',
 			title: ''
-		},{
-			name: 'mind',
-			path: 'app/mind/mind',
-			title: ''
 		}]
 	}
 });

@@ -1,0 +1,84 @@
+<div class="frame3">
+
+    <form class="personalData">
+
+        <div class="content">
+            <div class="left-side">Давайте познакомимся:</div>
+            <img class="right-side" src="{{appState.imgPath}}screen3_mini_logo.png"/>
+            <div class="question">
+                <input type="text" placeholder="Имя" name="firstName" value=""/>
+<!--                <div class="symb"><span>?</span></div>
+                <div class="valid correct"></div>-->
+            </div>
+            <div class="question">
+                <input type="text" placeholder="Фамилия" name="lastName" value=""/>
+<!--                <div class="symb"><span>?</span></div>
+                <div class="valid wrong"></div>-->
+            </div>
+            <div class="left-side quesLabel">Возраст:</div>
+            <div class="question select">
+                <select name="birthDay" class="day">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                </select>
+                <select class="month" name="birthMonth">
+                    <option value="1">Январь</option>
+                    <option value="2">Февраль</option>
+                    <option value="3">Март</option>
+                </select>
+                <select class="year" name="birthYear">
+                    <option value="1900">1900</option>
+                    <option value="1901">1901</option>
+                    <option value="1902">1902</option>
+                </select>
+
+<!--                <div class="symb"><span>?</span></div>
+                <div class="valid correct"></div>-->
+            </div>
+            <div class="question">
+                <input type="text" placeholder="Город" name="city" value=""/>
+<!--                <div class="symb"><span>?</span></div>
+                <div class="valid correct"></div>-->
+            </div>
+            <div class="question">
+                <input type="text" placeholder="E-mail" name="email" value=""/>
+<!--                <div class="symb"><span>?</span></div>
+                <div class="valid wrong"></div>-->
+            </div>
+            <br/>
+            <div class="left-side quesLabel">Кем Вы работаете:</div>
+            <div class="question radioWrapper">
+                <input type="button" class="quesBtn radioButton" data-value="1" value="Врач"/>
+                <input type="button" class="quesBtn radioButton" data-value="2" value="Фармацевт"/>
+                <div class="hidden">
+                    <input type="radio" name="jobType" value="1"/>
+                    <input type="radio" name="jobType" value="2"/>
+                </div>
+            </div>
+            <div class="left-side quesLabel">Тип учреждения:</div>
+            <div class="question checkboxWrapper">
+                <input type="button" class="quesBtn checkboxButton" data-value="1" value="Поликлиника"/>
+                <input type="button" class="quesBtn checkboxButton" data-value="2" value="Стационар"/>
+                <div class="hidden">
+                    <input type="checkbox" name="institutionType[]" value="1"/>
+                    <input type="checkbox" name="institutionType[]" value="2"/>
+                </div>
+            </div>
+            <div class="right-side comment">Возможно выбрать два варианта</div>
+            <br/>
+            <div class="left-side quesLabel">Специальность:</div>
+            <div class="question">
+                <select name="speciality" class="specializ">
+                    <option value="1">Травматолог</option>
+                    <option value="2">Хирург</option>
+                    <option value="3">Гастроэнтеролог</option>
+                </select>
+            </div>
+            <input type="submit" class="start toQues" value="Перейти к вопросам">
+
+        </div>
+
+    </form>
+
+</div>

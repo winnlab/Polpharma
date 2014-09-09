@@ -18,9 +18,9 @@ Router.use (req, res, next) ->
 			Main.ie req, res
 
 Router.get '/', Main.index
+Router.post '/personalData', Main.setPersonalData
 Router.get '/simplePage/:id', Main.index
-Router.get '/mind', Main.index
-Router.get '/mind/getRandomMind', Main.getRandomMind
+
 Router.get '/auth/facebook', Main.facebookLogin
 Router.get '/auth/facebook/callback', passport.authenticate 'facebook',
 	successRedirect: '/simplePage/hello-page'

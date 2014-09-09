@@ -5,12 +5,6 @@
 @import '../../../../../scss/base/_placeholders.scss';
 @import '../../../../../scss/modules/_animations.scss';
 
-@include font-face(PFDinTextCondPro, '#{$font_path}PFDinTextCondPro-Medium/_', 500);
-@include font-face(PFDinTextCondPro, '#{$font_path}PFDinTextCondPro-Thin/_', 200);
-@include font-face(PFDinTextCompPro, '#{$font_path}PFDinTextCompPro-Thin/_', 200);
-/*@include font-face(PFDinTextPro, '#{$font_path}PFDinTextPro-Light/_', 100);
-@include font-face(PFDinTextPro, '#{$font_path}PFDinTextPro-Thin/_', 200);*/
-
 *,
 *:before,
 *:after {
@@ -28,7 +22,7 @@ html, body {
 }
 
 body {
-	font-family: PFDinTextCompPro;
+	font-family: Arial;
 	font-weight: 200;
 	position: relative;
 

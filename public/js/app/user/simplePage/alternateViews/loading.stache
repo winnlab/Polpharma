@@ -1,9 +1,0 @@
-<div class="content simplePageContent simplePageLoadingPage">
-
-    <div class="mojoCan" style="background-image: url('{{appState.imgPath}}{{appState.colorScheme}}Can500.png')"></div>
-
-    <div class="loadingCounter">
-        <h1>{{appState.loadingCounter}}%</h1>
-    </div>
-
-</div>

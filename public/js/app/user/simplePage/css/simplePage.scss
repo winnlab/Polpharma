@@ -5,431 +5,425 @@
 @import '../../../../../scss/base/_placeholders.scss';
 @import '../../../../../scss/modules/_animations.scss';
 
-.simplePageContent {
+.frame1{
 
-	position: absolute;
+	.header{
+		width:100%;
+		height: 9%;
+		top:0;
+		left: 0;
+
+	}
+	.logo{
+		background: url(#{$img_path}logo.png) no-repeat 0 0;
+		background-size: 100%;
+		height: 80%;
+		top: 10%;
+		width: 18%;
+
+		left: 1%;
+		position: absolute;
+	}
+	.banner{
+		background: url(#{$img_path}main_banner.jpg) no-repeat 0 0;
+		background-size: 100%; /* Современные браузеры */
+		height:91%;
+		width:100%;
+		top: 9%;
+		left:0;
+		overflow: hidden;
+
+	}
+	.corner{
+		height: 33%;
+		width: 19%;
+		bottom: 0;
+		right: 0;
+	}
+
+	.corner img{
+		margin-bottom: -1px;
+	}
+	.banText{
+		width: 30%;
+		left: 55%;
+		top: 40%;
+		color: $textColor;
+	}
+	.banTitle{
+		margin-bottom: 4%;
+		font-size: 140%;
+		line-height: 120%;
+	}
+	.banDesc{
+		line-height: 120%;
+		font-size: 102%;
+	}
+	.start{
+		margin-top: 7%;
+		width: 40%;
+		color: #ffffff;
+		padding: 3%;
+		font-size: 120%;
+		height:50px;
+
+
+	}
+}
+
+
+.frame2{
 	width: 100%;
-	height: 100%;
-	overflow: hidden;
-
-	.mindreaderLabel {
-		@extend %bg-image-cover;
-		background-image: url('#{$img_path}mojoMindreader.png');
-
-		$mindreaderWidth:20.625rem;
-		$mindreaderHeight: 19.750rem;
-
-		position: absolute;
-		width: $mindreaderWidth;
-		height: $mindreaderHeight;
-		left: 50%;
-		margin-left: -$mindreaderWidth/2 - 2;
-		top: -8rem;
-		z-index: 1;
+	height: 85%;
+	top: 5%;
+	text-align: center;
+	.logo{
+		width:50%;
+		margin-left: 25%;
 	}
+	.logo img{
 
-	.contentCircle {
-		position: absolute;
-		background: #ffffff;
-		height: 90%;
-		border-radius: 50%;
-		left: 50%;
-		top: 50%;
 	}
-}
+	.text-center{
+		margin-top: 4%;
+		font-size: 115%;
+		color: $textColor;
+	}
+	.socNetWrapper{
+		width: 64%;
+		height: 9%;
+		margin:2% 0 0 18%;
 
-.simplePageDefaultPage {
 
-}
-
-.simplePageMainPage {
-
-	.motto {
-		position: absolute;
-		top: 30%;
-		width: 100%;
-
-		h1 {
-			width: 40%;
+		.socNets{
 			color: #ffffff;
-			text-transform: uppercase;
-			font-size: 3.750rem;
-			text-align: center;
-			margin: 0 auto;
-		}
-	}
-
-	.socialLogin {
-		$width: 25rem;
-
-		position: absolute;
-		width: $width;
-		left: 50%;
-		top: 60%;
-		margin-left: -$width/2;
-
-		table {
-			height: 2.688rem;
-			border: 3px solid #ffffff;
-
-			&:hover {
-				cursor: pointer;
-				background: #14579c;
-			}
-
-			img {
-				height: 100%;
-			}
-			p {
-				color: #ffffff;
-				text-transform: uppercase;
-				font-family: PFDinTextCompPro !important;
-				font-size: 1.375rem;
-				margin: 0 1.5rem;
-
-			}
-			td.middle {
-				vertical-align: middle;
-			}
-		}
-
-		.fbLogin {
+			cursor: pointer;
+			width: auto;
+			height: 100%;
 			float: left;
+			margin: 0 6%;
+			border-radius:1px;
+			.icons{
+				float:left;
+				height:100%;
+				width:50px;
+				text-align: center;
+
+				img{
+					width: 76%;
+					margin-top: 10%;
+				}
+				.fb_icon{
+					margin-top:10%;
+				}
+				.vk_icon{
+					margin-top:22%;
+				}
+				.od_icon{
+					margin-top: 10%;
+					margin-left: 13%;
+					width: 90%;
+				}
+
+			}
+			.socNames{
+				float: left;
+				margin-top: 20px;
+				margin-left: 24px;
+				font-size: 108%;
+				margin-right: 24px;
+			}
 		}
-		.vkLogin {
-			float: right;
+
+	}
+	.footer{
+		background: url(#{$img_path}email_block_fon.png) repeat;
+		width: 100%;
+		height:35%;
+		bottom:0;
+		text-align:center;
+		img{
+			height:100%;
+			width:auto;
+			right:25%;
+
+		}
+		.text-center{
+			font-size: 110%;
+			margin-bottom: 2%;
+			color:$maintextColor;
+		}
+		.textInput{
+			border: none;
+			background-color: #ffffff;
+			position: relative;
+			margin-right: 0;
+		}
+		.start{
+			margin-left: -6px;
+			width: 140px;
+			color: #ffffff;
+			z-index: 3;
+			height: 50px;
+			font-size: 105%;
+			border-radius: 3px;
+			margin-top: 1px;
+
 		}
 	}
 
-	.mojoCan {
-		position: absolute;
-		bottom: -1rem;
-		width: 100%;
-		text-align: center;
-		height: 35%;
+	.fb .icons{background: url(#{$img_path}fb_icon_fon.png) repeat;}
+	.vk .icons{background: url(#{$img_path}vk_icon_fon.png) repeat;}
+	.od .icons{background: url(#{$img_path}od_icon_fon.png) repeat;}
+	.fb {background: url(#{$img_path}fb_button_fon.png) repeat;}
+	.vk {background: url(#{$img_path}vk_button_fon.png) repeat;}
+	.od {background: url(#{$img_path}od_button_fon.png) repeat;}
 
-		@media (min-width: 900px) {
-			& {
-				height: 30%;
+}
+
+
+.frame3{
+	background-image: url("#{$img_path}screen3_left_logo.png"),  url("#{$img_path}screen3_right_logo.png");
+	background-size: 24%, 24%; /* Современные браузеры */
+	background-position: left top, right bottom;
+	background-repeat: no-repeat, no-repeat;
+	width: 100%;
+
+	.content{
+		position: relative;
+		padding-top: 50px;
+		width: 50%;
+		left: 25%;
+		min-height: 666px;
+
+		.left-side{
+			float:left;
+			font-size: 110%;
+			margin-top: 8px;
+			color: $textColor;
+
+		}
+		.right-side{
+			width: 25%;
+			margin-right: 70px;
+			margin-bottom: 25px;
+		}
+		.question{
+			margin-top: 17px;
+			position:relative;
+			clear:both;
+			input{
+				width: 87%;
+				margin-right: -24px;
 			}
-		}
-/*		img {
-			height: 100%;
-		}*/
-
-		.image {
-			$height: rem(294);
-			$width: rem(109);
-
-			width: $width;
-			height: $height;
-
-			position: absolute;
-			bottom: -2rem;
-			left: 50%;
-			margin-left: -$width/2;
-			@extend %bg-image-cover;
-		}
-
-		.buttons {
-			position: absolute;
-			height: 100%;
-			top: 0;
-			left: 50%;
-
-
-			.prev, .next {
-				$size: rem(70);
-
+			.symb{
+				width: 50px;
+				cursor: pointer;
 				position: absolute;
-				width: $size;
-				height: $size;
-				@extend %bg-image-cover;
-				background-image: url('#{$img_path}canNext.png');
-				top: 50%;
-				margin-top: -$size/2;
-				opacity: 0.5;
-
-				&:hover {
-					opacity: 1;
-					cursor: pointer;
+				height: 50px;
+				border: 1px solid #4b4b4b;
+				border-left: none;
+				bottom:0px;
+				right: 10%;
+				border-right: none;
+				text-align: center;
+				background: url("#{$img_path}input_right_fon.png") repeat 0 0;
+				span{
+					position: relative;
+					top: 14px;
+					font-size: 120%;
+					color: #ffffff;
 				}
 			}
-
-			.prev {
-				left: rem(-160);
-				@include rotate(180);
-			}
-			.next {
-				right: rem(-160);
+			.quesBtn{
+				width: 43%;
+				margin-right: 3.5%;
+				height: 50px;
 
 			}
+			.activeBtn{
+
+			}
+
+			.day{
+				width: 110px;
+				margin-right: 25px;
+			}
+			.month{
+				width: 200px;
+				margin-right: 25px;
+			}
+			.year{
+				width:160px;
+			}
+
+		}
+		.select .symb{
+			border: none;
+			width: 51px;
+			height: 52px;
+			border-radius: 2px
+
+		}
+		.quesLabel{
+			margin-top: 21px;
+			margin-bottom: 20px;
+		}
+		.comment{
+			margin-top: 10px;
+			text-align: right;
+			width:42%;
+			font-size: 80%;
+			color: $textColor;
+		}
+		.specializ{
+			width:91%;
+		}
+		.toQues{
+			margin: 20px 0 100px;
+			width: 91%;
+			height: 50px;
+			background-image: url("#{$img_path}valid_correct.png");
+			background-repeat: no-repeat;
+			background-position-x: 35%;
+			background-position-y: 70%;
+			padding-left: 75px;
+
 		}
 	}
+
 }
 
-.simplePageHelloPage {
+.frame4{
 
-	.personInfo {
-		position: absolute;
-		width: 100%;
-		top: 25%;
-		text-align: center;
-		text-transform: uppercase;
-
-
-		.image {
-			@extend %bg-image-cover;
-			border-radius: 50%;
-			width: rem(80);
-			height: rem(80);
-			margin: 0 auto rem(5);
-			position: relative;
+	background-image: url("#{$img_path}screen3_left_logo.png"),  url("#{$img_path}screen3_right_logo.png"), url("#{$img_path}email_block_fon.png");
+	background-size: 24%, 24%; /* Современные браузеры */
+	background-position: left top, right bottom;
+	background-repeat: no-repeat, no-repeat, repeat;
+	.content{
+		position: relative;
+		padding-top: 70px;
+		width: 50%;
+		left: 25%;
+		min-height: 666px;
+		.quesLabel{
+			clear: both;
+			margin-top: 25px;
+			margin-bottom: 10px;
 		}
-		p {
-			font-size: rem(30);
-			color: #333333;
-		}
-	}
+		.toQues{
+			margin:10px 0;
+			background-image: none;
 
-	.mindreaderInfo {
-		position: absolute;
-		width: 100%;
-		top: 45%;
-		text-align: center;
-		text-transform: uppercase;
-		padding: 0 15%;
+			width: 91%;
+			height: 50px;
 
-		.red {
-			color: #d0112b;
-		}
-		img {
-			width: rem(7);
-		}
-		p {
-			font-size: 2.8125em;
-			color: #d9d9d9;
-		}
-	}
-
-	.mindreaderPushInfo {
-		position: absolute;
-		bottom: 20%;
-		width: 100%;
-		text-transform: uppercase;
-		text-align: center;
-
-		p {
-			font-size: rem(30);
-			color: #333333;
-		}
-	}
-
-	.start {
-		$width: rem(220);
-
-		background: #d0112b;
-		color: #ffffff;
-		font-size: rem(24);
-		font-family: 'PFDinTextCondPro';
-		font-weight: 500;
-		padding: 0.8rem 0;
-		position: absolute;
-		left: 50%;
-		bottom: 5%;
-		width: $width;
-		margin-left: -$width/2;
-		text-align: center;
-		text-transform: uppercase;
-
-		&:hover {
-			cursor: pointer;
-		}
-	}
-}
-
-.simplePageMindInputPage {
-
-	overflow: hidden;
-
-	.motto {
-		position: absolute;
-		width: 100%;
-		top: 25%;
-		text-align: center;
-		text-transform: uppercase;
-
-		p {
-			font-size: rem(40);
-			color: #333333;
-		}
-	}
-
-	.instruction {
-		position: absolute;
-		top: 40%;
-		width: 100%;
-
-		td {
-			vertical-align: bottom;
-			text-align: center;
-			font-size: rem(20);
-			color: #333333;
-			width: 33.3%;
-			text-transform: uppercase;
-		}
-	}
-
-	.discoverMyself {
-		position: absolute;
-		width: 120%;
-		bottom: 15%;
-
-		&:before {
-			$size: 1em;
-
-			content: '';
-			display: block;
-			position: absolute;
-			width: $size;
-			height: $size;
-			left: -$size/2;
-			top: 50%;
-			margin-top: -$size/2;
-			background: #f2f2f2;
-			@include rotate(45);
 		}
 
+		.left-side{
+			float:left;
+			font-size: 110%;
+			margin-top: 8px;
+			color: $textColor;
 
-		.avatar {
-			position: absolute;
-			left: -10rem;
-			height: 150%;
-			top: -25%;
-
-			.image {
-				@extend %bg-image-cover;
-				border-radius: 50%;
-				width: rem(80);
-				height: rem(80);
-				margin: 0 auto rem(5);
-				position: relative;
-			}
 		}
-
-		input {
-			font-size: rem(40);
-			border: none;
-			float: right;
-			font-family: 'PFDinTextCompPro';
-			font-weight: 200;
-			width: 75%;
-			height: 3.8rem;
-			padding: 0 1rem;
-			position: absolute;
-			left: -1000px;
-		}
-/*		input {
-			color: #065f17;
-			background: #f2f2f2;
-			font-size: rem(40);
-			border: none;
-			float: right;
-			position: relative;
-			font-family: 'PFDinTextCompPro';
-			font-weight: 200;
-			width: 75%;
-			height: 3.8rem;
-			padding: 0 1rem;
-		}*/
-		button {
-			color: #ffffff;
-			background: #d0112b;
-			font-size: 145%;
-			font-family: 'PFDinTextCondPro';
-			font-weight: 500;
-			float: right;
-			position: relative;
-			padding: 1rem 5%;
-			text-transform: uppercase;
+		.right-side{
 			width: 25%;
-
-			&:hover {
-				cursor: pointer;
+			margin-right: 70px;
+			margin-bottom: 25px;
+		}
+		.question{
+			margin-top: 20px;
+			margin-bottom: 17px;
+			position:relative;
+			clear:both;
+			textarea{
+				width:89.5%;
+				height:150px;
 			}
+
+		}
+		.quesBtn{
+			width: 91%;
+			margin-right: 3.5%;
+			height: 50px;
+			background: url("#{$img_path}email_block_fon.png") repeat;
+
+			border: 1px solid $textColor;
+			color:$textColor
+
+		}
+		.halfBtn{
+			width:43%;
+		}
+		.activeBtn{
+			background: $startColor;
+			border: 1px solid $startColor;
+			color:#ffffff;
+
+		}
+		.ready{
+			margin: 20px 0 100px;
+			width: 91%;
+			height: 50px;
+			background-image: url("#{$img_path}valid_correct.png");
+			background-repeat: no-repeat;
+			background-position-x: 45%;
+			background-position-y: 70%;
+			padding-left: 75px;
 		}
 	}
 
-	#cmd {
-		font-family: 'PFDinTextCompPro';
-		background: #f2f2f2;
-		padding: 0.66rem 1rem;
-		overflow: hidden;
-		font-size: rem(40);
 
-		&.ginger {
-			color: #ffaa1d;
-		}
-		&.cola {
-			color: #400406;
 
-		}
-		&.mint {
-			color: #065f17;
-		}
-	}
-
-	#cmd span {
-		float: left;
-		padding-left: 3px;
-		white-space: pre;
-	}
-
-	#cursor {
-		float: left;
-		height: rem(40);
-		width: 0.9rem;
-		@extend %bg-image-cover;
-	}
-
-	input {
-		width: 0;
-		height: 0;
-		opacity: 0;
-	}
-	
 }
 
 
-.simplePageLoadingPage {
+.frame5{
+	height:100%;
+	width:100%;
+	background: #ffffff;
 
-	.mojoCan {
-		$width: rem(190);
-		$height: rem(511);
-
-		width: $width;
-		height: $height;
-		@extend %bg-image-cover;
-		background-image: url('#{$img_path}mojoLoadingCan.png');
-		position: absolute;
-		left: 50%;
-		top: 50%;
-		margin-left: -$width/2;
-		margin-top: -$height/2;
-		@include animation(spin 4000ms infinite linear);
-	}
-
-	.loadingCounter {
-		position: absolute;
-		bottom: 10%;
+	.banner{
+		background-image: url("#{$img_path}footer_picture.png"), url("#{$img_path}screen5_right_logo.png");
+		background-repeat: repeat, no-repeat;
+		background-position:0 0, right bottom;
+		background-size: 100%, 24%;
+		height: 118%;
 		width: 100%;
-		text-transform: uppercase;
-		text-align: center;
+		top: -18%;
+		left: 0;
+		overflow: hidden;
+	}
+	.logo{
+		background: url("#{$img_path}main_logo.png") no-repeat 0 0;
+		background-size: 100%;
+		height: 80%;
+		top: 25%;
+		width: 50%;
+		left: 42%;
+		z-index: 2;
+		position: absolute;
+	}
 
-		h1 {
-			font-size: rem(60);
-			color: #ffffff;
-			font-weight: 200;
-		}
+
+	.banText{
+		width: 30%;
+
+		top: 45%;
+		color: #242e68;
+		text-align: right;
+		right:9%;
+	}
+	.banTitle{
+		margin-bottom: 4%;
+		font-size: 120%;
+		line-height: 120%;
+
+	}
+	.banDesc{
+		line-height: 120%;
+		font-size: 90%;
 	}
 }
+

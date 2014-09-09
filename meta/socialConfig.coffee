@@ -1,8 +1,8 @@
 module.exports =
 	facebook:
-		clientID: '833463653355016'
-		clientSecret: '4c5290ada952c7d0ab40fa5e51f177c2'
+		clientID: '1467152086895015'
+		clientSecret: '8d15d8dd0acf82a4ea41d2612a4c6e2b'
 		callbackURL: 'http://46.21.104.20:3001/auth/facebook/callback'
 
 	vk:
-		apiId: 4536669
+		apiId: 4542267
