@@ -3,7 +3,7 @@ html(lang="ru")
     head
         block header
             meta(charset="UTF-8")
-            title= "Mojo | Административная панель"
+            title= "Polpharma | Административная панель"
             meta(content='width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no' name='viewport')
             link(href="/css/admin/bootstrap.min.css" rel="stylesheet" type="text/css")
             link(href="/css/admin/font-awesome.min.css" rel="stylesheet" type="text/css")
@@ -43,14 +43,6 @@ html(lang="ru")
                             a.module(href="/admin/simplePages")
                                 i.fa.fa-file
                                 span= "Простые страницы"
-                        li(class= (currentHref == 'minds' ? "active" : ""))
-                            a.module(href="/admin/minds")
-                                i.fa.fa-cloud
-                                span= "Мысли"
-                        li(class= (currentHref == 'mindImages' ? "active" : ""))
-                            a.module(href="/admin/mindImages")
-                                i.fa.fa-picture-o
-                                span= "Картинки для мыслей"
             aside#moduleContent
                 block content
         block scripts
