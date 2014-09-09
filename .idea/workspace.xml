@@ -1,139 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="550f5691-9265-4354-b327-79290a18cf34" name="Default" comment="first commit">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/user/checkbox_arrow_down.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/user/corner_logo.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/user/email_block_fon.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/user/email_block_logo.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/user/email_button_fon.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/user/fb_button_fon.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/user/fb_icon.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/user/fb_icon_fon.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/user/footer_picture.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/user/input_right_fon.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/user/logo.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/user/main_banner.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/user/main_logo.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/user/od_button_fon.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/user/od_icon.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/user/od_icon_fon.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/user/screen3_left_logo.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/user/screen3_mini_logo.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/user/screen3_right_logo.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/user/screen4_left_logo.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/user/screen4_right_logo.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/user/screen5_right_logo.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/user/valid_correct.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/user/valid_wrong.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/user/valid_wrong_fon.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/user/vk_button_fon.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/user/vk_icon.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/user/vk_icon_fon.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/app/user/simplePage/alternateViews/gratitude.stache" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/app/user/simplePage/alternateViews/login-page.stache" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/app/user/simplePage/alternateViews/main-page.stache" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/app/user/simplePage/alternateViews/personal-form.stache" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/app/user/simplePage/alternateViews/questions-form.stache" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/app/user/simplePage/simplePageModel.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/models/visitor.coffee" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/fonts/PFDinTextCompPro-Medium/_.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/fonts/PFDinTextCompPro-Medium/_.otf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/fonts/PFDinTextCompPro-Medium/_.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/fonts/PFDinTextCompPro-Medium/_.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/fonts/PFDinTextCompPro-Medium/_.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/fonts/PFDinTextCompPro-Thin/_.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/fonts/PFDinTextCompPro-Thin/_.otf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/fonts/PFDinTextCompPro-Thin/_.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/fonts/PFDinTextCompPro-Thin/_.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/fonts/PFDinTextCompPro-Thin/_.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/fonts/PFDinTextCompPro-XBlack/_.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/fonts/PFDinTextCompPro-XBlack/_.otf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/fonts/PFDinTextCompPro-XBlack/_.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/fonts/PFDinTextCompPro-XBlack/_.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/fonts/PFDinTextCompPro-XBlack/_.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/fonts/PFDinTextCondPro-Bold/_.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/fonts/PFDinTextCondPro-Bold/_.otf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/fonts/PFDinTextCondPro-Bold/_.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/fonts/PFDinTextCondPro-Bold/_.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/fonts/PFDinTextCondPro-Bold/_.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/fonts/PFDinTextCondPro-Medium/_.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/fonts/PFDinTextCondPro-Medium/_.otf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/fonts/PFDinTextCondPro-Medium/_.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/fonts/PFDinTextCondPro-Medium/_.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/fonts/PFDinTextCondPro-Medium/_.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/fonts/PFDinTextCondPro-Thin/_.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/fonts/PFDinTextCondPro-Thin/_.otf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/fonts/PFDinTextCondPro-Thin/_.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/fonts/PFDinTextCondPro-Thin/_.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/fonts/PFDinTextCondPro-Thin/_.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/fonts/PFDinTextPro-Light/_.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/fonts/PFDinTextPro-Light/_.otf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/fonts/PFDinTextPro-Light/_.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/fonts/PFDinTextPro-Light/_.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/fonts/PFDinTextPro-Light/_.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/fonts/PFDinTextPro-Thin/_.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/fonts/PFDinTextPro-Thin/_.otf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/fonts/PFDinTextPro-Thin/_.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/fonts/PFDinTextPro-Thin/_.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/fonts/PFDinTextPro-Thin/_.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/user/canNext.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/user/caret.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/user/closeEyes.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/user/colaCan.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/user/colaCan500.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/user/colaCanLarge.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/user/dima.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/user/favicon.ico" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/user/fb_login.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/user/freeMind.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/user/gagarin.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/user/gingerCan.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/user/gingerCanLarge.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/user/handsOnKeyboard.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/user/mintCan.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/user/mintCan500.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/user/mintCanLarge.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/user/mojoCan.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/user/mojoLoadingCan.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/user/mojoMindreader.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/user/stishkiImages/1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/user/stishkiImages/2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/user/stishkiImages/3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/user/stishkiImages/4.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/user/stishkiImages/5.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/user/stishkiImages/6.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/user/stishkiImages/7.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/user/stishkiImages/8.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/user/vk_login.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/app/user/mind/css/mind.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/app/user/mind/css/mind.css.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/app/user/mind/css/mind.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/app/user/mind/index.stache" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/app/user/mind/mind.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/app/user/simplePage/alternateViews/hello-page.stache" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/app/user/simplePage/alternateViews/loading.stache" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/app/user/simplePage/alternateViews/mainPage.stache" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/app/user/simplePage/alternateViews/mind-input.stache" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/scss/base/_variables.scss" afterPath="$PROJECT_DIR$/public/scss/base/_variables.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/app/user/core/config.js" afterPath="$PROJECT_DIR$/public/js/app/user/core/config.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/init/database.coffee" afterPath="$PROJECT_DIR$/init/database.coffee" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/app/user/core/css/global.css.map" afterPath="$PROJECT_DIR$/public/js/app/user/core/css/global.css.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/app/user/global/css/global.css.map" afterPath="$PROJECT_DIR$/public/js/app/user/global/css/global.css.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/app/user/core/css/global.css" afterPath="$PROJECT_DIR$/public/js/app/user/core/css/global.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/app/user/global/css/global.css" afterPath="$PROJECT_DIR$/public/js/app/user/global/css/global.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/app/user/global/global.js" afterPath="$PROJECT_DIR$/public/js/app/user/global/global.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/app/user/core/css/global.scss" afterPath="$PROJECT_DIR$/public/js/app/user/core/css/global.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/app/user/global/css/global.scss" afterPath="$PROJECT_DIR$/public/js/app/user/global/css/global.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/app/user/global/index.stache" afterPath="$PROJECT_DIR$/public/js/app/user/global/index.stache" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/controllers/user/main.coffee" afterPath="$PROJECT_DIR$/controllers/user/main.coffee" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/app/user/simplePage/css/simplePage.css.map" afterPath="$PROJECT_DIR$/public/js/app/user/simplePage/css/simplePage.css.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/app/user/simplePage/css/simplePage.css" afterPath="$PROJECT_DIR$/public/js/app/user/simplePage/css/simplePage.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/app/user/simplePage/simplePage.js" afterPath="$PROJECT_DIR$/public/js/app/user/simplePage/simplePage.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/app/user/simplePage/css/simplePage.scss" afterPath="$PROJECT_DIR$/public/js/app/user/simplePage/css/simplePage.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/meta/socialConfig.coffee" afterPath="$PROJECT_DIR$/meta/socialConfig.coffee" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/controllers/user.coffee" afterPath="$PROJECT_DIR$/controllers/user.coffee" />
+    <list default="true" id="550f5691-9265-4354-b327-79290a18cf34" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Polpharma.iws" />
@@ -272,214 +140,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Polpharma" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Polpharma" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="public" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Polpharma" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Polpharma" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="public" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Polpharma" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Polpharma" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="public" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="user" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="simplePage" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Polpharma" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Polpharma" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="public" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="user" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="simplePage" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="alternateViews" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Polpharma" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Polpharma" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="public" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="user" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Polpharma" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Polpharma" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="public" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Polpharma" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Polpharma" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="models" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Polpharma" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Polpharma" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="controllers" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Polpharma" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Polpharma" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="controllers" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="user" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Polpharma" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Polpharma" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="controllers" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="admin" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
     </panes>
@@ -525,15 +185,21 @@
       <created>1410179796730</created>
       <updated>1410179796730</updated>
     </task>
+    <task id="LOCAL-00001" summary="alpha">
+      <created>1410275592093</created>
+      <updated>1410275592093</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="24" width="1680" height="1026" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25274727" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25274727" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32870865" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -564,7 +230,8 @@
       <TodoPanelSettings />
     </option>
     <MESSAGE value="first commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="first commit" />
+    <MESSAGE value="alpha" />
+    <option name="LAST_COMMIT_MESSAGE" value="alpha" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -612,7 +279,9 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/init/database.coffee">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="33" selection-start="388" selection-end="388" vertical-scroll-proportion="0.2853907" vertical-offset="0" max-vertical-offset="883" />
+        <state line="14" column="33" selection-start="388" selection-end="388" vertical-scroll-proportion="0.2853907" vertical-offset="0" max-vertical-offset="883">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/public/js/app/user/core/config.js">
@@ -674,7 +343,9 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/meta/socialConfig.coffee">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="22" selection-start="197" selection-end="197" vertical-scroll-proportion="0.14269535" vertical-offset="0" max-vertical-offset="883" />
+        <state line="7" column="22" selection-start="197" selection-end="197" vertical-scroll-proportion="0.14269535" vertical-offset="0" max-vertical-offset="883">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Polpharma_layout/public/scss/blocks/frame3.scss">
