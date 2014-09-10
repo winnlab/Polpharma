@@ -2,8 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="550f5691-9265-4354-b327-79290a18cf34" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/app/user/simplePage/simplePage.js" afterPath="$PROJECT_DIR$/public/js/app/user/simplePage/simplePage.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/models/visitor.coffee" afterPath="$PROJECT_DIR$/models/visitor.coffee" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dump/Polpharma/cities.bson" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dump/Polpharma/languages.bson" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dump/Polpharma/networks.bson" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dump/Polpharma/roles.bson" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dump/Polpharma/simplePages.bson" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dump/Polpharma/users.bson" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dump/Polpharma/visitors.bson" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dump/Polpharma/cities.metadata.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dump/Polpharma/languages.metadata.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dump/Polpharma/networks.metadata.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dump/Polpharma/permissions.bson" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dump/Polpharma/permissions.metadata.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dump/Polpharma/roles.metadata.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dump/Polpharma/simplePages.metadata.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dump/Polpharma/system.indexes.bson" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dump/Polpharma/users.metadata.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dump/Polpharma/visitors.metadata.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Polpharma.iws" />
@@ -57,7 +72,7 @@
       <file leaf-file-name="visitor.coffee" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/models/visitor.coffee">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="101" column="23" selection-start="1623" selection-end="1623" vertical-scroll-proportion="0.74229074" vertical-offset="1144" max-vertical-offset="2106">
+            <state line="90" column="16" selection-start="1451" selection-end="1451" vertical-scroll-proportion="0.52422905" vertical-offset="1144" max-vertical-offset="2106">
               <folding />
             </state>
           </provider>
@@ -564,15 +579,19 @@
       <created>1410370743587</created>
       <updated>1410370743587</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="network_id fix">
+      <created>1410370986048</created>
+      <updated>1410370986049</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="24" width="1680" height="1026" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25579977" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25579977" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="true" content_ui="tabs" />
@@ -609,7 +628,8 @@
     <MESSAGE value="changed port" />
     <MESSAGE value="appearance fixes" />
     <MESSAGE value="user part done, admin visitor functionality done" />
-    <option name="LAST_COMMIT_MESSAGE" value="user part done, admin visitor functionality done" />
+    <MESSAGE value="network_id fix" />
+    <option name="LAST_COMMIT_MESSAGE" value="network_id fix" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -963,7 +983,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/models/visitor.coffee">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="101" column="23" selection-start="1623" selection-end="1623" vertical-scroll-proportion="0.74229074" vertical-offset="1144" max-vertical-offset="2106">
+        <state line="90" column="16" selection-start="1451" selection-end="1451" vertical-scroll-proportion="0.52422905" vertical-offset="1144" max-vertical-offset="2106">
           <folding />
         </state>
       </provider>
