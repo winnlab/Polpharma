@@ -296,7 +296,6 @@ define([
 			},
 
 			'input.network keyup': function (el, ev) {
-				console.log('network');
 				var text = el.val();
 
 				if (text.length > 2) {

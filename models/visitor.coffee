@@ -97,6 +97,9 @@ VisitorSchemaFields =
 	network:
 		type: String
 		required: false
+	network_id:
+		type: String
+		required: false
 	numberAddress:
 		type: String
 		required: false
