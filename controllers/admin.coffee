@@ -4,8 +4,7 @@ View = require '../lib/view'
 
 Main = require './admin/main'
 SimplePage = require './admin/simplePages'
-Mind = require './admin/minds'
-MindImage = require './admin/mindImages'
+Visitor = require './admin/visitors'
 
 Router = express.Router()
 
@@ -27,23 +26,10 @@ Router.delete '/simplePage/:id?', SimplePage.delete
 
 #----------------#
 
-Router.post '/mind/image', Mind.imageSave
-Router.delete '/mind/image', Mind.imageDelete
-
-Router.get '/mind', Mind.findAll
-Router.post '/mind', Mind.save
-Router.put '/mind/:id?', Mind.save
-Router.delete '/mind/:id?', Mind.delete
-
-#----------------#
-
-Router.post '/mindImage/image', MindImage.imageSave
-Router.delete '/mindImage/image', MindImage.imageDelete
-
-Router.get '/mindImage', MindImage.findAll
-Router.post '/mindImage', MindImage.save
-Router.put '/mindImage/:id?', MindImage.save
-Router.delete '/mindImage/:id?', MindImage.delete
+Router.get '/visitor', Visitor.findAll
+Router.post '/visitor', Visitor.save
+Router.put '/visitor/:id?', Visitor.save
+Router.delete '/visitor/:id?', Visitor.delete
 
 #----------------#
 

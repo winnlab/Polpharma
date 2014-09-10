@@ -28,7 +28,9 @@
     <div class="footer absPos">
         <img class="absPos" src="{{appState.imgPath}}email_block_logo.png"/>
         <div class="text-center">Если Вы не пользуетесь социальными сетями:</div>
-        <input type="email" value="" class="textInput" placeholder="email">
-        <input type="button" value="Отправить" class="start">
+        <form class="sendEmail">
+            <input type="email" value="" class="textInput" name="email" placeholder="email">
+            <input type="submit" value="Отправить" class="start">
+        </form>
     </div>
 </div>

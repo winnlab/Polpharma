@@ -4,12 +4,14 @@ define([
 	'canjs',
 	'core/appState',
 	'app/simplePage/simplePageModel',
+	'underscore',
 	'core/helpers/preloader',
+	'velocity',
 	'social/vk/vk_sdk',
 	'social/fb/fb_sdk',
 	'css!app/simplePage/css/simplePage.css'
 ],
-	function (can, appState, SimplePageModel) {
+	function (can, appState, SimplePageModel, _) {
 
 		return can.Control.extend({
 			defaults: {
@@ -154,28 +156,32 @@ define([
 
 				var self = this;
 
-				var formData = can.deparam(el.serialize());
+				if ( el.find('.wrong').length == 0 ) {
+					var formData = can.deparam(el.serialize());
 
-				if ( appState.attr('user.facebook') != null ) {
-					formData.facebook = {};
-					formData.facebook.id = appState.attr('user.facebook.id');
-				} else if ( appState.attr('user.vk') != null) {
-					formData.vk = {};
-					formData.vk.id = appState.attr('user.vk.uid');
+					if ( appState.attr('user._id') != null ) {
+						formData._id = appState.attr('user._id');
+					} else if ( appState.attr('user.facebook') != null ) {
+						formData.facebook = {};
+						formData.facebook.id = appState.attr('user.facebook.id');
+					} else if ( appState.attr('user.vk') != null) {
+						formData.vk = {};
+						formData.vk.id = appState.attr('user.vk.uid');
+					}
+
+					var simplePage = new SimplePageModel(formData);
+
+					simplePage.save()
+						.done(function() {
+							can.route.attr({
+								module: 'simplePage',
+								id: 'questions-form'
+							}, true);
+						})
+						.fail(function (data) {
+							console.error(data);
+						});
 				}
-
-				var simplePage = new SimplePageModel(formData);
-
-				simplePage.save()
-					.done(function() {
-						can.route.attr({
-							module: 'simplePage',
-							id: 'questions-form'
-						}, true);
-					})
-					.fail(function (data) {
-						console.error(data);
-					});
 			},
 
 			'.questionsForm submit': function (el, ev) {
@@ -186,7 +192,9 @@ define([
 
 				var formData = can.deparam(el.serialize());
 
-				if ( appState.attr('user.facebook') != null ) {
+				if ( appState.attr('user._id') != null ) {
+					formData._id = appState.attr('user._id');
+				} else if ( appState.attr('user.facebook') != null ) {
 					formData.facebook = {};
 					formData.facebook.id = appState.attr('user.facebook.id');
 				} else if ( appState.attr('user.vk') != null) {
@@ -206,6 +214,115 @@ define([
 					.fail(function (data) {
 						console.error(data);
 					});
+			},
+
+			'.sendEmail submit': function (el, ev) {
+				ev.preventDefault();
+
+				var formData = can.deparam(el.serialize());
+
+				if ( appState.attr('user._id') != null ) {
+					formData._id = appState.attr('user._id');
+				}
+
+				var simplePage = new SimplePageModel(formData);
+
+				simplePage.save()
+					.done(function(data) {
+						appState.attr('user._id', data._id);
+						can.route.attr({
+							module: 'simplePage',
+							id: 'questions-form'
+						}, true);
+					})
+					.fail(function (data) {
+						console.error(data);
+					});
+			},
+
+			'.quesBtn click': function (el, ev) {
+				var $parent = el.parents('.parentQuestion');
+
+				if (el.hasClass('showChild')) {
+					var $child = $parent.next();
+
+					if ($child.hasClass('childQuestion')) {
+						$child.velocity('slideDown');
+					}
+				} else if ($parent.find('.showChild').length > 0) {
+					var $child = $parent.next();
+
+					if ($child.hasClass('childQuestion')) {
+						$child.velocity('slideUp');
+					}
+				}
+			},
+
+			'input keyup': function (el, ev) {
+				if (el.val().length > 0) {
+					el.parents('.question').find('.valid').removeClass('wrong').addClass('correct');
+				} else if ( el.val().length == 0 ) {
+					el.parents('.question').find('.valid').removeClass('correct').addClass('wrong');
+				}
+			},
+
+			'input.city keyup': function (el, ev) {
+				var text = el.val();
+
+				if (text.length > 2) {
+					var matches = _.filter(appState.attr('cities').attr(), function (city) {
+						return city.name.toLowerCase().indexOf(text.toLowerCase()) > -1;
+					});
+
+					if (matches.length > 0) {
+						appState.attr('cityMatches', matches);
+					} else {
+						appState.attr('cityMatches', null);
+					}
+				} else {
+					appState.attr('cityMatches', null);
+				}
+			},
+
+			'.cityMatchItem click': function (el, ev) {
+				var _id = el.data('_id');
+
+				var $wrapper = el.parents('.question');
+
+				$wrapper.find('input[name=city]').val(el.html());
+				$wrapper.find('input[name=city_id]').val(_id);
+
+				appState.attr('cityMatches', null);
+			},
+
+			'input.network keyup': function (el, ev) {
+				console.log('network');
+				var text = el.val();
+
+				if (text.length > 2) {
+					var matches = _.filter(appState.attr('networks').attr(), function (network) {
+						return network.name.toLowerCase().indexOf(text.toLowerCase()) > -1;
+					});
+
+					if (matches.length > 0) {
+						appState.attr('networkMatches', matches);
+					} else {
+						appState.attr('networkMatches', null);
+					}
+				} else {
+					appState.attr('networkMatches', null);
+				}
+			},
+
+			'.networkMatchItem click': function (el, ev) {
+				var _id = el.data('_id');
+
+				var $wrapper = el.parents('.question');
+
+				$wrapper.find('input[name=network]').val(el.html());
+				$wrapper.find('input[name=network_id]').val(_id);
+
+				appState.attr('networkMatches', null);
 			}
 		});
 

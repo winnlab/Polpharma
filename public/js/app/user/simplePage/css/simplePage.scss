@@ -427,3 +427,34 @@
 	}
 }
 
+.childQuestion {
+	display: none;
+}
+
+.matchCitiesWrap, .matchNetworksWrap {
+
+	clear: both;
+	position: relative;
+
+	.matchCities, .matchNetworks {
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		background: #ffffff;
+		z-index: 999;
+		max-height: 400px;
+
+
+		.cityMatchItem, .networkMatchItem {
+			padding: 1%;
+			color: $textColor;
+			border: 2px solid #ffffff;
+
+			&:hover {
+				border: 2px solid $textColor;
+				cursor: pointer;
+			}
+		}
+	}
+}

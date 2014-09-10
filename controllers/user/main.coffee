@@ -28,6 +28,10 @@ getData = (req, lang, cb) ->
 	async.parallel
 		simplePages: (proceed) ->
 			Model 'SimplePage', 'find', proceed
+		networks: (proceed) ->
+			Model 'Network', 'find', proceed
+		cities: (proceed) ->
+			Model 'City', 'find', proceed
 
 	, (err, data) ->
 		return cb err if err

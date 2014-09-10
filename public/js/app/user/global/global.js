@@ -25,6 +25,7 @@ define([
 				self.element.append(html);
 				self.initVkSDK();
 				self.initFbSDK();
+/*				self.initOdSDK();*/
 			},
 
 			initVkSDK: function () {
@@ -41,8 +42,34 @@ define([
 					xfbml: true,
 					version: 'v2.1'
 				});
-			}
+			},
 
+			initOdSDK: function () {
+
+				var FAPI_Params = Object(FAPI.Util.getRequestParameters());
+				FAPI.init(FAPI_Params['api_server'], FAPI_Params['apiconnection'], function()
+					{
+						console.log('success');
+					}
+					, function()
+					{
+						console.log('fail');
+					}
+				);
+
+/*				var rParams = FAPI.Util.getRequestParameters();
+
+				FAPI.init(rParams["api_server"], rParams["apiconnection"],
+
+					function() {
+						console.log('success');
+					},
+
+					function(error){
+						console.error(error);
+					}
+				);*/
+			}
 		});
 	}
 );

@@ -52,6 +52,9 @@ VisitorSchemaFields =
 	city:
 		type: String
 		required: false
+	city_id:
+		type: String
+		required: false
 	speciality:
 		type: String
 		required: false
@@ -89,6 +92,12 @@ VisitorSchemaFields =
 		type: String
 		required: false
 	useSmartphones:
+		type: String
+		required: false
+	network:
+		type: String
+		required: false
+	numberAddress:
 		type: String
 		required: false
 

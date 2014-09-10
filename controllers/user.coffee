@@ -3,6 +3,7 @@ passport = require 'passport'
 
 View = require '../lib/view'
 Main = require './user/main.coffee'
+ParseCities = require './user/parseCities.coffee'
 
 Router = express.Router()
 
@@ -19,6 +20,7 @@ Router.use (req, res, next) ->
 
 Router.get '/', Main.index
 Router.post '/personalData', Main.setPersonalData
+Router.put '/personalData', Main.setPersonalData
 Router.get '/simplePage/:id', Main.index
 
 Router.get '/auth/facebook', Main.facebookLogin

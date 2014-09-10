@@ -356,4 +356,26 @@
     line-height: 120%;
     font-size: 90%; }
 
+.childQuestion {
+  display: none; }
+
+.matchCitiesWrap, .matchNetworksWrap {
+  clear: both;
+  position: relative; }
+  .matchCitiesWrap .matchCities, .matchCitiesWrap .matchNetworks, .matchNetworksWrap .matchCities, .matchNetworksWrap .matchNetworks {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: #ffffff;
+    z-index: 999;
+    max-height: 400px; }
+    .matchCitiesWrap .matchCities .cityMatchItem, .matchCitiesWrap .matchCities .networkMatchItem, .matchCitiesWrap .matchNetworks .cityMatchItem, .matchCitiesWrap .matchNetworks .networkMatchItem, .matchNetworksWrap .matchCities .cityMatchItem, .matchNetworksWrap .matchCities .networkMatchItem, .matchNetworksWrap .matchNetworks .cityMatchItem, .matchNetworksWrap .matchNetworks .networkMatchItem {
+      padding: 1%;
+      color: #8a8a8a;
+      border: 2px solid #ffffff; }
+      .matchCitiesWrap .matchCities .cityMatchItem:hover, .matchCitiesWrap .matchCities .networkMatchItem:hover, .matchCitiesWrap .matchNetworks .cityMatchItem:hover, .matchCitiesWrap .matchNetworks .networkMatchItem:hover, .matchNetworksWrap .matchCities .cityMatchItem:hover, .matchNetworksWrap .matchCities .networkMatchItem:hover, .matchNetworksWrap .matchNetworks .cityMatchItem:hover, .matchNetworksWrap .matchNetworks .networkMatchItem:hover {
+        border: 2px solid #8a8a8a;
+        cursor: pointer; }
+
 /*# sourceMappingURL=simplePage.css.map */

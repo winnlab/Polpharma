@@ -17,12 +17,8 @@ define({
 			path: 'app/simplePages/simplePages',
 			title: ''
 		}, {
-			name: 'minds',
-			path: 'app/minds/minds',
-			title: ''
-		}, {
-			name: 'mindImages',
-			path: 'app/mindImages/mindImages',
+			name: 'visitors',
+			path: 'app/visitors/visitors',
 			title: ''
 		}]
 	}
