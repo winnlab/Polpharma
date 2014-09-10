@@ -232,7 +232,7 @@ define([
 						appState.attr('user._id', data._id);
 						can.route.attr({
 							module: 'simplePage',
-							id: 'questions-form'
+							id: 'personal-form'
 						}, true);
 					})
 					.fail(function (data) {
