@@ -5,6 +5,7 @@ socialConfig = require '../meta/socialConfig'
 passport = require 'passport'
 localStrategy = require('passport-local').Strategy
 facebookStrategy = require('passport-facebook').Strategy
+odnoklassnikiStrategy = require('passport-odnoklassniki').Strategy
 
 mongoose = require 'mongoose'
 Model = require '../lib/model'
@@ -18,11 +19,15 @@ passport.serializeUser (user, done) ->
 
 passport.deserializeUser (id, done) ->
 
+	console.log id
 	async.waterfall [
 		(next)->
 			Model 'User', 'findOne', next, {_id : id}
 		(user, next) ->
-			done null, user
+			if user
+				done null, user
+			else
+				Model 'Visitor', 'findOne', done, {_id : id}
 	], done
 
 validation = (err, user, password, done) ->
@@ -75,7 +80,30 @@ exports.init = (callback) ->
 							role: 'user'
 			], done
 
+	odnoklassnikiAuth = new odnoklassnikiStrategy
+		clientID: socialConfig.odnoklassniki.clientID
+		clientPublic: socialConfig.odnoklassniki.clientPublic
+		clientSecret: socialConfig.odnoklassniki.clientSecret
+		callbackURL: socialConfig.odnoklassniki.clientID
+
+	, (accessToken, refreshToken, profile, done) ->
+
+		process.nextTick ->
+			async.waterfall [
+				(next) ->
+					Model 'Visitor', 'findOne', next, {'odnoklassniki.id': profile.id}
+				(visitor, next) ->
+					if visitor
+						done null, visitor
+					else
+						Model 'Visitor', 'create', done,
+							odnoklassniki:
+								id: profile.id
+								name: profile.name
+			], done
+
 	passport.use 'facebook', facebookAuth
+	passport.use 'odnoklassniki', odnoklassnikiAuth
 	passport.use 'admin', adminAuth
 	passport.use 'user', clientAuth
 

@@ -83,7 +83,6 @@
   margin-top: 7%;
   width: 40%;
   color: #ffffff;
-  padding: 3%;
   font-size: 120%;
   height: 50px; }
 
@@ -181,6 +180,9 @@
   background-position: left top, right bottom;
   background-repeat: no-repeat, no-repeat;
   width: 100%; }
+  .frame3 textarea {
+    font-size: 110%;
+    color: #8a8a8a; }
   .frame3 .content {
     position: relative;
     padding-top: 50px;
@@ -264,6 +266,9 @@
   /* Современные браузеры */
   background-position: left top, right bottom;
   background-repeat: no-repeat, no-repeat, repeat; }
+  .frame4 textarea {
+    font-size: 110%;
+    color: #8a8a8a; }
   .frame4 .content {
     position: relative;
     padding-top: 70px;
@@ -303,6 +308,10 @@
       background: url("/img/user/email_block_fon.png") repeat;
       border: 1px solid #8a8a8a;
       color: #8a8a8a; }
+      .frame4 .content .quesBtn:hover {
+        background: #222c6a;
+        border: 1px solid #222c6a;
+        color: #ffffff; }
     .frame4 .content .halfBtn {
       width: 43%; }
     .frame4 .content .activeBtn {

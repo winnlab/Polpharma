@@ -165,6 +165,8 @@ define([
 						formData.facebook = appState.attr('user.facebook').attr();
 					} else if ( appState.attr('user.vk') != null) {
 						formData.vk = appState.attr('user.vk').attr();
+					} else if ( appState.attr('user.odnoklassniki') != null) {
+						formData.odnoklassniki = appState.attr('user.odnoklassniki').attr();
 					}
 
 					var simplePage = new SimplePageModel(formData);
@@ -196,6 +198,8 @@ define([
 					formData.facebook = appState.attr('user.facebook').attr();
 				} else if ( appState.attr('user.vk') != null) {
 					formData.vk = appState.attr('user.vk').attr();
+				} else if ( appState.attr('user.odnoklassniki') != null) {
+					formData.odnoklassniki = appState.attr('user.odnoklassniki').attr();
 				}
 
 				var simplePage = new SimplePageModel(formData);

@@ -44,6 +44,7 @@
 		"passport-facebook": "1.0.3",
 		"passport-vkontakte": "0.2.1",
 		"node-xlsx": "0.4.0",
-		"mysql": "2.5.0"
+		"mysql": "2.5.0",
+		"passport-odnoklassniki": "0.1.5"
 	}
 }

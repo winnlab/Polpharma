@@ -37,6 +37,17 @@ VisitorSchemaFields =
 		last_name:
 			type: String
 			required: false
+	odnoklassniki:
+		id:
+			type: String
+			required:false
+		name:
+			familyName:
+				type: String
+				required: false
+			givenName:
+				type: String
+				required: false
 	email: {
 		type: String,
 		required: false

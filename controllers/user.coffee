@@ -4,6 +4,7 @@ passport = require 'passport'
 View = require '../lib/view'
 Main = require './user/main.coffee'
 ParseCities = require './user/parseCities.coffee'
+socialConfig = require '../meta/socialConfig'
 
 Router = express.Router()
 
@@ -27,5 +28,11 @@ Router.get '/auth/facebook', Main.facebookLogin
 Router.get '/auth/facebook/callback', passport.authenticate 'facebook',
 	successRedirect: '/simplePage/hello-page'
 	failureRedirect: '/'
+
+Router.get '/auth/odnoklassniki', Main.odnoklassnikiLogin
+Router.get '/auth/'+socialConfig.odnoklassniki.clientID, passport.authenticate "odnoklassniki",
+	successRedirect: '/simplePage/personal-form'
+	failureRedirect: "/simplePage/login-page"
+
 
 exports.Router = Router

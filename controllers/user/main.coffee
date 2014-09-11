@@ -54,6 +54,7 @@ getQueryLang = (url, cb) ->
 
 
 exports.index = (req, res) ->
+
 	async.waterfall [
 		(next) ->
 			if langs
@@ -106,6 +107,7 @@ exports.ie = (req, res) ->
 	View.render 'user/ie', res, {}
 
 exports.facebookLogin = Auth.authenticate 'facebook'
+exports.odnoklassnikiLogin = Auth.authenticate 'odnoklassniki'
 
 exports.setPersonalData = (req, res) ->
 	_id = req.body._id
@@ -119,6 +121,8 @@ exports.setPersonalData = (req, res) ->
 				Model 'Visitor', 'findOne', next, {'facebook.id': data.facebook.id}
 			else if data.vk and data.vk.uid
 				Model 'Visitor', 'findOne', next, {'vk.uid': data.vk.uid}
+			else if data.odnoklassniki and data.odnoklassniki.id
+				Model 'Visitor', 'findOne', next, {'odnoklassniki.id': data.odnoklassniki.id}
 			else
 				next null, null
 		(doc, next) ->
