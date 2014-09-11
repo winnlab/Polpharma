@@ -106,6 +106,10 @@ define([
 				}
 			},
 
+			'.socNets.od click': function (el, ev) {
+				window.location = '/auth/odnoklassniki';
+			},
+
 			saveUser: function (name, image, fbProfile, vkProfile) {
 				appState.attr('user.facebook', fbProfile);
 				appState.attr('user.vk', vkProfile);
