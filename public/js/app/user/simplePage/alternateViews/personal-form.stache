@@ -61,34 +61,79 @@
                 <div class="valid wrong"></div>
             </div>
             <br/>
-            <div class="left-side quesLabel">Кем Вы работаете:</div>
-            <div class="question radioWrapper">
-                <input type="button" class="quesBtn radioButton" data-value="1" value="Врач"/>
-                <input type="button" class="quesBtn radioButton" data-value="2" value="Фармацевт"/>
-                <div class="hidden">
-                    <input type="radio" name="jobType" value="1"/>
-                    <input type="radio" name="jobType" value="2"/>
-                </div>
-            </div>
-            <div class="left-side quesLabel">Тип учреждения:</div>
-            <div class="question checkboxWrapper">
-                <input type="button" class="quesBtn checkboxButton" data-value="1" value="Поликлиника"/>
-                <input type="button" class="quesBtn checkboxButton" data-value="2" value="Стационар"/>
-                <div class="hidden">
-                    <input type="checkbox" name="institutionType[]" value="1"/>
-                    <input type="checkbox" name="institutionType[]" value="2"/>
-                </div>
-            </div>
-            <div class="right-side comment">Возможно выбрать два варианта</div>
-            <br/>
 
-            <div class="left-side quesLabel">Специальность:</div>
-            <div class="question">
-                <select name="speciality" class="specializ">
-                    <option value="1">Травматолог</option>
-                    <option value="2">Хирург</option>
-                    <option value="3">Гастроэнтеролог</option>
-                </select>
+            <div class="questionContainer parent">
+                <div class="left-side quesLabel">Кем Вы работаете:</div>
+                <div class="question radioWrapper">
+                    <input type="button" class="quesBtn radioButton switcher" data-value="1" value="Врач"/>
+                    <input type="button" class="quesBtn radioButton switcher" data-value="2" value="Фармацевт"/>
+                    <div class="hidden">
+                        <input type="radio" name="jobType" value="1"/>
+                        <input type="radio" name="jobType" value="2"/>
+                    </div>
+                </div>
+            </div>
+
+            <div class="questionContainer child">
+
+                <div class="questionWrap" data-question_value="1">
+
+                    <div class="left-side quesLabel">Тип учреждения:</div>
+                    <div class="question checkboxWrapper">
+                        <input type="button" class="quesBtn checkboxButton" data-value="1" value="Поликлиника"/>
+                        <input type="button" class="quesBtn checkboxButton" data-value="2" value="Стационар"/>
+                        <div class="hidden">
+                            <input type="checkbox" name="institutionType[]" value="1"/>
+                            <input type="checkbox" name="institutionType[]" value="2"/>
+                        </div>
+                    </div>
+                    <div class="right-side comment">Возможно выбрать два варианта</div>
+                    <br/>
+
+                    <div class="left-side quesLabel">Специальность:</div>
+                    <div class="question">
+                        <select name="speciality" class="specializ">
+                            <option value="1">Педиатр</option>
+                            <option value="2">Терапевт</option>
+                            <option value="3">Кардиолог</option>
+                            <option value="4">Семейный врач</option>
+                            <option value="5">Гастроэнтеролог</option>
+                            <option value="6">Невропатолог</option>
+                            <option value="7">Аллерголог</option>
+                            <option value="8">Дерматолог</option>
+                            <option value="9">Пульмонолог</option>
+                            <option value="10">Офтальмолог</option>
+                            <option value="11">Инфекционист</option>
+                            <option value="12">ЛОР</option>
+                        </select>
+                    </div>
+
+                </div>
+
+                <div class="questionWrap" data-question_value="2">
+
+                    <div class="left-side quesLabel">Тип учреждения:</div>
+                    <div class="question radioWrapper">
+                        <input type="button" class="quesBtn radioButton" data-value="3" value="Сетевая аптека"/>
+                        <input type="button" class="quesBtn radioButton" data-value="4" value="Несетевая аптека"/>
+                        <div class="hidden">
+                            <input type="checkbox" name="institutionType[]" value="3"/>
+                            <input type="checkbox" name="institutionType[]" value="4"/>
+                        </div>
+                    </div>
+                    <br/>
+
+                    <div class="left-side quesLabel">Специальность:</div>
+                    <div class="question">
+                        <select name="speciality" class="specializ">
+                            <option value="13">провизор</option>
+                            <option value="14">заведующий аптекой</option>
+                            <option value="15">менеджер по закупкам</option>
+                        </select>
+                    </div>
+
+                </div>
+
             </div>
 
             <div class="left-side quesLabel">Сеть и город:</div>

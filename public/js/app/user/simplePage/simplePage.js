@@ -162,11 +162,9 @@ define([
 					if ( appState.attr('user._id') != null ) {
 						formData._id = appState.attr('user._id');
 					} else if ( appState.attr('user.facebook') != null ) {
-						formData.facebook = {};
-						formData.facebook.id = appState.attr('user.facebook.id');
+						formData.facebook = appState.attr('user.facebook').attr();
 					} else if ( appState.attr('user.vk') != null) {
-						formData.vk = {};
-						formData.vk.id = appState.attr('user.vk.uid');
+						formData.vk = appState.attr('user.vk').attr();
 					}
 
 					var simplePage = new SimplePageModel(formData);
@@ -195,11 +193,9 @@ define([
 				if ( appState.attr('user._id') != null ) {
 					formData._id = appState.attr('user._id');
 				} else if ( appState.attr('user.facebook') != null ) {
-					formData.facebook = {};
-					formData.facebook.id = appState.attr('user.facebook.id');
+					formData.facebook = appState.attr('user.facebook').attr();
 				} else if ( appState.attr('user.vk') != null) {
-					formData.vk = {};
-					formData.vk.id = appState.attr('user.vk.uid');
+					formData.vk = appState.attr('user.vk').attr();
 				}
 
 				var simplePage = new SimplePageModel(formData);
@@ -322,6 +318,20 @@ define([
 				$wrapper.find('input[name=network_id]').val(_id);
 
 				appState.attr('networkMatches', null);
+			},
+
+			'input.switcher click': function (el, ev) {
+				var $parent = el.parents('.questionContainer');
+				var $child = $parent.next();
+
+				var $otherBlocks = $child.find('.questionWrap').not('[data-question_value='+el.data('value')+']');
+				var $blockToShow = $child.find('[data-question_value='+el.data('value')+']');
+
+				if ($blockToShow.css('display') == 'none') {
+					$otherBlocks.velocity('slideUp', function(){
+						$blockToShow.velocity('slideDown');
+					});
+				}
 			}
 		});
 

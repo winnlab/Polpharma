@@ -2,7 +2,35 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="550f5691-9265-4354-b327-79290a18cf34" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/app/admin/mindImages/css/mindImages.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/app/admin/mindImages/css/mindImages.css.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/app/admin/mindImages/css/mindImages.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/app/admin/mindImages/mindImage.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/app/admin/mindImages/mindImages.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/app/admin/mindImages/mindImagesModel.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/app/admin/mindImages/views/index.stache" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/app/admin/mindImages/views/set.stache" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/app/admin/minds/css/minds.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/app/admin/minds/css/minds.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/app/admin/minds/mind.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/app/admin/minds/minds.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/app/admin/minds/mindsModel.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/app/admin/minds/views/index.stache" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/app/admin/minds/views/set.stache" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/js/app/admin/minds/css/minds.css.map" afterPath="$PROJECT_DIR$/public/js/app/admin/visitors/css/visitors.css.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/app/admin/visitors/views/index.stache" afterPath="$PROJECT_DIR$/public/js/app/admin/visitors/views/index.stache" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/controllers/user/main.coffee" afterPath="$PROJECT_DIR$/controllers/user/main.coffee" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/app/user/simplePage/alternateViews/personal-form.stache" afterPath="$PROJECT_DIR$/public/js/app/user/simplePage/alternateViews/personal-form.stache" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/app/user/simplePage/alternateViews/questions-form.stache" afterPath="$PROJECT_DIR$/public/js/app/user/simplePage/alternateViews/questions-form.stache" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/app/admin/visitors/views/set.stache" afterPath="$PROJECT_DIR$/public/js/app/admin/visitors/views/set.stache" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/app/user/simplePage/css/simplePage.css.map" afterPath="$PROJECT_DIR$/public/js/app/user/simplePage/css/simplePage.css.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/app/user/simplePage/css/simplePage.css" afterPath="$PROJECT_DIR$/public/js/app/user/simplePage/css/simplePage.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/app/user/simplePage/simplePage.js" afterPath="$PROJECT_DIR$/public/js/app/user/simplePage/simplePage.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/app/user/simplePage/css/simplePage.scss" afterPath="$PROJECT_DIR$/public/js/app/user/simplePage/css/simplePage.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/app/admin/core/viewHelpers.js" afterPath="$PROJECT_DIR$/public/js/app/admin/core/viewHelpers.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/models/visitor.coffee" afterPath="$PROJECT_DIR$/models/visitor.coffee" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/app/admin/visitors/css/visitors.css" afterPath="$PROJECT_DIR$/public/js/app/admin/visitors/css/visitors.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/app/admin/visitors/css/visitors.scss" afterPath="$PROJECT_DIR$/public/js/app/admin/visitors/css/visitors.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Polpharma.iws" />
@@ -26,10 +54,46 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="simplePage.js" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="simplePage.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public/js/app/user/simplePage/simplePage.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="234" column="41" selection-start="6036" selection-end="6036" vertical-scroll-proportion="0.5837004" vertical-offset="3682" max-vertical-offset="6012">
+            <state line="312" column="41" selection-start="8067" selection-end="8067" vertical-scroll-proportion="0.0" vertical-offset="5212" max-vertical-offset="6192">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="visitor.coffee" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/models/visitor.coffee">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="105" column="20" selection-start="1700" selection-end="1700" vertical-scroll-proportion="0.0" vertical-offset="1441" max-vertical-offset="2412">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="personal-form.stache" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/public/js/app/user/simplePage/alternateViews/personal-form.stache">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="113" column="0" selection-start="5497" selection-end="5497" vertical-scroll-proportion="0.3484163" vertical-offset="1726" max-vertical-offset="3114">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="viewHelpers.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/js/app/admin/core/viewHelpers.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="61" column="49" selection-start="1948" selection-end="1948" vertical-scroll-proportion="0.0" vertical-offset="784" max-vertical-offset="2160">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="simplePage.scss" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/js/app/user/simplePage/css/simplePage.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="462" column="18" selection-start="7578" selection-end="7578" vertical-scroll-proportion="-32.333332" vertical-offset="7540" max-vertical-offset="8442">
               <folding />
             </state>
           </provider>
@@ -67,7 +131,6 @@
         <option value="$PROJECT_DIR$/public/js/app/user/global/global.js" />
         <option value="$PROJECT_DIR$/views/user/index.jade" />
         <option value="$PROJECT_DIR$/public/js/app/user/simplePage/alternateViews/login-page.stache" />
-        <option value="$PROJECT_DIR$/public/js/app/user/simplePage/alternateViews/questions-form.stache" />
         <option value="$PROJECT_DIR$/models/network.coffee" />
         <option value="$PROJECT_DIR$/controllers/user/parseExcel.js" />
         <option value="$PROJECT_DIR$/public/js/app/user/core/helpers/viewHelpers.js" />
@@ -80,27 +143,31 @@
         <option value="$PROJECT_DIR$/controllers/admin.coffee" />
         <option value="$PROJECT_DIR$/controllers/admin/visitors.coffee" />
         <option value="$PROJECT_DIR$/public/js/app/admin/visitors/visitorsModel.js" />
-        <option value="$PROJECT_DIR$/public/js/app/admin/visitors/visitor.js" />
-        <option value="$PROJECT_DIR$/public/js/app/admin/visitors/views/set.stache" />
-        <option value="$PROJECT_DIR$/public/js/app/admin/visitors/views/index.stache" />
         <option value="$PROJECT_DIR$/public/js/app/admin/core/config.js" />
         <option value="$PROJECT_DIR$/public/js/app/admin/minds/css/minds.scss" />
         <option value="$PROJECT_DIR$/views/admin/layout.jade" />
         <option value="$PROJECT_DIR$/public/js/app/admin/visitors/visitors.js" />
-        <option value="$PROJECT_DIR$/controllers/user/main.coffee" />
-        <option value="$PROJECT_DIR$/public/js/app/user/simplePage/alternateViews/personal-form.stache" />
         <option value="$PROJECT_DIR$/public/js/app/user/core/appState.js" />
-        <option value="$PROJECT_DIR$/public/js/app/user/simplePage/css/simplePage.scss" />
+        <option value="$PROJECT_DIR$/controllers/user/main.coffee" />
+        <option value="$PROJECT_DIR$/public/js/app/admin/visitors/css/visitors.scss" />
+        <option value="$PROJECT_DIR$/public/js/app/admin/visitors/views/index.stache" />
+        <option value="$PROJECT_DIR$/public/js/app/admin/visitors/visitor.js" />
+        <option value="$PROJECT_DIR$/public/js/app/admin/visitors/views/set.stache" />
         <option value="$PROJECT_DIR$/models/visitor.coffee" />
+        <option value="$PROJECT_DIR$/public/js/app/user/simplePage/alternateViews/questions-form.stache" />
+        <option value="$PROJECT_DIR$/public/js/app/user/simplePage/css/simplePage.scss" />
+        <option value="$PROJECT_DIR$/public/js/app/user/simplePage/alternateViews/personal-form.stache" />
         <option value="$PROJECT_DIR$/public/js/app/user/simplePage/simplePage.js" />
+        <option value="$PROJECT_DIR$/public/js/app/admin/core/viewHelpers.js" />
       </list>
     </option>
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="y" value="24" />
+    <option name="x" value="-1680" />
+    <option name="y" value="-4" />
     <option name="width" value="1680" />
-    <option name="height" value="1026" />
+    <option name="height" value="1054" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -236,8 +303,30 @@
               <option name="myItemId" value="user" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+          </PATH>
+          <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="simplePage" />
+              <option name="myItemId" value="Polpharma" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Polpharma" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="public" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="admin" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -263,127 +352,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="user" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="simplePage" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="css" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Polpharma" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Polpharma" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="public" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="user" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="simplePage" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="alternateViews" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Polpharma" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Polpharma" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="public" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="user" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Polpharma" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Polpharma" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="public" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="user" />
+              <option name="myItemId" value="admin" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="core" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Polpharma" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Polpharma" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="public" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -438,7 +411,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Mojo" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Shake" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="options.lastSelected" value="preferences.sourceCode.Jade" />
     <property name="options.splitter.main.proportions" value="0.3" />
@@ -544,26 +517,30 @@
       <created>1410371138107</created>
       <updated>1410371138107</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="route fix">
+      <created>1410371617667</created>
+      <updated>1410371617667</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="24" width="1680" height="1026" extended-state="6" />
-    <editor active="true" />
+    <frame x="-1680" y="-4" width="1680" height="1054" extended-state="6" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25579977" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.22771673" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32834226" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32941177" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -591,46 +568,22 @@
     <MESSAGE value="user part done, admin visitor functionality done" />
     <MESSAGE value="network_id fix" />
     <MESSAGE value="mongo dump" />
-    <option name="LAST_COMMIT_MESSAGE" value="mongo dump" />
+    <MESSAGE value="route fix" />
+    <MESSAGE value="frontend ready, admin visitors ready" />
+    <option name="LAST_COMMIT_MESSAGE" value="frontend ready, admin visitors ready" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/models/user.coffee">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="1495" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1800">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/js/app/admin/simplePages/simplePages.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="34" selection-start="218" selection-end="218" vertical-scroll-proportion="0.17841409" vertical-offset="54" max-vertical-offset="2862" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/js/app/admin/simplePages/simplePage.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="49" selection-start="579" selection-end="579" vertical-scroll-proportion="0.57488984" vertical-offset="0" max-vertical-offset="1134" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/js/app/user/simplePage/simplePageModel.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="42" selection-start="299" selection-end="299" vertical-scroll-proportion="0.3370044" vertical-offset="0" max-vertical-offset="908" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/controllers/admin/mindImages.coffee">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-1.0022026" vertical-offset="910" max-vertical-offset="1818">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-1.0022026" vertical-offset="910" max-vertical-offset="1818" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/node_modules/email-templates/node_modules/node-sass/node_modules/sinon/test/rhino/env.rhino.1.2.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12064" column="0" selection-start="634339" selection-end="634339" vertical-scroll-proportion="0.3329609" vertical-offset="216764" max-vertical-offset="251820">
-          <folding />
-        </state>
+        <state line="12064" column="0" selection-start="634339" selection-end="634339" vertical-scroll-proportion="0.3329609" vertical-offset="216764" max-vertical-offset="251820" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/utils/document.coffee">
@@ -642,9 +595,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/init/auth.coffee">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1566">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1566" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/init/database.coffee">
@@ -659,16 +610,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/public/js/lib/social/od/od_api_wrap.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="15" selection-start="4" selection-end="15" vertical-scroll-proportion="0.0" vertical-offset="152" max-vertical-offset="3006">
-          <folding />
-        </state>
+        <state line="0" column="15" selection-start="4" selection-end="15" vertical-scroll-proportion="0.0" vertical-offset="152" max-vertical-offset="3006" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/public/js/lib/social/od/share.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="626" column="8" selection-start="15813" selection-end="15817" vertical-scroll-proportion="0.5862069" vertical-offset="10758" max-vertical-offset="11628">
-          <folding />
-        </state>
+        <state line="626" column="8" selection-start="15813" selection-end="15817" vertical-scroll-proportion="0.5862069" vertical-offset="10758" max-vertical-offset="11628" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/public/js/lib/social/od/od_sdk.js">
@@ -680,30 +627,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/meta/socialConfig.coffee">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="22" selection-start="197" selection-end="197" vertical-scroll-proportion="0.13846155" vertical-offset="0" max-vertical-offset="910">
-          <folding />
-        </state>
+        <state line="7" column="22" selection-start="197" selection-end="197" vertical-scroll-proportion="0.13846155" vertical-offset="0" max-vertical-offset="910" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/views/user/index.jade">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="35" selection-start="281" selection-end="281" vertical-scroll-proportion="0.26440677" vertical-offset="0" max-vertical-offset="885">
-          <folding />
-        </state>
+        <state line="13" column="35" selection-start="281" selection-end="281" vertical-scroll-proportion="0.26440677" vertical-offset="0" max-vertical-offset="885" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/view.coffee">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="38" column="8" selection-start="677" selection-end="677" vertical-scroll-proportion="0.36703297" vertical-offset="350" max-vertical-offset="1260">
-          <folding />
-        </state>
+        <state line="38" column="8" selection-start="677" selection-end="677" vertical-scroll-proportion="0.36703297" vertical-offset="350" max-vertical-offset="1260" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/public/js/app/user/simplePage/alternateViews/login-page.stache">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="31" column="70" selection-start="1243" selection-end="1243" vertical-scroll-proportion="0.62979686" vertical-offset="0" max-vertical-offset="886">
-          <folding />
-        </state>
+        <state line="31" column="70" selection-start="1243" selection-end="1243" vertical-scroll-proportion="0.62979686" vertical-offset="0" max-vertical-offset="886" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/public/js/app/user/core/config.js">
@@ -715,37 +654,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/public/js/app/user/core/core.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1458">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/js/app/user/simplePage/alternateViews/questions-form.stache">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="50" selection-start="948" selection-end="961" vertical-scroll-proportion="-0.69074494" vertical-offset="972" max-vertical-offset="2394">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1458" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/models/article.coffee">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="15" selection-start="303" selection-end="303" vertical-scroll-proportion="0.3047404" vertical-offset="0" max-vertical-offset="886">
-          <folding />
-        </state>
+        <state line="15" column="15" selection-start="303" selection-end="303" vertical-scroll-proportion="0.3047404" vertical-offset="0" max-vertical-offset="886" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/models/mind.coffee">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="450" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="886">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="450" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="886" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/logs/10_09_14_16_27_21.log">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="882">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="882" />
       </provider>
       <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
         <state />
@@ -753,79 +677,57 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/public/js/app/user/core/helpers/viewHelpers.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="34" selection-start="536" selection-end="536" vertical-scroll-proportion="0.43612334" vertical-offset="0" max-vertical-offset="908">
-          <folding />
-        </state>
+        <state line="22" column="34" selection-start="536" selection-end="536" vertical-scroll-proportion="0.43612334" vertical-offset="0" max-vertical-offset="908" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/public/js/app/user/global/global.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="53" column="32" selection-start="1031" selection-end="1031" vertical-scroll-proportion="0.4647577" vertical-offset="532" max-vertical-offset="1440">
-          <folding />
-        </state>
+        <state line="53" column="32" selection-start="1031" selection-end="1031" vertical-scroll-proportion="0.4647577" vertical-offset="532" max-vertical-offset="1440" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/controllers/user/parseExcel.coffee">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="47" selection-start="0" selection-end="589" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="576">
-          <folding />
-        </state>
+        <state line="19" column="47" selection-start="0" selection-end="589" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="576" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="46" column="23" selection-start="1292" selection-end="1292" vertical-scroll-proportion="0.9366516" vertical-offset="0" max-vertical-offset="972">
-          <folding />
-        </state>
+        <state line="46" column="23" selection-start="1292" selection-end="1292" vertical-scroll-proportion="0.9366516" vertical-offset="0" max-vertical-offset="972" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/models/city.coffee">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="1" selection-start="75" selection-end="75" vertical-scroll-proportion="0.07929515" vertical-offset="0" max-vertical-offset="908">
-          <folding />
-        </state>
+        <state line="4" column="1" selection-start="75" selection-end="75" vertical-scroll-proportion="0.07929515" vertical-offset="0" max-vertical-offset="908" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/models/network.coffee">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="25" selection-start="0" selection-end="294" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="360">
-          <folding />
-        </state>
+        <state line="10" column="25" selection-start="0" selection-end="294" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="360" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/controllers/user/parseCities.coffee">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="16" selection-start="669" selection-end="669" vertical-scroll-proportion="0.57488984" vertical-offset="0" max-vertical-offset="908">
-          <folding />
-        </state>
+        <state line="29" column="16" selection-start="669" selection-end="669" vertical-scroll-proportion="0.57488984" vertical-offset="0" max-vertical-offset="908" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/controllers/user.coffee">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="26" selection-start="464" selection-end="464" vertical-scroll-proportion="0.39647576" vertical-offset="0" max-vertical-offset="908">
-          <folding />
-        </state>
+        <state line="20" column="26" selection-start="464" selection-end="464" vertical-scroll-proportion="0.39647576" vertical-offset="0" max-vertical-offset="908" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/controllers/admin/simplePages.coffee">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="41" selection-start="0" selection-end="1205" vertical-scroll-proportion="-0.07048458" vertical-offset="172" max-vertical-offset="1080">
-          <folding />
-        </state>
+        <state line="6" column="41" selection-start="0" selection-end="1205" vertical-scroll-proportion="-0.07048458" vertical-offset="172" max-vertical-offset="1080" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/controllers/admin/visitors.coffee">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="52" column="52" selection-start="1144" selection-end="1144" vertical-scroll-proportion="0.8414097" vertical-offset="172" max-vertical-offset="1080">
-          <folding />
-        </state>
+        <state line="52" column="52" selection-start="1144" selection-end="1144" vertical-scroll-proportion="0.8414097" vertical-offset="172" max-vertical-offset="1080" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/controllers/admin.coffee">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="31" column="38" selection-start="777" selection-end="777" vertical-scroll-proportion="0.6145374" vertical-offset="0" max-vertical-offset="908">
-          <folding />
-        </state>
+        <state line="31" column="38" selection-start="777" selection-end="777" vertical-scroll-proportion="0.6145374" vertical-offset="0" max-vertical-offset="908" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/public/js/app/admin/visitors/visitorsModel.js">
@@ -835,75 +737,78 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/js/app/admin/visitors/visitor.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="44" column="83" selection-start="994" selection-end="994" vertical-scroll-proportion="0.8722467" vertical-offset="0" max-vertical-offset="1134">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/js/app/admin/minds/css/minds.css.map">
-      <provider editor-type-id="sourcemapFileViewerProvider">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="882">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/js/app/admin/minds/css/minds.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="9" selection-start="9" selection-end="9" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="270">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/views/admin/layout.jade">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="47" column="44" selection-start="1823" selection-end="1823" vertical-scroll-proportion="0.72246695" vertical-offset="190" max-vertical-offset="1170">
-          <folding />
-        </state>
+        <state line="47" column="44" selection-start="1823" selection-end="1823" vertical-scroll-proportion="0.72246695" vertical-offset="190" max-vertical-offset="1170" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/public/js/app/admin/visitors/visitors.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="70" column="0" selection-start="1413" selection-end="1413" vertical-scroll-proportion="0.33259913" vertical-offset="958" max-vertical-offset="2862">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/js/app/admin/visitors/views/index.stache">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="47" selection-start="1088" selection-end="1088" vertical-scroll-proportion="0.4276018" vertical-offset="108" max-vertical-offset="1080">
-          <folding />
-        </state>
+        <state line="70" column="0" selection-start="1413" selection-end="1413" vertical-scroll-proportion="0.33259913" vertical-offset="958" max-vertical-offset="2862" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/public/js/app/admin/core/config.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="40" selection-start="389" selection-end="389" vertical-scroll-proportion="0.39647576" vertical-offset="0" max-vertical-offset="908">
+        <state line="20" column="40" selection-start="389" selection-end="389" vertical-scroll-proportion="0.39647576" vertical-offset="0" max-vertical-offset="908" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/js/app/user/core/appState.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="28" column="34" selection-start="809" selection-end="809" vertical-scroll-proportion="0.5550661" vertical-offset="0" max-vertical-offset="908" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/js/app/user/simplePage/css/simplePage.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="380" column="42" selection-start="10959" selection-end="10959" vertical-scroll-proportion="0.85953176" vertical-offset="6069" max-vertical-offset="6966">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/js/app/admin/minds/minds.js">
+    <entry file="file://$PROJECT_DIR$/public/js/app/admin/dashboard/dashboard.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2862">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="910">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/js/app/admin/visitors/views/set.stache">
+    <entry file="file://$PROJECT_DIR$/public/js/app/admin/visitors/css/visitors.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="78" selection-start="405" selection-end="405" vertical-scroll-proportion="0.24434389" vertical-offset="0" max-vertical-offset="884">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="910">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/js/app/admin/visitors/css/visitors.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="5" selection-start="111" selection-end="111" vertical-scroll-proportion="0.16252822" vertical-offset="0" max-vertical-offset="886">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/controllers/user/main.coffee">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="33" column="41" selection-start="918" selection-end="918" vertical-scroll-proportion="0.40528634" vertical-offset="226" max-vertical-offset="2502">
+        <state line="111" column="19" selection-start="2728" selection-end="2728" vertical-scroll-proportion="0.44615385" vertical-offset="1592" max-vertical-offset="2502">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/js/app/admin/core/appState.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="910">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/js/app/admin/visitors/visitor.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="0" selection-start="269" selection-end="269" vertical-scroll-proportion="0.35682818" vertical-offset="0" max-vertical-offset="1134">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/js/app/admin/visitors/views/set.stache">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="139" column="50" selection-start="6512" selection-end="6512" vertical-scroll-proportion="-16.583334" vertical-offset="2104" max-vertical-offset="4266">
           <folding />
         </state>
       </provider>
@@ -915,37 +820,58 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/js/app/user/core/appState.js">
+    <entry file="file://$PROJECT_DIR$/public/js/app/admin/visitors/views/index.stache">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="34" selection-start="809" selection-end="809" vertical-scroll-proportion="0.5550661" vertical-offset="0" max-vertical-offset="908">
+        <state line="35" column="55" selection-start="1525" selection-end="1538" vertical-scroll-proportion="-12.75" vertical-offset="324" max-vertical-offset="1260">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/models/visitor.coffee">
+    <entry file="file://$PROJECT_DIR$/public/js/app/user/simplePage/alternateViews/questions-form.stache">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="83" column="23" selection-start="1328" selection-end="1328" vertical-scroll-proportion="0.38546255" vertical-offset="1144" max-vertical-offset="2106">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/js/app/user/simplePage/css/simplePage.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="456" column="13" selection-start="7536" selection-end="7536" vertical-scroll-proportion="0.87782806" vertical-offset="7432" max-vertical-offset="8370">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/js/app/user/simplePage/alternateViews/personal-form.stache">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="96" column="66" selection-start="4645" selection-end="4645" vertical-scroll-proportion="0.40950227" vertical-offset="1366" max-vertical-offset="2304">
+        <state line="120" column="85" selection-start="6761" selection-end="6761" vertical-scroll-proportion="0.45022625" vertical-offset="1762" max-vertical-offset="2646">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/public/js/app/user/simplePage/simplePage.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="234" column="41" selection-start="6036" selection-end="6036" vertical-scroll-proportion="0.5837004" vertical-offset="3682" max-vertical-offset="6012">
+        <state line="312" column="41" selection-start="8067" selection-end="8067" vertical-scroll-proportion="0.0" vertical-offset="5212" max-vertical-offset="6192">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/scss/base/_mixins.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="31" column="0" selection-start="842" selection-end="842" vertical-scroll-proportion="0.49095023" vertical-offset="124" max-vertical-offset="1008">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models/visitor.coffee">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="105" column="20" selection-start="1700" selection-end="1700" vertical-scroll-proportion="0.0" vertical-offset="1441" max-vertical-offset="2412">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/js/app/admin/core/viewHelpers.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="61" column="49" selection-start="1948" selection-end="1948" vertical-scroll-proportion="0.0" vertical-offset="784" max-vertical-offset="2160">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/js/app/user/simplePage/css/simplePage.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="462" column="18" selection-start="7578" selection-end="7578" vertical-scroll-proportion="-32.333332" vertical-offset="7540" max-vertical-offset="8442">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/js/app/user/simplePage/alternateViews/personal-form.stache">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="113" column="0" selection-start="5497" selection-end="5497" vertical-scroll-proportion="0.3484163" vertical-offset="1726" max-vertical-offset="3114">
           <folding />
         </state>
       </provider>

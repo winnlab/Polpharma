@@ -21,8 +21,20 @@ VisitorSchemaFields =
 		id:
 			type: String
 			required: false
+		first_name:
+			type: String
+			required: false
+		last_name:
+			type: String
+			required: false
 	vk:
-		id:
+		uid:
+			type: String
+			required: false
+		first_name:
+			type: String
+			required: false
+		last_name:
 			type: String
 			required: false
 	email: {
@@ -39,16 +51,15 @@ VisitorSchemaFields =
 	lastName:
 		type: String
 		required: false
-	birthDate:
-		birthDay:
-			type: String
-			required: false
-		birthMonth:
-			type: String
-			required: false
-		birthYear:
-			type: String
-			required: false
+	birthDay:
+		type: String
+		required: false
+	birthMonth:
+		type: String
+		required: false
+	birthYear:
+		type: String
+		required: false
 	city:
 		type: String
 		required: false
@@ -79,6 +90,9 @@ VisitorSchemaFields =
 	useInternetTalk:
 		type: String
 		required: false
+	useInternetTalkResources:
+		type: String
+		required: false
 	knowledgeSource:
 		type: String
 		required: false
@@ -92,6 +106,9 @@ VisitorSchemaFields =
 		type: String
 		required: false
 	useSmartphones:
+		type: String
+		required: false
+	useSmartphonesTypes:
 		type: String
 		required: false
 	network:

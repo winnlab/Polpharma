@@ -55,5 +55,61 @@ define([
             console.log(languages().attr());
         });
 
+
+
+
+		can.mustache.registerHelper('getJobType', function (jobType) {
+			var jobTypes = ['Врач', 'Фармацевт'];
+			return jobTypes[jobType()-1];
+		});
+
+		can.mustache.registerHelper('getSpeciality', function (speciality) {
+			var specialities = ['педиатр', 'терапевт', 'кардиолог', 'семейный врач', 'гастроэнтеролог', 'невропатолог', 'аллерголог', 'дерматолог', 'пульмонолог', 'офтальмолог', 'инфекционист', 'ЛОР', 'провизор', 'заведующий аптекой', 'менеджер по закупкам'];
+			return specialities[speciality()-1];
+		});
+
+		can.mustache.registerHelper('getInstitutionTypes', function (institutions) {
+			var institutionTypes = ['Поликлиника', 'Стационар', 'Сетевая аптека', 'Несетевая аптека'];
+
+			var result = '';
+
+			if ( institutions() ) {
+				for (var institution in institutions().attr()) {
+					result += institutionTypes[institutions().attr()[institution] - 1] + ',';
+				}
+
+				result = result.substring(0, result.length - 1);
+			}
+
+			return result;
+		});
+
+		can.mustache.registerHelper('getSocialNetworks', function (networks) {
+			var networkTypes = ['Facebook', 'Vkontakte', 'Odnoklassniki', 'Twitter'];
+
+			var result = '';
+
+			for (var network in networks().attr()) {
+				result += networkTypes[networks().attr()[network] - 1] + ',';
+			}
+
+			result = result.substring(0, result.length - 1);
+
+			return result;
+		});
+
+		can.mustache.registerHelper('acceptRejectHelper', function (value) {
+
+			var result = '';
+			if (value() == 1) {
+				result = '<span class="btn btn-success">Да</span>'
+			} else if (value() == 2) {
+				result = '<span class="btn btn-danger">Нет</span>'
+			} else {
+				result = '<span class="btn btn-warning">Нет ответа</span>'
+			}
+
+			return result;
+		});
 	}
 );

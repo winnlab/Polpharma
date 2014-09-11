@@ -117,8 +117,8 @@ exports.setPersonalData = (req, res) ->
 				Model 'Visitor', 'findOne', next, {_id}
 			else if data.facebook and data.facebook.id
 				Model 'Visitor', 'findOne', next, {'facebook.id': data.facebook.id}
-			else if data.vk and data.vk.id
-				Model 'Visitor', 'findOne', next, {'vk.id': data.vk.id}
+			else if data.vk and data.vk.uid
+				Model 'Visitor', 'findOne', next, {'vk.uid': data.vk.uid}
 			else
 				next null, null
 		(doc, next) ->

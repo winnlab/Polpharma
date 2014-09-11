@@ -378,4 +378,7 @@
         border: 2px solid #8a8a8a;
         cursor: pointer; }
 
+.questionWrap {
+  display: none; }
+
 /*# sourceMappingURL=simplePage.css.map */

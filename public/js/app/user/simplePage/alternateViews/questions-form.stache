@@ -19,7 +19,7 @@
             </div>
 
             <div class="questionItem childQuestion">
-                <div class="left-side quesLabel">Укажите пожалуйста какими именно</div>
+                <div class="left-side quesLabel">Укажите пожалуйста какими именно:</div>
                 <div class="question checkboxWrapper">
                     <input type="button" class="start toQues quesBtn checkboxButton" value="Facebook" data-value="1">
                     <input type="button" class="start toQues quesBtn checkboxButton" value="Vkontakte" data-value="2">
@@ -53,15 +53,22 @@
                 </div>
             </div>
 
-            <div class="questionItem">
+            <div class="questionItem parentQuestion">
                 <div class="left-side quesLabel">3.Используете ли Вы интернет для общения с пациентами?</div>
                 <div class="question radioWrapper">
-                    <input type="button" class="quesBtn halfBtn radioButton" value="Да" data-value="1" />
+                    <input type="button" class="quesBtn halfBtn radioButton showChild" value="Да" data-value="1" />
                     <input type="button" class="quesBtn halfBtn radioButton" value="Нет" data-value="2" />
                     <div class="hidden">
                         <input type="radio" name="useInternetTalk" value="1"/>
                         <input type="radio" name="useInternetTalk" value="2"/>
                     </div>
+                </div>
+            </div>
+
+            <div class="questionItem childQuestion">
+                <div class="left-side quesLabel">Уточните, пожалуйста, как именно (Skype, социальные сети, другое)</div>
+                <div class="question">
+                    <textarea name="useInternetTalkResources"></textarea>
                 </div>
             </div>
 
@@ -108,15 +115,22 @@
                 </div>
             </div>
 
-            <div class="questionItem">
+            <div class="questionItem parentQuestion">
                 <div class="left-side quesLabel">8.Пользуетесь ли вы смартфонами?</div>
                 <div class="question radioWrapper">
-                    <input type="button" class="quesBtn halfBtn radioButton" value="Да" data-value="1" />
+                    <input type="button" class="quesBtn halfBtn radioButton showChild" value="Да" data-value="1" />
                     <input type="button" class="quesBtn halfBtn radioButton" value="Нет" data-value="2" />
                     <div class="hidden">
                         <input type="radio" name="useSmartphones" value="1"/>
                         <input type="radio" name="useSmartphones" value="2"/>
                     </div>
+                </div>
+            </div>
+
+            <div class="questionItem childQuestion">
+                <div class="left-side quesLabel">Если да, то какими? (Iphone, Android, Windows):</div>
+                <div class="question">
+                    <textarea name="useSmartphonesTypes"></textarea>
                 </div>
             </div>
 
