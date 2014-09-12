@@ -23,7 +23,6 @@
                                 <th>Кем работает</th>
                                 <th>Специальность</th>
                                 <th>Город</th>
-                                <th>Сеть</th>
                                 <th>Действия</th>
                             </tr>
                             </thead>
@@ -33,9 +32,8 @@
                                     <td>{{firstName}} {{lastName}}</td>
                                     <td>{{email}}</td>
                                     <td>{{getJobType jobType}}</td>
-                                    <td>{{getSpeciality speciality jobType}}</td>
+                                    <td>{{getSpeciality speciality_doc speciality_apt jobType}}</td>
                                     <td>{{city}}</td>
-                                    <td>{{network}}</td>
                                     <td>
                                         <div class="btn btn-default editVisitor">
                                             <i class="fa fa-info"></i>

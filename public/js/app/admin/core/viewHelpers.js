@@ -65,15 +65,15 @@ define([
 			return jobTypes[jobType()-1];
 		});
 
-		can.mustache.registerHelper('getSpeciality', function (speciality, jobType) {
+		can.mustache.registerHelper('getSpeciality', function (speciality_doc, speciality_apt, jobType) {
 			var result = null;
 			var specialities_doc = ['педиатр', 'терапевт', 'кардиолог', 'семейный врач', 'гастроэнтеролог', 'невропатолог', 'аллерголог', 'дерматолог', 'пульмонолог', 'офтальмолог', 'инфекционист', 'ЛОР'];
 			var specialities_apt = ['провизор', 'заведующий аптекой', 'менеджер по закупкам'];
 
-			if ( jobType == 1) {
-				result = specialities_doc[speciality()-1];
-			} else if ( jobType == 2 ) {
-				result = specialities_apt[speciality()-1];
+			if ( jobType() == 1) {
+				result = specialities_doc[speciality_doc()-1];
+			} else if ( jobType() == 2 ) {
+				result = specialities_apt[speciality_apt()-1];
 			}
 			return result;
 		});
