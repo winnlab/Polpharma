@@ -173,9 +173,7 @@ define([
 						formData.odnoklassniki = appState.attr('user.odnoklassniki').attr();
 					}
 
-					console.log(formData);
-
-/*					var simplePage = new SimplePageModel(formData);
+					var simplePage = new SimplePageModel(formData);
 
 					simplePage.save()
 						.done(function() {
@@ -186,7 +184,7 @@ define([
 						})
 						.fail(function (data) {
 							console.error(data);
-						});*/
+						});
 				}
 			},
 

@@ -1,13 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="550f5691-9265-4354-b327-79290a18cf34" name="Default" comment="odniklassniki admin display">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/app/user/simplePage/alternateViews/gratitude.stache" afterPath="$PROJECT_DIR$/public/js/app/user/simplePage/alternateViews/gratitude.stache" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/app/admin/visitors/views/index.stache" afterPath="$PROJECT_DIR$/public/js/app/admin/visitors/views/index.stache" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/app/user/simplePage/alternateViews/personal-form.stache" afterPath="$PROJECT_DIR$/public/js/app/user/simplePage/alternateViews/personal-form.stache" />
+    <list default="true" id="550f5691-9265-4354-b327-79290a18cf34" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/app/user/simplePage/simplePage.js" afterPath="$PROJECT_DIR$/public/js/app/user/simplePage/simplePage.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/app/admin/core/viewHelpers.js" afterPath="$PROJECT_DIR$/public/js/app/admin/core/viewHelpers.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/models/visitor.coffee" afterPath="$PROJECT_DIR$/models/visitor.coffee" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Polpharma.iws" />
@@ -31,10 +26,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="simplePage.js" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="simplePage.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/public/js/app/user/simplePage/simplePage.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="177" column="2" selection-start="4722" selection-end="5004" vertical-scroll-proportion="0.0" vertical-offset="4310" max-vertical-offset="6462">
+            <state line="173" column="21" selection-start="4691" selection-end="4691" vertical-scroll-proportion="-2.647577" vertical-offset="5518" max-vertical-offset="6426">
               <folding />
             </state>
           </provider>
@@ -49,15 +44,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="viewHelpers.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/js/app/admin/core/viewHelpers.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="75" column="58" selection-start="2539" selection-end="2539" vertical-scroll-proportion="0.0" vertical-offset="972" max-vertical-offset="2376">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="visitor.coffee" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/models/visitor.coffee">
           <provider selected="true" editor-type-id="text-editor">
@@ -67,10 +53,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="login-page.stache" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="login-page.stache" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public/js/app/user/simplePage/alternateViews/login-page.stache">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="30" column="32" selection-start="1172" selection-end="1172" vertical-scroll-proportion="0.6094808" vertical-offset="0" max-vertical-offset="886">
+            <state line="30" column="32" selection-start="1172" selection-end="1172" vertical-scroll-proportion="-22.5" vertical-offset="0" max-vertical-offset="738">
               <folding />
             </state>
           </provider>
@@ -132,11 +118,11 @@
         <option value="$PROJECT_DIR$/meta/socialConfig.coffee" />
         <option value="$PROJECT_DIR$/public/js/app/admin/visitors/views/set.stache" />
         <option value="$PROJECT_DIR$/public/js/app/user/simplePage/alternateViews/gratitude.stache" />
-        <option value="$PROJECT_DIR$/public/js/app/user/simplePage/simplePage.js" />
         <option value="$PROJECT_DIR$/models/visitor.coffee" />
         <option value="$PROJECT_DIR$/public/js/app/admin/visitors/views/index.stache" />
         <option value="$PROJECT_DIR$/public/js/app/admin/core/viewHelpers.js" />
         <option value="$PROJECT_DIR$/public/js/app/user/simplePage/alternateViews/personal-form.stache" />
+        <option value="$PROJECT_DIR$/public/js/app/user/simplePage/simplePage.js" />
       </list>
     </option>
   </component>
@@ -496,7 +482,11 @@
       <created>1410455762013</created>
       <updated>1410455762013</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="speciality fix, tiny fixes">
+      <created>1410516619880</created>
+      <updated>1410516619880</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -506,6 +496,7 @@
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.23015873" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32834226" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -515,7 +506,6 @@
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -548,7 +538,8 @@
     <MESSAGE value="odniklassniki done, tiny fixes" />
     <MESSAGE value="odniklassniki window.location" />
     <MESSAGE value="odniklassniki admin display" />
-    <option name="LAST_COMMIT_MESSAGE" value="odniklassniki admin display" />
+    <MESSAGE value="speciality fix, tiny fixes" />
+    <option name="LAST_COMMIT_MESSAGE" value="speciality fix, tiny fixes" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -799,16 +790,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/js/app/user/simplePage/simplePage.js">
+    <entry file="file://$PROJECT_DIR$/models/visitor.coffee">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="177" column="2" selection-start="4722" selection-end="5004" vertical-scroll-proportion="0.0" vertical-offset="4310" max-vertical-offset="6462">
+        <state line="81" column="18" selection-start="1288" selection-end="1288" vertical-scroll-proportion="0.0" vertical-offset="846" max-vertical-offset="2646">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/js/app/user/simplePage/alternateViews/login-page.stache">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="30" column="32" selection-start="1172" selection-end="1172" vertical-scroll-proportion="-22.5" vertical-offset="0" max-vertical-offset="738">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/public/js/app/admin/core/viewHelpers.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="75" column="58" selection-start="2539" selection-end="2539" vertical-scroll-proportion="0.0" vertical-offset="972" max-vertical-offset="2376">
+        <state line="75" column="58" selection-start="2539" selection-end="2539" vertical-scroll-proportion="0.42234638" vertical-offset="972" max-vertical-offset="2376">
           <folding />
         </state>
       </provider>
@@ -820,16 +818,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/models/visitor.coffee">
+    <entry file="file://$PROJECT_DIR$/public/js/app/user/simplePage/simplePage.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="81" column="18" selection-start="1288" selection-end="1288" vertical-scroll-proportion="0.0" vertical-offset="846" max-vertical-offset="2646">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/js/app/user/simplePage/alternateViews/login-page.stache">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="30" column="32" selection-start="1172" selection-end="1172" vertical-scroll-proportion="0.6094808" vertical-offset="0" max-vertical-offset="886">
+        <state line="173" column="21" selection-start="4691" selection-end="4691" vertical-scroll-proportion="-2.647577" vertical-offset="5518" max-vertical-offset="6426">
           <folding />
         </state>
       </provider>
