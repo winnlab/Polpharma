@@ -33,7 +33,7 @@
                                     <td>{{firstName}} {{lastName}}</td>
                                     <td>{{email}}</td>
                                     <td>{{getJobType jobType}}</td>
-                                    <td>{{getSpeciality speciality}}</td>
+                                    <td>{{getSpeciality speciality jobType}}</td>
                                     <td>{{city}}</td>
                                     <td>{{network}}</td>
                                     <td>

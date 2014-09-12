@@ -6,12 +6,12 @@
             <div class="left-side">Давайте познакомимся:</div>
             <img class="right-side" src="{{appState.imgPath}}screen3_mini_logo.png"/>
             <div class="question">
-                <input type="text" placeholder="Имя" name="firstName" value=""/>
+                <input class="validate" type="text" placeholder="Имя" name="firstName" value=""/>
                 <div class="symb"><span>?</span></div>
                 <div class="valid wrong"></div>
             </div>
             <div class="question">
-                <input type="text" placeholder="Фамилия" name="lastName" value=""/>
+                <input type="text" placeholder="Фамилия" name="lastName" class="validate" value=""/>
                 <div class="symb"><span>?</span></div>
                 <div class="valid wrong"></div>
             </div>
@@ -42,7 +42,7 @@
             </div>
             <div class="question">
                 <input type="hidden" name="city_id" value=""/>
-                <input type="text" placeholder="Город" name="city" class="city" value=""/>
+                <input type="text" placeholder="Город" name="city" class="city validate" value=""/>
                 <div class="symb"><span>?</span></div>
                 <div class="valid wrong"></div>
                 {{#if appState.cityMatches}}
@@ -56,7 +56,7 @@
                 {{/if}}
             </div>
             <div class="question">
-                <input type="text" placeholder="E-mail" name="email" value=""/>
+                <input type="text" placeholder="E-mail" name="email" class="validate" value=""/>
                 <div class="symb"><span>?</span></div>
                 <div class="valid wrong"></div>
             </div>
@@ -92,7 +92,7 @@
 
                     <div class="left-side quesLabel">Специальность:</div>
                     <div class="question">
-                        <select name="speciality" class="specializ">
+                        <select name="speciality_doc" class="specializ">
                             <option value="1">Педиатр</option>
                             <option value="2">Терапевт</option>
                             <option value="3">Кардиолог</option>
@@ -125,38 +125,36 @@
 
                     <div class="left-side quesLabel">Специальность:</div>
                     <div class="question">
-                        <select name="speciality" class="specializ">
-                            <option value="13">провизор</option>
-                            <option value="14">заведующий аптекой</option>
-                            <option value="15">менеджер по закупкам</option>
+                        <select name="speciality_apt" class="specializ">
+                            <option value="1">провизор</option>
+                            <option value="2">заведующий аптекой</option>
+                            <option value="3">менеджер по закупкам</option>
                         </select>
+                    </div>
+
+                    <div class="left-side quesLabel">Сеть и город:</div>
+                    <div class="question">
+                        <input type="hidden" name="network_id" value=""/>
+                        <input type="text" placeholder="Сеть" name="network" class="network" value=""/>
+                        <div class="symb"><span>?</span></div>
+                        {{#if appState.networkMatches}}
+                            <div class="matchNetworksWrap">
+                                <div class="matchNetworks">
+                                    {{#each appState.networkMatches}}
+                                        <div class="networkMatchItem" data-_id="{{_id}}">{{name}}</div>
+                                    {{/each}}
+                                </div>
+                            </div>
+                        {{/if}}
+                    </div>
+
+                    <div class="question">
+                        <input type="text" placeholder="Номер/адрес" name="numberAddress" value=""/>
+                        <div class="symb"><span>?</span></div>
                     </div>
 
                 </div>
 
-            </div>
-
-            <div class="left-side quesLabel">Сеть и город:</div>
-            <div class="question">
-                <input type="hidden" name="network_id" value=""/>
-                <input type="text" placeholder="Сеть" name="network" class="network" value=""/>
-                <div class="symb"><span>?</span></div>
-                <div class="valid wrong"></div>
-                {{#if appState.networkMatches}}
-                    <div class="matchNetworksWrap">
-                        <div class="matchNetworks">
-                            {{#each appState.networkMatches}}
-                                <div class="networkMatchItem" data-_id="{{_id}}">{{name}}</div>
-                            {{/each}}
-                        </div>
-                    </div>
-                {{/if}}
-            </div>
-
-            <div class="question">
-                <input type="text" placeholder="Номер/адрес" name="numberAddress" value=""/>
-                <div class="symb"><span>?</span></div>
-                <div class="valid wrong"></div>
             </div>
 
             <input type="submit" class="start toQues" value="Перейти к вопросам">

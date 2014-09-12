@@ -1,3 +1,5 @@
+'use strict';
+
 define([
 	'canjs',
     'underscore'
@@ -63,9 +65,17 @@ define([
 			return jobTypes[jobType()-1];
 		});
 
-		can.mustache.registerHelper('getSpeciality', function (speciality) {
-			var specialities = ['педиатр', 'терапевт', 'кардиолог', 'семейный врач', 'гастроэнтеролог', 'невропатолог', 'аллерголог', 'дерматолог', 'пульмонолог', 'офтальмолог', 'инфекционист', 'ЛОР', 'провизор', 'заведующий аптекой', 'менеджер по закупкам'];
-			return specialities[speciality()-1];
+		can.mustache.registerHelper('getSpeciality', function (speciality, jobType) {
+			var result = null;
+			var specialities_doc = ['педиатр', 'терапевт', 'кардиолог', 'семейный врач', 'гастроэнтеролог', 'невропатолог', 'аллерголог', 'дерматолог', 'пульмонолог', 'офтальмолог', 'инфекционист', 'ЛОР'];
+			var specialities_apt = ['провизор', 'заведующий аптекой', 'менеджер по закупкам'];
+
+			if ( jobType == 1) {
+				result = specialities_doc[speciality()-1];
+			} else if ( jobType == 2 ) {
+				result = specialities_apt[speciality()-1];
+			}
+			return result;
 		});
 
 		can.mustache.registerHelper('getInstitutionTypes', function (institutions) {
@@ -89,11 +99,13 @@ define([
 
 			var result = '';
 
-			for (var network in networks().attr()) {
-				result += networkTypes[networks().attr()[network] - 1] + ',';
-			}
+			if (networks().attr().length > 0) {
+				for (var network in networks().attr()) {
+					result += networkTypes[networks().attr()[network] - 1] + ',';
+				}
 
-			result = result.substring(0, result.length - 1);
+				result = result.substring(0, result.length - 1);
+			}
 
 			return result;
 		});

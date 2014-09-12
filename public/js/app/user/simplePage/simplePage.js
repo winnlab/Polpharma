@@ -173,7 +173,9 @@ define([
 						formData.odnoklassniki = appState.attr('user.odnoklassniki').attr();
 					}
 
-					var simplePage = new SimplePageModel(formData);
+					console.log(formData);
+
+/*					var simplePage = new SimplePageModel(formData);
 
 					simplePage.save()
 						.done(function() {
@@ -184,7 +186,7 @@ define([
 						})
 						.fail(function (data) {
 							console.error(data);
-						});
+						});*/
 				}
 			},
 
@@ -206,6 +208,8 @@ define([
 					formData.odnoklassniki = appState.attr('user.odnoklassniki').attr();
 				}
 
+				console.log(formData);
+
 				var simplePage = new SimplePageModel(formData);
 
 				simplePage.save()
@@ -223,25 +227,28 @@ define([
 			'.sendEmail submit': function (el, ev) {
 				ev.preventDefault();
 
-				var formData = can.deparam(el.serialize());
+				if ( el.find('input[type=email]').val().length > 0 ) {
+					var formData = can.deparam(el.serialize());
 
-				if ( appState.attr('user._id') != null ) {
-					formData._id = appState.attr('user._id');
+					if ( appState.attr('user._id') != null ) {
+						formData._id = appState.attr('user._id');
+					}
+
+					var simplePage = new SimplePageModel(formData);
+
+					simplePage.save()
+						.done(function(data) {
+							console.log(data);
+							appState.attr('user._id', data._id);
+							can.route.attr({
+								module: 'simplePage',
+								id: 'personal-form'
+							}, true);
+						})
+						.fail(function (data) {
+							console.error(data);
+						});
 				}
-
-				var simplePage = new SimplePageModel(formData);
-
-				simplePage.save()
-					.done(function(data) {
-						appState.attr('user._id', data._id);
-						can.route.attr({
-							module: 'simplePage',
-							id: 'personal-form'
-						}, true);
-					})
-					.fail(function (data) {
-						console.error(data);
-					});
 			},
 
 			'.quesBtn click': function (el, ev) {
@@ -262,7 +269,7 @@ define([
 				}
 			},
 
-			'input keyup': function (el, ev) {
+			'input.validate keyup': function (el, ev) {
 				if (el.val().length > 0) {
 					el.parents('.question').find('.valid').removeClass('wrong').addClass('correct');
 				} else if ( el.val().length == 0 ) {

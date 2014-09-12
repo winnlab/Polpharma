@@ -51,7 +51,6 @@ VisitorSchemaFields =
 	email: {
 		type: String,
 		required: false
-		unique: true
 	}
 	created_at:
 		type: Number
@@ -77,7 +76,10 @@ VisitorSchemaFields =
 	city_id:
 		type: String
 		required: false
-	speciality:
+	speciality_doc:
+		type: String
+		required: false
+	speciality_apt:
 		type: String
 		required: false
 	institutionType:
