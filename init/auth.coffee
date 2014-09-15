@@ -19,7 +19,6 @@ passport.serializeUser (user, done) ->
 
 passport.deserializeUser (id, done) ->
 
-	console.log id
 	async.waterfall [
 		(next)->
 			Model 'User', 'findOne', next, {_id : id}

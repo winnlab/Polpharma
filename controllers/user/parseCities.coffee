@@ -22,8 +22,6 @@ exports.index = (req, res) ->
 
 			connection.query 'SELECT * FROM city_langs', next
 		(data, next) ->
-			console.log data
-
 			for city in data
 				cityItem = {name: city.name}
 				Model 'City', 'create', null, cityItem
