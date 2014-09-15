@@ -26,7 +26,9 @@ require.config({
 		'core/upload': {
 			deps: ['jquery.form']
 		}
-	}
+	},
+
+	waitSeconds: 15
 });
 
 require([		
