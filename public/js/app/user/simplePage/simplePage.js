@@ -42,6 +42,7 @@ define([
 
 				if (self.options.isReady) {
 					self.options.isReady.resolve();
+					$(window).scrollTop(0);
 				}
 			},
 
@@ -161,6 +162,7 @@ define([
 				var self = this;
 
 				if ( el.find('.wrong').length == 0 ) {
+					el.find('input[type=submit]').removeClass('validationFailure');
 					var formData = can.deparam(el.serialize());
 
 					if ( appState.attr('user._id') != null ) {
@@ -185,6 +187,8 @@ define([
 						.fail(function (data) {
 							console.error(data);
 						});
+				} else {
+					el.find('input[type=submit]').addClass('validationFailure');
 				}
 			},
 
@@ -194,32 +198,35 @@ define([
 
 				var self = this;
 
-				var formData = can.deparam(el.serialize());
+				if ( el.find('.wrong').length == 0 ) {
+					el.find('input[type=submit]').removeClass('validationFailure');
+					var formData = can.deparam(el.serialize());
 
-				if ( appState.attr('user._id') != null ) {
-					formData._id = appState.attr('user._id');
-				} else if ( appState.attr('user.facebook') != null ) {
-					formData.facebook = appState.attr('user.facebook').attr();
-				} else if ( appState.attr('user.vk') != null) {
-					formData.vk = appState.attr('user.vk').attr();
-				} else if ( appState.attr('user.odnoklassniki') != null) {
-					formData.odnoklassniki = appState.attr('user.odnoklassniki').attr();
+					if ( appState.attr('user._id') != null ) {
+						formData._id = appState.attr('user._id');
+					} else if ( appState.attr('user.facebook') != null ) {
+						formData.facebook = appState.attr('user.facebook').attr();
+					} else if ( appState.attr('user.vk') != null) {
+						formData.vk = appState.attr('user.vk').attr();
+					} else if ( appState.attr('user.odnoklassniki') != null) {
+						formData.odnoklassniki = appState.attr('user.odnoklassniki').attr();
+					}
+
+					var simplePage = new SimplePageModel(formData);
+
+					simplePage.save()
+						.done(function() {
+							can.route.attr({
+								module: 'simplePage',
+								id: 'gratitude'
+							}, true);
+						})
+						.fail(function (data) {
+							console.error(data);
+						});
+				} else {
+					el.find('input[type=submit]').addClass('validationFailure');
 				}
-
-				console.log(formData);
-
-				var simplePage = new SimplePageModel(formData);
-
-				simplePage.save()
-					.done(function() {
-						can.route.attr({
-							module: 'simplePage',
-							id: 'gratitude'
-						}, true);
-					})
-					.fail(function (data) {
-						console.error(data);
-					});
 			},
 
 			'.sendEmail submit': function (el, ev) {
@@ -268,6 +275,14 @@ define([
 			},
 
 			'input.validate keyup': function (el, ev) {
+				this.textValidate(el);
+			},
+
+			'textarea keyup': function (el, ev) {
+				this.textValidate(el);
+			},
+
+			textValidate: function (el) {
 				if (el.val().length > 0) {
 					el.parents('.question').find('.valid').removeClass('wrong').addClass('correct');
 				} else if ( el.val().length == 0 ) {
@@ -291,6 +306,10 @@ define([
 				} else {
 					appState.attr('cityMatches', null);
 				}
+			},
+
+			'input.radioValidate click': function (el, ev) {
+				el.parents('.question').find('.valid').removeClass('wrong').addClass('correct');
 			},
 
 			'.cityMatchItem click': function (el, ev) {

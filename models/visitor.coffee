@@ -109,9 +109,6 @@ VisitorSchemaFields =
 	knowledgeSource:
 		type: String
 		required: false
-	professionalKnowledge:
-		type: String
-		required: false
 	falseInformation:
 		type: String
 		required: false

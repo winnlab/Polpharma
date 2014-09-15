@@ -390,4 +390,7 @@
 .questionWrap {
   display: none; }
 
+.validationFailure {
+  background: #edb2b2; }
+
 /*# sourceMappingURL=simplePage.css.map */

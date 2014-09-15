@@ -65,12 +65,13 @@
             <div class="questionContainer parent">
                 <div class="left-side quesLabel">Кем Вы работаете:</div>
                 <div class="question radioWrapper">
-                    <input type="button" class="quesBtn radioButton switcher" data-value="1" value="Врач"/>
-                    <input type="button" class="quesBtn radioButton switcher" data-value="2" value="Фармацевт"/>
+                    <input type="button" class="quesBtn radioButton switcher radioValidate" data-value="1" value="Врач"/>
+                    <input type="button" class="quesBtn radioButton switcher radioValidate" data-value="2" value="Фармацевт"/>
                     <div class="hidden">
                         <input type="radio" name="jobType" value="1"/>
                         <input type="radio" name="jobType" value="2"/>
                     </div>
+                    <div class="valid wrong"></div>
                 </div>
             </div>
 

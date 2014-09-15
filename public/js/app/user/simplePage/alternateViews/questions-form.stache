@@ -9,12 +9,13 @@
             <div class="questionItem parentQuestion">
                 <div class="left-side quesLabel">1.Пользуетесь ли вы социальными сетями?</div>
                 <div class="question radioWrapper">
-                    <input type="button" class="quesBtn halfBtn showChild radioButton" data-value="1" value="Да"/>
-                    <input type="button" class="quesBtn halfBtn radioButton" data-value="2" value="Нет"/>
+                    <input type="button" class="quesBtn halfBtn showChild radioButton radioValidate" data-value="1" value="Да"/>
+                    <input type="button" class="quesBtn halfBtn radioButton radioValidate" data-value="2" value="Нет"/>
                     <div class="hidden">
                         <input type="radio" name="useSocial" value="1"/>
                         <input type="radio" name="useSocial" value="2"/>
                     </div>
+                    <div class="valid wrong"></div>
                 </div>
             </div>
 
@@ -37,12 +38,13 @@
             <div class="questionItem parentQuestion">
                 <div class="left-side quesLabel">2.Используете ли Вы интернет для получения профессиональных знаний</div>
                 <div class="question radioWrapper">
-                    <input type="button" class="quesBtn halfBtn showChild radioButton" value="Да" data-value="1" />
-                    <input type="button" class="quesBtn halfBtn radioButton" value="Нет" data-value="2" />
+                    <input type="button" class="quesBtn halfBtn showChild radioButton radioValidate" value="Да" data-value="1" />
+                    <input type="button" class="quesBtn halfBtn radioButton radioValidate" value="Нет" data-value="2" />
                     <div class="hidden">
                         <input type="radio" name="useInternet" value="1"/>
                         <input type="radio" name="useInternet" value="2"/>
                     </div>
+                    <div class="valid wrong"></div>
                 </div>
             </div>
 
@@ -56,12 +58,13 @@
             <div class="questionItem parentQuestion">
                 <div class="left-side quesLabel">3.Используете ли Вы интернет для общения с пациентами?</div>
                 <div class="question radioWrapper">
-                    <input type="button" class="quesBtn halfBtn radioButton showChild" value="Да" data-value="1" />
-                    <input type="button" class="quesBtn halfBtn radioButton" value="Нет" data-value="2" />
+                    <input type="button" class="quesBtn halfBtn radioButton showChild radioValidate" value="Да" data-value="1" />
+                    <input type="button" class="quesBtn halfBtn radioButton radioValidate" value="Нет" data-value="2" />
                     <div class="hidden">
                         <input type="radio" name="useInternetTalk" value="1"/>
                         <input type="radio" name="useInternetTalk" value="2"/>
                     </div>
+                    <div class="valid wrong"></div>
                 </div>
             </div>
 
@@ -75,55 +78,47 @@
             <div class="questionItem">
                 <div class="left-side quesLabel">4.Считаете ли Вы интернет важным источником знаний для пациентов?</div>
                 <div class="question radioWrapper">
-                    <input type="button" class="quesBtn halfBtn radioButton" value="Да" data-value="1" />
-                    <input type="button" class="quesBtn halfBtn radioButton" value="Нет" data-value="2" />
+                    <input type="button" class="quesBtn halfBtn radioButton radioValidate" value="Да" data-value="1" />
+                    <input type="button" class="quesBtn halfBtn radioButton radioValidate" value="Нет" data-value="2" />
                     <div class="hidden">
                         <input type="radio" name="knowledgeSource" value="1"/>
                         <input type="radio" name="knowledgeSource" value="2"/>
                     </div>
+                    <div class="valid wrong"></div>
                 </div>
             </div>
 
             <div class="questionItem">
-                <div class="left-side quesLabel">5.Используете ли Вы интернет для получения профессиональных знаний?</div>
+                <div class="left-side quesLabel">5.Считаете ли Вы, что в интернете много ложной информации о лечении и лекарствах?</div>
                 <div class="question radioWrapper">
-                    <input type="button" class="quesBtn halfBtn radioButton" value="Да" data-value="1" />
-                    <input type="button" class="quesBtn halfBtn radioButton" value="Нет" data-value="2" />
-                    <div class="hidden">
-                        <input type="radio" name="professionalKnowledge" value="1"/>
-                        <input type="radio" name="professionalKnowledge" value="2"/>
-                    </div>
-                </div>
-            </div>
-
-            <div class="questionItem">
-                <div class="left-side quesLabel">6.Считаете ли Вы, что в интернете много ложной информации о лечении и лекарствах?</div>
-                <div class="question radioWrapper">
-                    <input type="button" class="quesBtn halfBtn radioButton" value="Да" data-value="1" />
-                    <input type="button" class="quesBtn halfBtn radioButton" value="Нет" data-value="2" />
+                    <input type="button" class="quesBtn halfBtn radioButton radioValidate" value="Да" data-value="1" />
+                    <input type="button" class="quesBtn halfBtn radioButton radioValidate" value="Нет" data-value="2" />
                     <div class="hidden">
                         <input type="radio" name="falseInformation" value="1"/>
                         <input type="radio" name="falseInformation" value="2"/>
                     </div>
+                    <div class="valid wrong"></div>
                 </div>
             </div>
 
             <div class="questionItem">
-                <div class="left-side quesLabel">7.Какие сайты Вы считаете полезными для пациентов?</div>
+                <div class="left-side quesLabel">6.Какие сайты Вы считаете полезными для пациентов?</div>
                 <div class="question">
                     <textarea name="usefulSites"></textarea>
+                    <div class="valid wrong"></div>
                 </div>
             </div>
 
             <div class="questionItem parentQuestion">
-                <div class="left-side quesLabel">8.Пользуетесь ли вы смартфонами?</div>
+                <div class="left-side quesLabel">7.Пользуетесь ли вы смартфонами?</div>
                 <div class="question radioWrapper">
-                    <input type="button" class="quesBtn halfBtn radioButton showChild" value="Да" data-value="1" />
-                    <input type="button" class="quesBtn halfBtn radioButton" value="Нет" data-value="2" />
+                    <input type="button" class="quesBtn halfBtn radioButton showChild radioValidate" value="Да" data-value="1" />
+                    <input type="button" class="quesBtn halfBtn radioButton radioValidate" value="Нет" data-value="2" />
                     <div class="hidden">
                         <input type="radio" name="useSmartphones" value="1"/>
                         <input type="radio" name="useSmartphones" value="2"/>
                     </div>
+                    <div class="valid wrong"></div>
                 </div>
             </div>
 
