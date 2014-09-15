@@ -17,12 +17,37 @@ html(lang="#{data.lang}")
 				position: absolute;
 				left: 50%;
 				top: 50%;
-				margin: -100px 0 0 -100px;
-				width: 200px;
-				height: 200px;
+				margin: -25px 0 0 -126.5px;
+				width: 258px;
+				height: 50px;
+				-webkit-animation: fading 1500ms infinite;
+				-moz-animation:    fading 1500ms infinite;
+				-o-animation:      fading 1500ms infinite;
+				animation:         fading 1500ms infinite;
+			}
+			@-webkit-keyframes fading {
+				0%   { opacity: 0; }
+				50% { opacity: 1; }
+				100% { opacity: 0; }
+			}
+			@-moz-keyframes fading {
+				0%   { opacity: 0; }
+				50% { opacity: 1; }
+				100% { opacity: 0; }
+			}
+			@-o-keyframes fading {
+				0%   { opacity: 0; }
+				50% { opacity: 1; }
+				100% { opacity: 0; }
+			}
+			@keyframes fading {
+				0%   { opacity: 0; }
+				50% { opacity: 1; }
+				100% { opacity: 0; }
 			}
 	body(class="#{data.lang}")
 		div#preloader
+			img(src='/img/user/logo.png')
 		script(data-main="/js/app/user/core/core.js" src='/js/lib/require.js')
 		script.
 			window['data'] = !{JSON.stringify(data)};
