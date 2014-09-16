@@ -19,6 +19,11 @@ define(
 			},
 			parseModels: function (data) {
 				return data.message.visitors;
+			},
+			exportToExcel: function () {
+				return can.ajax({
+					url: '/admin/exportToExcel'
+				});
 			}
 		}, {
 			uploaded: function (name, value) {

@@ -9,6 +9,11 @@
                         <i class="fa fa-plus"></i>
                         &nbsp;Добавить посетителя
                     </div>
+
+                    <div class="pull-right btn btn-primary exportToExcel">
+                        <i class="fa fa-file"></i>
+                        &nbsp;Экспорт в Excel
+                    </div>
                 </h3>
             </div>
             <div class="content">

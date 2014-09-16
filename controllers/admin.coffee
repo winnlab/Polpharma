@@ -26,6 +26,7 @@ Router.delete '/simplePage/:id?', SimplePage.delete
 
 #----------------#
 
+Router.get '/exportToExcel', Visitor.exportToExcel
 Router.get '/visitor', Visitor.findAll
 Router.post '/visitor', Visitor.save
 Router.put '/visitor/:id?', Visitor.save

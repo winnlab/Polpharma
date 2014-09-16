@@ -1,17 +1,17 @@
 {
-	"name": "Shake",
+	"name": "Polpharma",
 	"version": "0.0.1",
-	"description": "Shake promo site",
+	"description": "Polpharma",
 	"private": true,
 	"scripts": {
 		"start": "coffee init"
 	},
 	"authors": {
-		"andrew-sygyda": "andrew.sygyda@gmail.com"
+		"yuriy_kabay": "yuriy.kabay@outlook.com"
 	},
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/winnlab/Shake"
+		"url": "https://github.com/winnlab/Polpharma"
 	},
 	"dependencies": {
 		"express": "4.3.1",
@@ -45,6 +45,7 @@
 		"passport-vkontakte": "0.2.1",
 		"node-xlsx": "0.4.0",
 		"mysql": "2.5.0",
-		"passport-odnoklassniki": "0.1.5"
+		"passport-odnoklassniki": "0.1.5",
+		"msexcel-builder": "0.0.2"
 	}
 }

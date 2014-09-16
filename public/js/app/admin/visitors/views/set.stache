@@ -35,6 +35,14 @@
 
                     {{#if visitor.facebook}}
                         <div class="form-group">
+                            <label class="col-md-2 control-label">Facebook ID:</label>
+                            <div class="col-md-10">
+                                <p class="form-control">{{visitor.facebook.id}}</p>
+                                <div class="help help-block"></div>
+                            </div>
+                        </div>
+
+                        <div class="form-group">
                             <label class="col-md-2 control-label">Facebook Имя:</label>
                             <div class="col-md-10">
                                 <p class="form-control">{{visitor.facebook.first_name}}</p>
@@ -52,6 +60,14 @@
                     {{/if}}
 
                     {{#if visitor.vk}}
+                        <div class="form-group">
+                            <label class="col-md-2 control-label">Vk ID:</label>
+                            <div class="col-md-10">
+                                <p class="form-control">{{visitor.vk.uid}}</p>
+                                <div class="help help-block"></div>
+                            </div>
+                        </div>
+
                         <div class="form-group">
                             <label class="col-md-2 control-label">Vk имя:</label>
                             <div class="col-md-10">
@@ -71,7 +87,15 @@
 
                     {{#if visitor.odnoklassniki}}
                         <div class="form-group">
-                            <label class="col-md-2 control-label">Odnoklassniki имя:</label>
+                            <label class="col-md-2 control-label">Odnoklassniki ID:</label>
+                            <div class="col-md-10">
+                                <p class="form-control">{{visitor.odnoklassniki.id}}</p>
+                                <div class="help help-block"></div>
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <label class="col-md-2 control-label">Odnoklassniki Имя:</label>
                             <div class="col-md-10">
                                 <p class="form-control">{{visitor.odnoklassniki.name.givenName}}</p>
                                 <div class="help help-block"></div>
@@ -79,7 +103,7 @@
                         </div>
 
                         <div class="form-group">
-                            <label class="col-md-2 control-label">Odnoklassniki фамилия:</label>
+                            <label class="col-md-2 control-label">Odnoklassniki Фамилия:</label>
                             <div class="col-md-10">
                                 <p class="form-control">{{visitor.odnoklassniki.name.familyName}}</p>
                                 <div class="help help-block"></div>
@@ -127,21 +151,25 @@
                         </div>
                     </div>
 
-                    <div class="form-group">
-                        <label class="col-md-2 control-label" for="name">Сеть:</label>
-                        <div class="col-md-10">
-                            <p class="form-control">{{visitor.network}}</p>
-                            <div class="help help-block"></div>
+                    {{#if visitor.network}}
+                        <div class="form-group">
+                            <label class="col-md-2 control-label" for="name">Сеть:</label>
+                            <div class="col-md-10">
+                                <p class="form-control">{{visitor.network}}</p>
+                                <div class="help help-block"></div>
+                            </div>
                         </div>
-                    </div>
+                    {{/if}}
 
-                    <div class="form-group">
-                        <label class="col-md-2 control-label" for="name">Номер/адрес:</label>
-                        <div class="col-md-10">
-                            <p class="form-control">{{visitor.numberAddress}}</p>
-                            <div class="help help-block"></div>
+                    {{#if visitor.numberAddress}}
+                        <div class="form-group">
+                            <label class="col-md-2 control-label" for="name">Номер/адрес:</label>
+                            <div class="col-md-10">
+                                <p class="form-control">{{visitor.numberAddress}}</p>
+                                <div class="help help-block"></div>
+                            </div>
                         </div>
-                    </div>
+                    {{/if}}
 
                 </div>
 

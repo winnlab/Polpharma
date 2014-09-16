@@ -5,5 +5,7 @@
     z-index: 1;
     right: 15px;
     top: 30px; }
+  #visitors .exportToExcel {
+    margin-right: 20px; }
 
 /*# sourceMappingURL=visitors.css.map */

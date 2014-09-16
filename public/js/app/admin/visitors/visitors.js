@@ -93,6 +93,19 @@ define(
 				}
 			},
 
+			'.exportToExcel click': function (el, ev) {
+				ev.preventDefault();
+
+				visitorsModel.exportToExcel()
+					.done(function () {
+
+						window.location.href = '/uploads/visitors.xls'
+					})
+					.fail(function () {
+						console.log('error');
+					});
+			},
+
 			/*
 			 * Set fragment functions
 			 */
