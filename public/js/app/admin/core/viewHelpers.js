@@ -99,6 +99,9 @@ define([
 
 			var result = '';
 
+            console.log(networks);
+            console.log(networks());
+            console.log(networks.attr());
 			if (networks && networks().attr().length > 0) {
 				for (var network in networks().attr()) {
 					result += networkTypes[networks().attr()[network] - 1] + ',';
