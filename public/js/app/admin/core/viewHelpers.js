@@ -99,16 +99,15 @@ define([
 
 			var result = '';
 
-            console.log(networks);
-            console.log(networks());
-            console.log(networks.attr());
-			if (networks && networks().attr().length > 0) {
-				for (var network in networks().attr()) {
-					result += networkTypes[networks().attr()[network] - 1] + ',';
-				}
+            if (networks() instanceof Array) {
+                if (networks && networks().attr().length > 0) {
+                    for (var network in networks().attr()) {
+                        result += networkTypes[networks().attr()[network] - 1] + ',';
+                    }
 
-				result = result.substring(0, result.length - 1);
-			}
+                    result = result.substring(0, result.length - 1);
+                }
+            }
 
 			return result;
 		});
