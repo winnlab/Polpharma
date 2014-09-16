@@ -99,7 +99,7 @@ define([
 
 			var result = '';
 
-			if (networks().attr().length > 0) {
+			if (networks && networks().attr().length > 0) {
 				for (var network in networks().attr()) {
 					result += networkTypes[networks().attr()[network] - 1] + ',';
 				}
