@@ -114,6 +114,10 @@ exports.exportToExcel = (req, res)->
 				institutionType = getInstitutionTypes visitor.institutionType
 				socialNetworks = getSocialNetworks visitor.socialNetworks
 
+				console.log visitor.vk
+				console.log visitor.facebook
+				console.log visitor.odnoklassniki
+
 				visitorsSheet.set 1, key+2, visitor.firstName
 				visitorsSheet.set 2, key+2, visitor.lastName
 				visitorsSheet.set 3, key+2, visitor.birthDay + '.' +visitor.birthMonth + '.' +visitor.birthYear
