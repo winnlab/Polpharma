@@ -141,17 +141,17 @@ exports.exportToExcel = (req, res)->
 				visitorsSheet.set 18, key+2, acceptReject visitor.useSmartphones
 				visitorsSheet.set 19, key+2, visitor.useSmartphonesTypes
 
-				visitorsSheet.set 17, key+2, visitor.vk?.uid
-				visitorsSheet.set 18, key+2, visitor.vk?.first_name
-				visitorsSheet.set 19, key+2, visitor.vk?.last_name
+				visitorsSheet.set 20, key+2, visitor.vk?.uid
+				visitorsSheet.set 21, key+2, visitor.vk?.first_name
+				visitorsSheet.set 22, key+2, visitor.vk?.last_name
 
-				visitorsSheet.set 17, key+2, visitor.facebook?.id
-				visitorsSheet.set 18, key+2, visitor.facebook?.first_name
-				visitorsSheet.set 19, key+2, visitor.facebook?.last_name
+				visitorsSheet.set 23, key+2, visitor.facebook?.id
+				visitorsSheet.set 24, key+2, visitor.facebook?.first_name
+				visitorsSheet.set 25, key+2, visitor.facebook?.last_name
 
-				visitorsSheet.set 17, key+2, visitor.odnoklassniki?.id
-				visitorsSheet.set 18, key+2, visitor.odnoklassniki?.name?.givenName
-				visitorsSheet.set 19, key+2, visitor.odnoklassniki?.name?.familyName
+				visitorsSheet.set 26, key+2, visitor.odnoklassniki?.id
+				visitorsSheet.set 27, key+2, visitor.odnoklassniki?.name?.givenName
+				visitorsSheet.set 28, key+2, visitor.odnoklassniki?.name?.familyName
 
 			workbook.save next
 

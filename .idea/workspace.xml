@@ -29,7 +29,7 @@
       <file leaf-file-name="visitors.coffee" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/controllers/admin/visitors.coffee">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="118" column="36" selection-start="3354" selection-end="3354" vertical-scroll-proportion="0.20111732" vertical-offset="1944" max-vertical-offset="3852">
+            <state line="153" column="36" selection-start="4980" selection-end="4980" vertical-scroll-proportion="0.9050279" vertical-offset="1944" max-vertical-offset="3852">
               <folding />
             </state>
           </provider>
@@ -410,7 +410,11 @@
       <created>1410876870989</created>
       <updated>1410876870989</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="export to excel soc1">
+      <created>1410877106802</created>
+      <updated>1410877106802</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -473,7 +477,8 @@
     <MESSAGE value="full validation, tiny fixes" />
     <MESSAGE value="export to excel" />
     <MESSAGE value="export to excel fix" />
-    <option name="LAST_COMMIT_MESSAGE" value="export to excel fix" />
+    <MESSAGE value="export to excel soc1" />
+    <option name="LAST_COMMIT_MESSAGE" value="export to excel soc1" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -773,7 +778,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/controllers/admin/visitors.coffee">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="118" column="36" selection-start="3354" selection-end="3354" vertical-scroll-proportion="0.20111732" vertical-offset="1944" max-vertical-offset="3852">
+        <state line="153" column="36" selection-start="4980" selection-end="4980" vertical-scroll-proportion="0.9050279" vertical-offset="1944" max-vertical-offset="3852">
           <folding />
         </state>
       </provider>
