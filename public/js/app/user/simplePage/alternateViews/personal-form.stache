@@ -65,8 +65,8 @@
             <div class="questionContainer parent">
                 <div class="left-side quesLabel">Кем Вы работаете:</div>
                 <div class="question radioWrapper">
-                    <input type="button" class="quesBtn radioButton switcher radioValidate" data-value="1" value="Врач"/>
-                    <input type="button" class="quesBtn radioButton switcher radioValidate" data-value="2" value="Фармацевт"/>
+                    <input type="button" class="quesBtn radioButton switcher radioValidate validateChild" data-value="1" value="Врач"/>
+                    <input type="button" class="quesBtn radioButton switcher radioValidate validateChild" data-value="2" value="Фармацевт"/>
                     <div class="hidden">
                         <input type="radio" name="jobType" value="1"/>
                         <input type="radio" name="jobType" value="2"/>
@@ -80,9 +80,9 @@
                 <div class="questionWrap" data-question_value="1">
 
                     <div class="left-side quesLabel">Тип учреждения:</div>
-                    <div class="question checkboxWrapper">
-                        <input type="button" class="quesBtn checkboxButton" data-value="1" value="Поликлиника"/>
-                        <input type="button" class="quesBtn checkboxButton" data-value="2" value="Стационар"/>
+                    <div class="question validate checkboxWrapper">
+                        <input type="button" class="quesBtn checkboxButton checkboxValidate" data-value="1" value="Поликлиника"/>
+                        <input type="button" class="quesBtn checkboxButton checkboxValidate" data-value="2" value="Стационар"/>
                         <div class="hidden">
                             <input type="checkbox" name="institutionType[]" value="1"/>
                             <input type="checkbox" name="institutionType[]" value="2"/>
@@ -114,9 +114,9 @@
                 <div class="questionWrap" data-question_value="2">
 
                     <div class="left-side quesLabel">Тип учреждения:</div>
-                    <div class="question radioWrapper">
-                        <input type="button" class="quesBtn radioButton" data-value="3" value="Сетевая аптека"/>
-                        <input type="button" class="quesBtn radioButton" data-value="4" value="Несетевая аптека"/>
+                    <div class="question validate radioWrapper">
+                        <input type="button" class="quesBtn radioButton radioValidate" data-value="3" value="Сетевая аптека"/>
+                        <input type="button" class="quesBtn radioButton radioValidate" data-value="4" value="Несетевая аптека"/>
                         <div class="hidden">
                             <input type="checkbox" name="institutionType[]" value="3"/>
                             <input type="checkbox" name="institutionType[]" value="4"/>
@@ -134,9 +134,9 @@
                     </div>
 
                     <div class="left-side quesLabel">Сеть и город:</div>
-                    <div class="question">
+                    <div class="question validate">
                         <input type="hidden" name="network_id" value=""/>
-                        <input type="text" placeholder="Сеть" name="network" class="network" value=""/>
+                        <input type="text" placeholder="Сеть" name="network" class="network validate" value=""/>
                         <div class="symb"><span>?</span></div>
                         {{#if appState.networkMatches}}
                             <div class="matchNetworksWrap">
@@ -149,8 +149,8 @@
                         {{/if}}
                     </div>
 
-                    <div class="question">
-                        <input type="text" placeholder="Номер/адрес" name="numberAddress" value=""/>
+                    <div class="question validate">
+                        <input class="validate" type="text" placeholder="Номер/адрес" name="numberAddress" value=""/>
                         <div class="symb"><span>?</span></div>
                     </div>
 

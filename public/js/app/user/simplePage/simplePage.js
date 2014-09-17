@@ -33,7 +33,6 @@ define([
 					self.options.alternateViewpath + simplePage.alternate_view_path + '.stache' :
 					self.options.viewpath + 'index.stache';
 
-				console.log(appState.attr('user').attr());
 				self.element.html(
 					can.view(viewfile, {
 						simplePage: simplePage,
@@ -314,6 +313,16 @@ define([
 				el.parents('.question').find('.valid').removeClass('wrong').addClass('correct');
 			},
 
+			'input.checkboxValidate click': function (el, ev) {
+				var $parent = el.parents('.question');
+				console.log($parent.find('input[checked=checked]').length);
+				if ($parent.find('input[checked=checked]').length > 0) {
+					$parent.find('.valid').removeClass('wrong').addClass('correct');
+				} else {
+					$parent.find('.valid').removeClass('correct').addClass('wrong');
+				}
+			},
+
 			'.cityMatchItem click': function (el, ev) {
 				var _id = el.data('_id');
 
@@ -366,6 +375,17 @@ define([
 						$blockToShow.velocity('slideDown');
 					});
 				}
+			},
+
+			'input.validateChild click': function (el, ev) {
+				var $parent = el.parents('.questionContainer');
+				var $child = $parent.next();
+
+				var $childBlock = $child.find('[data-question_value='+el.data('value')+']');
+				var $otherBlocks = $child.find('.questionWrap').not('[data-question_value='+el.data('value')+']');
+
+				$childBlock.find('.question.validate').append('<div class="valid wrong"></div>');
+				$otherBlocks.find('.wrong').remove();
 			}
 		});
 
