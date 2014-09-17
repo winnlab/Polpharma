@@ -116,7 +116,7 @@ define([
 				appState.attr('user.facebook', fbProfile);
 				appState.attr('user.vk', vkProfile);
 				appState.attr('user.username', name);
-				appState.attr('user.usersurname', surname);
+				appState.attr('user.lastName', surname);
 				appState.attr('user.image', image);
 
 				can.route.attr({

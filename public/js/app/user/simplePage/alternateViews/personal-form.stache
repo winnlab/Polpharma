@@ -11,9 +11,9 @@
                 <div class="valid {{checkInput appState.user.username}}"></div>
             </div>
             <div class="question">
-                <input type="text" placeholder="Фамилия" name="lastName" class="validate" value="{{appState.user.usersurname}}"/>
+                <input type="text" placeholder="Фамилия" name="lastName" class="validate" value="{{appState.user.lastName}}"/>
                 <div class="symb"><span>?</span></div>
-                <div class="valid {{checkInput appState.user.usersurname}}"></div>
+                <div class="valid {{checkInput appState.user.lastName}}"></div>
             </div>
             <div class="left-side quesLabel">Возраст:</div>
             <div class="question select">
