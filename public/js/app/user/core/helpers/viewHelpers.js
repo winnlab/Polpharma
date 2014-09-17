@@ -26,5 +26,13 @@ define([
 
 			return html;
 		});
+
+		can.mustache.registerHelper('checkInput', function(value) {
+			var result = 'wrong';
+			if ( value() && value().length > 0) {
+				result = 'correct';
+			}
+			return result
+		});
 	}
 );

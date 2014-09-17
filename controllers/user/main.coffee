@@ -36,6 +36,8 @@ getData = (req, lang, cb) ->
 	, (err, data) ->
 		return cb err if err
 		data.user = if req.user then req.user else {}
+		data.user.username = if req.user then req.user.odnoklassniki?.name?.givenName
+		data.user.usersurname = if req.user then req.user.odnoklassniki?.name?.familyName
 		data.lang = if lang.default then '' else lang.isoCode		
 		data.langs = _.map langs, (lang)-> 
 			return _.pick lang, 'isoCode', 'default'

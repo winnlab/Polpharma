@@ -33,6 +33,7 @@ define([
 					self.options.alternateViewpath + simplePage.alternate_view_path + '.stache' :
 					self.options.viewpath + 'index.stache';
 
+				console.log(appState.attr('user').attr());
 				self.element.html(
 					can.view(viewfile, {
 						simplePage: simplePage,
@@ -69,7 +70,7 @@ define([
 					FB.api('/me', function(userResponse) {
 
 						FB.api("/me/picture?width=180&height=180",  function(imageResponse) {
-							self.saveUser(userResponse.first_name, imageResponse.data.url, userResponse, null);
+							self.saveUser(userResponse.first_name, userResponse.last_name, imageResponse.data.url, userResponse, null);
 						});
 					});
 
@@ -98,7 +99,7 @@ define([
 					}, function (profileData){
 
 						if (profileData.response && profileData.response[0]){
-							self.saveUser(profileData.response[0].first_name, profileData.response[0].photo_200, null, profileData.response[0]);
+							self.saveUser(profileData.response[0].first_name, profileData.response[0].last_name, profileData.response[0].photo_200, null, profileData.response[0]);
 						}
 					});
 
@@ -111,10 +112,11 @@ define([
 				window.location = '/auth/odnoklassniki';
 			},
 
-			saveUser: function (name, image, fbProfile, vkProfile) {
+			saveUser: function (name, surname, image, fbProfile, vkProfile) {
 				appState.attr('user.facebook', fbProfile);
 				appState.attr('user.vk', vkProfile);
 				appState.attr('user.username', name);
+				appState.attr('user.usersurname', surname);
 				appState.attr('user.image', image);
 
 				can.route.attr({

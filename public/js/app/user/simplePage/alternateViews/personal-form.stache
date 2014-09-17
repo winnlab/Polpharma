@@ -6,14 +6,14 @@
             <div class="left-side">Давайте познакомимся:</div>
             <img class="right-side" src="{{appState.imgPath}}screen3_mini_logo.png"/>
             <div class="question">
-                <input class="validate" type="text" placeholder="Имя" name="firstName" value=""/>
+                <input class="validate" type="text" placeholder="Имя" name="firstName" value="{{appState.user.username}}"/>
                 <div class="symb"><span>?</span></div>
-                <div class="valid wrong"></div>
+                <div class="valid {{checkInput appState.user.username}}"></div>
             </div>
             <div class="question">
-                <input type="text" placeholder="Фамилия" name="lastName" class="validate" value=""/>
+                <input type="text" placeholder="Фамилия" name="lastName" class="validate" value="{{appState.user.usersurname}}"/>
                 <div class="symb"><span>?</span></div>
-                <div class="valid wrong"></div>
+                <div class="valid {{checkInput appState.user.usersurname}}"></div>
             </div>
             <div class="left-side quesLabel">Возраст:</div>
             <div class="question select">
