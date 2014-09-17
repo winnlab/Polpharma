@@ -29,7 +29,7 @@
       <file leaf-file-name="main.coffee" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/controllers/user/main.coffee">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="39" column="89" selection-start="1172" selection-end="1172" vertical-scroll-proportion="0.48678413" vertical-offset="260" max-vertical-offset="2610">
+            <state line="40" column="37" selection-start="1204" selection-end="1204" vertical-scroll-proportion="0.50660795" vertical-offset="260" max-vertical-offset="2628">
               <folding />
             </state>
           </provider>
@@ -570,7 +570,11 @@
       <created>1410963432788</created>
       <updated>1410963432788</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="social to inputs3">
+      <created>1410963724337</created>
+      <updated>1410963724337</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -610,7 +614,6 @@
     <option name="myTodoPanelSettings">
       <TodoPanelSettings />
     </option>
-    <MESSAGE value="changed port" />
     <MESSAGE value="appearance fixes" />
     <MESSAGE value="user part done, admin visitor functionality done" />
     <MESSAGE value="network_id fix" />
@@ -635,7 +638,8 @@
     <MESSAGE value="export to excel fix2" />
     <MESSAGE value="social to inputs" />
     <MESSAGE value="social to inputs2" />
-    <option name="LAST_COMMIT_MESSAGE" value="social to inputs2" />
+    <MESSAGE value="social to inputs3" />
+    <option name="LAST_COMMIT_MESSAGE" value="social to inputs3" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -899,7 +903,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/controllers/user/main.coffee">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="39" column="89" selection-start="1172" selection-end="1172" vertical-scroll-proportion="0.48678413" vertical-offset="260" max-vertical-offset="2610">
+        <state line="40" column="37" selection-start="1204" selection-end="1204" vertical-scroll-proportion="0.50660795" vertical-offset="260" max-vertical-offset="2628">
           <folding />
         </state>
       </provider>
