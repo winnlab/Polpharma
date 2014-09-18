@@ -21,18 +21,7 @@
                     {{{birthdayOptions}}}
                 </select>
                 <select class="month" name="birthMonth">
-                    <option value="1">Январь</option>
-                    <option value="2">Февраль</option>
-                    <option value="3">Март</option>
-                    <option value="1">Апрель</option>
-                    <option value="2">Май</option>
-                    <option value="3">Июнь</option>
-                    <option value="1">Июль</option>
-                    <option value="2">Август</option>
-                    <option value="3">Сентябрь</option>
-                    <option value="1">Октябрь</option>
-                    <option value="2">Ноябрь</option>
-                    <option value="3">Декабрь</option>
+                    {{{monthOptions}}}
                 </select>
                 <select class="year" name="birthYear">
                     {{{yearOptions}}}
@@ -56,9 +45,9 @@
                 {{/if}}
             </div>
             <div class="question">
-                <input type="text" placeholder="E-mail" name="email" class="validate" value=""/>
+                <input type="text" placeholder="E-mail" name="email" class="validate" value="{{appState.user.email}}"/>
                 <div class="symb"><span>?</span></div>
-                <div class="valid wrong"></div>
+                <div class="valid {{checkInput appState.user.email}}"></div>
             </div>
             <br/>
 

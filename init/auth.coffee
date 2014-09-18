@@ -99,6 +99,7 @@ exports.init = (callback) ->
 							odnoklassniki:
 								id: profile.id
 								name: profile.name
+								birthday: profile._json.birthday
 			], done
 
 	passport.use 'facebook', facebookAuth

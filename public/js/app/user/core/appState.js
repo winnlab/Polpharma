@@ -23,7 +23,8 @@ define([
 				user: data && data.user ? data.user : {
 					_id: null,
 					username: '',
-					image: ''
+					birthday: [],
+					email: ''
 				},
 				socialConfig: data && data.socialConfig ? data.socialConfig : false,
 				cityMatches: null,

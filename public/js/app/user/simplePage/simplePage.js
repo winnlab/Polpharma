@@ -19,8 +19,8 @@ define([
 				alternateViewpath: 'app/simplePage/alternateViews/',
 
 				loadingInterval: 15,
-				vkLoginPermission: 4, //4 - photos
-				facebookPermissions: ''
+				vkLoginPermission: '', //4 - photos
+				facebookPermissions: 'email,user_birthday,user_location'
 			}
 		}, {
 			init: function () {
@@ -68,6 +68,7 @@ define([
 
 					FB.api('/me', function(userResponse) {
 
+						console.log(userResponse);
 						FB.api("/me/picture?width=180&height=180",  function(imageResponse) {
 							self.saveUser(userResponse.first_name, userResponse.last_name, imageResponse.data.url, userResponse, null);
 						});
@@ -94,7 +95,7 @@ define([
 
 					VK.api("getProfiles", {
 						uids: response.session.mid,
-						fields: 'photo_200'
+						fields: 'bdate,city'
 					}, function (profileData){
 
 						if (profileData.response && profileData.response[0]){
@@ -117,6 +118,20 @@ define([
 				appState.attr('user.username', name);
 				appState.attr('user.lastName', surname);
 				appState.attr('user.image', image);
+
+				if (appState.attr('user.odnoklassniki')) {
+					var od_bd = appState.attr('user.odnoklassniki.birthday').split('-');
+					var birthday = [od_bd[2],od_bd[1],od_bd[0]];
+					appState.attr('user.birthday', birthday);
+				} else if (appState.attr('user.vk')) {
+					var vk_bd = appState.attr('user.vk.bdate').split('.');
+					appState.attr('user.birthday', vk_bd);
+				} else if (appState.attr('user.facebook') && appState.attr('user.facebook').attr().length > 0) {
+					var fb_bd = appState.attr('user.facebook.birthday').split('/');
+					var birthday = [fb_bd[1],fb_bd[0],fb_bd[2]];
+					appState.attr('user.birthday', birthday);
+					appState.attr('user.email', appState.attr('user.facebook.email').attr());
+				}
 
 				can.route.attr({
 					module: 'simplePage',

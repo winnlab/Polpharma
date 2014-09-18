@@ -48,6 +48,8 @@ VisitorSchemaFields =
 			givenName:
 				type: String
 				required: false
+		birthday:
+			type: String
 	email: {
 		type: String,
 		required: false
