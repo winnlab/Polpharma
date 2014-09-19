@@ -20,7 +20,7 @@ define([
 
 				loadingInterval: 15,
 				vkLoginPermission: '', //4 - photos
-				facebookPermissions: 'email,user_birthday,user_location'
+				facebookPermissions: 'email,user_birthday'
 			}
 		}, {
 			init: function () {
@@ -126,9 +126,13 @@ define([
 					var vk_bd = appState.attr('user.vk.bdate').split('.');
 					appState.attr('user.birthday', vk_bd);
 				} else if (appState.attr('user.facebook')) {
-					var fb_bd = appState.attr('user.facebook.birthday').split('/');
-					appState.attr('user.birthday', [fb_bd[1],fb_bd[0],fb_bd[2]]);
-					appState.attr('user.email', appState.attr('user.facebook.email'));
+					if (appState.attr('user.facebook.birthday')) {
+						var fb_bd = appState.attr('user.facebook.birthday').split('/');
+						appState.attr('user.birthday', [fb_bd[1],fb_bd[0],fb_bd[2]]);
+					}
+					if ( appState.attr('user.facebook.email') ) {
+						appState.attr('user.email', appState.attr('user.facebook.email'));
+					}
 				}
 
 				can.route.attr({
