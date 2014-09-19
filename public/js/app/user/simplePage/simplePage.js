@@ -119,12 +119,16 @@ define([
 				appState.attr('user.image', image);
 
 				if (appState.attr('user.odnoklassniki')) {
-					var od_bd = appState.attr('user.odnoklassniki.birthday').split('-');
-					var birthday = [od_bd[2],od_bd[1],od_bd[0]];
-					appState.attr('user.birthday', birthday);
+					if ( appState.attr('user.odnoklassniki.birthday') ) {
+						var od_bd = appState.attr('user.odnoklassniki.birthday').split('-');
+						var birthday = [od_bd[2],od_bd[1],od_bd[0]];
+						appState.attr('user.birthday', birthday);
+					}
 				} else if (appState.attr('user.vk')) {
-					var vk_bd = appState.attr('user.vk.bdate').split('.');
-					appState.attr('user.birthday', vk_bd);
+					if ( appState.attr('user.vk.bdate') ) {
+						var vk_bd = appState.attr('user.vk.bdate').split('.');
+						appState.attr('user.birthday', vk_bd);
+					}
 				} else if (appState.attr('user.facebook')) {
 					if (appState.attr('user.facebook.birthday')) {
 						var fb_bd = appState.attr('user.facebook.birthday').split('/');
