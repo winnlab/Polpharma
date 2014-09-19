@@ -68,7 +68,6 @@ define([
 
 					FB.api('/me', function(userResponse) {
 
-						console.log(userResponse);
 						FB.api("/me/picture?width=180&height=180",  function(imageResponse) {
 							self.saveUser(userResponse.first_name, userResponse.last_name, imageResponse.data.url, userResponse, null);
 						});
@@ -126,11 +125,10 @@ define([
 				} else if (appState.attr('user.vk')) {
 					var vk_bd = appState.attr('user.vk.bdate').split('.');
 					appState.attr('user.birthday', vk_bd);
-				} else if (appState.attr('user.facebook') && appState.attr('user.facebook').attr().length > 0) {
+				} else if (appState.attr('user.facebook')) {
 					var fb_bd = appState.attr('user.facebook.birthday').split('/');
-					var birthday = [fb_bd[1],fb_bd[0],fb_bd[2]];
-					appState.attr('user.birthday', birthday);
-					appState.attr('user.email', appState.attr('user.facebook.email').attr());
+					appState.attr('user.birthday', [fb_bd[1],fb_bd[0],fb_bd[2]]);
+					appState.attr('user.email', appState.attr('user.facebook.email'));
 				}
 
 				can.route.attr({

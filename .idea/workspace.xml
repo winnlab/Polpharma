@@ -1,13 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="550f5691-9265-4354-b327-79290a18cf34" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/app/user/core/appState.js" afterPath="$PROJECT_DIR$/public/js/app/user/core/appState.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/init/auth.coffee" afterPath="$PROJECT_DIR$/init/auth.coffee" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/app/user/simplePage/alternateViews/personal-form.stache" afterPath="$PROJECT_DIR$/public/js/app/user/simplePage/alternateViews/personal-form.stache" />
+    <list default="true" id="550f5691-9265-4354-b327-79290a18cf34" name="Default" comment="email and bday from social done">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/app/user/simplePage/simplePage.js" afterPath="$PROJECT_DIR$/public/js/app/user/simplePage/simplePage.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/app/user/core/helpers/viewHelpers.js" afterPath="$PROJECT_DIR$/public/js/app/user/core/helpers/viewHelpers.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/models/visitor.coffee" afterPath="$PROJECT_DIR$/models/visitor.coffee" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Polpharma.iws" />
@@ -31,19 +26,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="simplePage.js" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="simplePage.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/public/js/app/user/simplePage/simplePage.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="125" column="54" selection-start="3391" selection-end="3391" vertical-scroll-proportion="0.0" vertical-offset="1908" max-vertical-offset="7434">
+            <state line="130" column="84" selection-start="3717" selection-end="3717" vertical-scroll-proportion="0.72240806" vertical-offset="1692" max-vertical-offset="7398">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="viewHelpers.js" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="viewHelpers.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public/js/app/user/core/helpers/viewHelpers.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="41" column="0" selection-start="1130" selection-end="1130" vertical-scroll-proportion="0.36703297" vertical-offset="404" max-vertical-offset="1314">
+            <state line="52" column="17" selection-start="1592" selection-end="1592" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1314">
               <folding />
             </state>
           </provider>
@@ -52,7 +47,7 @@
       <file leaf-file-name="personal-form.stache" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public/js/app/user/simplePage/alternateViews/personal-form.stache">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="23" column="28" selection-start="1171" selection-end="1171" vertical-scroll-proportion="-12.75" vertical-offset="108" max-vertical-offset="2898">
+            <state line="23" column="28" selection-start="1171" selection-end="1171" vertical-scroll-proportion="0.0" vertical-offset="108" max-vertical-offset="2898">
               <folding />
             </state>
           </provider>
@@ -119,9 +114,9 @@
         <option value="$PROJECT_DIR$/models/visitor.coffee" />
         <option value="$PROJECT_DIR$/controllers/user/main.coffee" />
         <option value="$PROJECT_DIR$/public/js/app/user/core/appState.js" />
-        <option value="$PROJECT_DIR$/public/js/app/user/simplePage/simplePage.js" />
         <option value="$PROJECT_DIR$/public/js/app/user/simplePage/alternateViews/personal-form.stache" />
         <option value="$PROJECT_DIR$/public/js/app/user/core/helpers/viewHelpers.js" />
+        <option value="$PROJECT_DIR$/public/js/app/user/simplePage/simplePage.js" />
       </list>
     </option>
   </component>
@@ -260,40 +255,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="core" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Polpharma" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Polpharma" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="public" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="user" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="core" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="helpers" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -517,7 +478,11 @@
       <created>1410966784140</created>
       <updated>1410966784140</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="email and bday from social done">
+      <created>1411050748057</created>
+      <updated>1411050748057</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -525,7 +490,7 @@
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.23015873" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.23260073" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -557,7 +522,6 @@
     <option name="myTodoPanelSettings">
       <TodoPanelSettings />
     </option>
-    <MESSAGE value="route fix" />
     <MESSAGE value="frontend ready, admin visitors ready" />
     <MESSAGE value="odniklassniki done, tiny fixes" />
     <MESSAGE value="odniklassniki window.location" />
@@ -582,7 +546,8 @@
     <MESSAGE value="test3" />
     <MESSAGE value="social input done" />
     <MESSAGE value="validation done" />
-    <option name="LAST_COMMIT_MESSAGE" value="validation done" />
+    <MESSAGE value="email and bday from social done" />
+    <option name="LAST_COMMIT_MESSAGE" value="email and bday from social done" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -800,63 +765,53 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/meta/socialConfig.coffee">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="34" selection-start="348" selection-end="348" vertical-scroll-proportion="0.25714287" vertical-offset="0" max-vertical-offset="910">
-          <folding />
-        </state>
+        <state line="13" column="34" selection-start="348" selection-end="348" vertical-scroll-proportion="0.25714287" vertical-offset="0" max-vertical-offset="910" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/models/visitor.coffee">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="51" column="24" selection-start="848" selection-end="848" vertical-scroll-proportion="0.83076924" vertical-offset="162" max-vertical-offset="2628">
-          <folding />
-        </state>
+        <state line="51" column="24" selection-start="848" selection-end="848" vertical-scroll-proportion="0.83076924" vertical-offset="162" max-vertical-offset="2628" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/controllers/user/main.coffee">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="38" column="19" selection-start="1022" selection-end="1022" vertical-scroll-proportion="0.545055" vertical-offset="188" max-vertical-offset="2628">
-          <folding />
-        </state>
+        <state line="38" column="19" selection-start="1022" selection-end="1022" vertical-scroll-proportion="0.545055" vertical-offset="188" max-vertical-offset="2628" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/init/auth.coffee">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="94" column="29" selection-start="2795" selection-end="2795" vertical-scroll-proportion="0.6835165" vertical-offset="1070" max-vertical-offset="2070">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/js/app/user/core/appState.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="28" selection-start="724" selection-end="724" vertical-scroll-proportion="0.51428574" vertical-offset="0" max-vertical-offset="910">
-          <folding />
-        </state>
+        <state line="94" column="29" selection-start="2795" selection-end="2795" vertical-scroll-proportion="0.6835165" vertical-offset="1070" max-vertical-offset="2070" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/public/js/app/user/core/core.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.6021978" vertical-offset="548" max-vertical-offset="1458">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.6021978" vertical-offset="548" max-vertical-offset="1458" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/public/js/app/user/simplePage/alternateViews/personal-form.stache">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="28" selection-start="1171" selection-end="1171" vertical-scroll-proportion="-12.75" vertical-offset="108" max-vertical-offset="2898">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/js/app/user/simplePage/simplePage.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="125" column="54" selection-start="3391" selection-end="3391" vertical-scroll-proportion="0.0" vertical-offset="1908" max-vertical-offset="7434">
+        <state line="23" column="28" selection-start="1171" selection-end="1171" vertical-scroll-proportion="0.0" vertical-offset="108" max-vertical-offset="2898">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/public/js/app/user/core/helpers/viewHelpers.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="41" column="0" selection-start="1130" selection-end="1130" vertical-scroll-proportion="0.36703297" vertical-offset="404" max-vertical-offset="1314">
+        <state line="52" column="17" selection-start="1592" selection-end="1592" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1314">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/js/app/user/core/appState.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="26" column="29" selection-start="725" selection-end="725" vertical-scroll-proportion="0.51428574" vertical-offset="0" max-vertical-offset="910">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/js/app/user/simplePage/simplePage.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="130" column="84" selection-start="3717" selection-end="3717" vertical-scroll-proportion="0.72240806" vertical-offset="1692" max-vertical-offset="7398">
           <folding />
         </state>
       </provider>
