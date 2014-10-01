@@ -121,9 +121,9 @@ define([
 				can.on.call(hub, 'silentModule', can.proxy(this.Modules.silentInit, this.Modules));
 
 				if (can.route.bindings.pushstate) {
-					can.route.bindings.pushstate.root = (lang ? '/' + lang : '') + '/';
+					can.route.bindings.pushstate.root = (appState.lang ? '/' + appState.lang : '') + '/';
 				} else {
-					can.route.bindings.hashchange.root = (lang ? '/' + lang : '') + '/';
+					can.route.bindings.hashchange.root = (appState.lang ? '/' + appState.lang : '') + '/';
 				}
 				can.route.ready(false);
 
