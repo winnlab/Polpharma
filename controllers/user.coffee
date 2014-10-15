@@ -31,7 +31,7 @@ Router.get '/auth/facebook/callback', passport.authenticate 'facebook',
 
 Router.get '/auth/odnoklassniki', Main.odnoklassnikiLogin
 Router.get '/auth/'+socialConfig.odnoklassniki.clientID, passport.authenticate "odnoklassniki",
-	successRedirect: '/simplePage/personal-form'
+	successRedirect: "/simplePage/personal-form"
 	failureRedirect: "/simplePage/login-page"
 
 

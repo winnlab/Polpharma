@@ -85,7 +85,8 @@ define([
 			showPreloader: function () {
 				if (!this.attr('loaderShown')) {
 					this.attr('loaderShown', true);
-					$('#preloader').show();
+					$('.pulsingCircle').css('z-index', '999');
+					$('#circles').css('z-index', '999');
 				}
 			},
 
@@ -93,6 +94,8 @@ define([
 				if (this.attr('loaderShown')) {
 					isReady.then(function() {
 						this.attr('loaderShown', false);
+						$('.pulsingCircle').css('z-index', '-1');
+						$('#circles').css('z-index', '-1');
 						$('#preloader').hide();
 					}.bind(this));
 				}
@@ -120,11 +123,7 @@ define([
 
 				can.on.call(hub, 'silentModule', can.proxy(this.Modules.silentInit, this.Modules));
 
-				if (can.route.bindings.pushstate) {
-					can.route.bindings.pushstate.root = (appState.lang ? '/' + appState.lang : '') + '/';
-				} else {
-					can.route.bindings.hashchange.root = (appState.lang ? '/' + appState.lang : '') + '/';
-				}
+				can.route.bindings.pushstate.root = appState.lang;
 				can.route.ready(false);
 
 			},
