@@ -407,6 +407,14 @@ define([
 
 				$childBlock.find('.question.validate').append('<div class="valid wrong"></div>');
 				$otherBlocks.find('.wrong').remove();
+			},
+
+			'.personalDataCheck change': function (el, ev) {
+				if (el.prop('checked') === true) {
+					$('.start').attr('disabled', false);
+				} else {
+					$('.start').attr('disabled', 'disabled');
+				}
 			}
 		});
 

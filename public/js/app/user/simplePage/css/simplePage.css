@@ -85,6 +85,18 @@
   color: #ffffff;
   font-size: 120%;
   height: 50px; }
+.frame1 .start:disabled {
+  background: #8a8a8a;
+  border-color: #8a8a8a; }
+  .frame1 .start:disabled:hover {
+    background: #8a8a8a;
+    cursor: default; }
+.frame1 .personalDataConfirm {
+  margin-top: 4%; }
+  .frame1 .personalDataConfirm input {
+    padding: 0;
+    width: auto;
+    height: auto; }
 
 .frame2 {
   width: 100%;

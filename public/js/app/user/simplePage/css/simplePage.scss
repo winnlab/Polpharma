@@ -66,6 +66,24 @@
 		font-size: 120%;
 		height:50px;
 	}
+	.start:disabled {
+		background: #8a8a8a;
+		border-color: #8a8a8a;
+
+		&:hover {
+			background: #8a8a8a;
+			cursor: default;
+		}
+	}
+	.personalDataConfirm {
+		margin-top: 4%;
+
+		input {
+			padding: 0;
+			width: auto;
+			height: auto;
+		}
+	}
 }
 
 
