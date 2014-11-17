@@ -4,7 +4,7 @@ async = require 'async'
 opts =
 	server: { auto_reconnect: true, primary:null, poolSize: 50 },
 	user: 'admin',
-	pass: '8mvclqXSvv',
+	pass: 'UCLZk2ddmQa8CsH',
 	host: 'localhost'
 	port: '27017'
 	database: 'Polpharma'
