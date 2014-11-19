@@ -183,7 +183,7 @@ define([
 
 				var self = this;
 
-				if ( el.find('.wrong').length == 0 ) {
+				if ( el.find('.wrong').length == 0 && $('.personalDataCheck').val('checked') == true ) {
 					el.find('input[type=submit]').removeClass('validationFailure');
 					var formData = can.deparam(el.serialize());
 
@@ -336,7 +336,6 @@ define([
 
 			'input.checkboxValidate click': function (el, ev) {
 				var $parent = el.parents('.question');
-				console.log($parent.find('input[checked=checked]').length);
 				if ($parent.find('input[checked=checked]').length > 0) {
 					$parent.find('.valid').removeClass('wrong').addClass('correct');
 				} else {
@@ -407,15 +406,15 @@ define([
 
 				$childBlock.find('.question.validate').append('<div class="valid wrong"></div>');
 				$otherBlocks.find('.wrong').remove();
-			},
-
-			'.personalDataCheck change': function (el, ev) {
-				if (el.prop('checked') === true) {
-					$('.start').attr('disabled', false);
-				} else {
-					$('.start').attr('disabled', 'disabled');
-				}
 			}
+
+			//'.personalDataCheck change': function (el, ev) {
+			//	if (el.prop('checked') === true) {
+			//		$('.start').attr('disabled', false);
+			//	} else {
+			//		$('.start').attr('disabled', 'disabled');
+			//	}
+			//}
 		});
 
 	}

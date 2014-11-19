@@ -91,12 +91,6 @@
   .frame1 .start:disabled:hover {
     background: #8a8a8a;
     cursor: default; }
-.frame1 .personalDataConfirm {
-  margin-top: 4%; }
-  .frame1 .personalDataConfirm input {
-    padding: 0;
-    width: auto;
-    height: auto; }
 
 .frame2 {
   width: 100%;
@@ -201,6 +195,13 @@
     width: 50%;
     left: 25%;
     min-height: 666px; }
+    .frame3 .content .personalDataConfirm {
+      margin: 4% 0;
+      color: #8a8a8a; }
+      .frame3 .content .personalDataConfirm input {
+        padding: 0;
+        width: auto;
+        height: auto; }
     .frame3 .content .left-side {
       float: left;
       font-size: 110%;

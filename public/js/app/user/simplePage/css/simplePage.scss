@@ -75,15 +75,6 @@
 			cursor: default;
 		}
 	}
-	.personalDataConfirm {
-		margin-top: 4%;
-
-		input {
-			padding: 0;
-			width: auto;
-			height: auto;
-		}
-	}
 }
 
 
@@ -203,6 +194,8 @@
 		color: $textColor;
 
 	}
+
+
 	background-image: url("#{$img_path}screen3_left_logo.png"),  url("#{$img_path}screen3_right_logo.png");
 	background-size: 24%, 24%; /* Современные браузеры */
 	background-position: left top, right bottom;
@@ -215,6 +208,17 @@
 		width: 50%;
 		left: 25%;
 		min-height: 666px;
+
+		.personalDataConfirm {
+			margin: 4% 0;
+			color: $textColor;
+
+			input {
+				padding: 0;
+				width: auto;
+				height: auto;
+			}
+		}
 
 		.left-side{
 			float:left;

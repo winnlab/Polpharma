@@ -132,6 +132,9 @@ VisitorSchemaFields =
 	numberAddress:
 		type: String
 		required: false
+	age:
+		type: String
+		trim: true
 
 options =
 	collection: 'visitors'

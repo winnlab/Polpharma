@@ -6,13 +6,7 @@
         <div class="banText absPos">
             <div class="banTitle">Мы очень рады, что вы нашли время для того, чтобы ответить на наши вопросы.</div>
             <div class="banDesc">Это займет всего несколько минут, и за это мы подарим небольшой, но очень приятный подарок.</div>
-            <div class="personalDataConfirm">
-                <label>
-                    <input type="checkbox" class="personalDataCheck" name="personalDataCheck"/>
-                    Я согланен на доступ к моим персональным данным.
-                </label>
-            </div>
-            <button disabled="disabled" class="start module" data-href="simplePage/login-page">Начать</button>
+            <button class="start module" data-href="simplePage/login-page">Начать</button>
         </div>
         <div class="corner absPos">
             <img src="{{appState.imgPath}}corner_logo.png"/>
