@@ -183,7 +183,7 @@ define([
 
 				var self = this;
 
-				if ( el.find('.wrong').length == 0 && $('.personalDataCheck').val('checked') == true ) {
+				if ( el.find('.wrong').length == 0 && $('.personalDataCheck').prop('checked') == true ) {
 					el.find('input[type=submit]').removeClass('validationFailure');
 					var formData = can.deparam(el.serialize());
 

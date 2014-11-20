@@ -2,14 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="550f5691-9265-4354-b327-79290a18cf34" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/app/user/simplePage/alternateViews/main-page.stache" afterPath="$PROJECT_DIR$/public/js/app/user/simplePage/alternateViews/main-page.stache" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/app/user/simplePage/alternateViews/personal-form.stache" afterPath="$PROJECT_DIR$/public/js/app/user/simplePage/alternateViews/personal-form.stache" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/app/user/simplePage/css/simplePage.css.map" afterPath="$PROJECT_DIR$/public/js/app/user/simplePage/css/simplePage.css.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/app/user/simplePage/css/simplePage.css" afterPath="$PROJECT_DIR$/public/js/app/user/simplePage/css/simplePage.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/app/user/simplePage/simplePage.js" afterPath="$PROJECT_DIR$/public/js/app/user/simplePage/simplePage.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/app/user/simplePage/css/simplePage.scss" afterPath="$PROJECT_DIR$/public/js/app/user/simplePage/css/simplePage.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/models/visitor.coffee" afterPath="$PROJECT_DIR$/models/visitor.coffee" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/watcherTasks.xml" afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Polpharma.iws" />
@@ -34,20 +27,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="simplePage.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="simplePage.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/public/js/app/user/simplePage/simplePage.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="3174" max-vertical-offset="7668">
+            <state vertical-scroll-proportion="0.20526315" vertical-offset="3156" max-vertical-offset="7668">
               <caret line="184" column="0" selection-start-line="184" selection-start-column="0" selection-end-line="184" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="personal-form.stache" pinned="false" current-in-tab="true">
+      <file leaf-file-name="personal-form.stache" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public/js/app/user/simplePage/alternateViews/personal-form.stache">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.4273743" vertical-offset="144" max-vertical-offset="2934">
+            <state vertical-scroll-proportion="-11.333333" vertical-offset="144" max-vertical-offset="2934">
               <caret line="25" column="18" selection-start-line="25" selection-start-column="18" selection-end-line="25" selection-end-column="18" />
               <folding />
             </state>
@@ -57,7 +50,7 @@
       <file leaf-file-name="simplePage.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public/js/app/user/simplePage/css/simplePage.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-6.4444447" vertical-offset="3660" max-vertical-offset="9108">
+            <state vertical-scroll-proportion="0.0" vertical-offset="3660" max-vertical-offset="9108">
               <caret line="213" column="30" selection-start-line="213" selection-start-column="30" selection-end-line="213" selection-end-column="30" />
               <folding />
             </state>
@@ -80,9 +73,9 @@
         <option value="$PROJECT_DIR$/init/database.coffee" />
         <option value="$PROJECT_DIR$/public/js/app/user/simplePage/alternateViews/main-page.stache" />
         <option value="$PROJECT_DIR$/public/js/app/user/simplePage/css/simplePage.scss" />
-        <option value="$PROJECT_DIR$/public/js/app/user/simplePage/simplePage.js" />
         <option value="$PROJECT_DIR$/models/visitor.coffee" />
         <option value="$PROJECT_DIR$/public/js/app/user/simplePage/alternateViews/personal-form.stache" />
+        <option value="$PROJECT_DIR$/public/js/app/user/simplePage/simplePage.js" />
       </list>
     </option>
   </component>
@@ -91,7 +84,7 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="y" value="-4" />
+    <option name="y" value="1046" />
     <option name="width" value="1600" />
     <option name="height" value="904" />
   </component>
@@ -720,15 +713,21 @@
       <option name="project" value="LOCAL" />
       <updated>1416224439722</updated>
     </task>
-    <option name="localTasksCounter" value="48" />
+    <task id="LOCAL-00048" summary="2 of 3 tasks done">
+      <created>1416424580405</created>
+      <option name="number" value="00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1416424580405</updated>
+    </task>
+    <option name="localTasksCounter" value="49" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="-4" width="1600" height="904" extended-state="6" />
+    <frame x="0" y="1046" width="1600" height="904" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.223125" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.23375" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
@@ -764,7 +763,6 @@
     <option name="myTodoPanelSettings">
       <TodoPanelSettings />
     </option>
-    <MESSAGE value="admin require wait set" />
     <MESSAGE value="full validation, tiny fixes" />
     <MESSAGE value="export to excel" />
     <MESSAGE value="export to excel fix" />
@@ -789,7 +787,8 @@
     <MESSAGE value="router ie9 fix2" />
     <MESSAGE value="personal data confirmation checkbox added" />
     <MESSAGE value="changed password" />
-    <option name="LAST_COMMIT_MESSAGE" value="changed password" />
+    <MESSAGE value="2 of 3 tasks done" />
+    <option name="LAST_COMMIT_MESSAGE" value="2 of 3 tasks done" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1097,7 +1096,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.27813712" vertical-offset="37" max-vertical-offset="972">
           <caret line="14" column="12" selection-start-line="14" selection-start-column="12" selection-end-line="14" selection-end-column="12" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1105,13 +1103,12 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.3260026" vertical-offset="0" max-vertical-offset="773">
           <caret line="14" column="33" selection-start-line="14" selection-start-column="33" selection-end-line="14" selection-end-column="33" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/public/js/app/user/simplePage/css/simplePage.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-6.4444447" vertical-offset="3660" max-vertical-offset="9108">
+        <state vertical-scroll-proportion="0.0" vertical-offset="3660" max-vertical-offset="9108">
           <caret line="213" column="30" selection-start-line="213" selection-start-column="30" selection-end-line="213" selection-end-column="30" />
           <folding />
         </state>
@@ -1121,15 +1118,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.1689008" vertical-offset="0" max-vertical-offset="746">
           <caret line="7" column="130" selection-start-line="7" selection-start-column="130" selection-end-line="7" selection-end-column="130" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/js/app/user/simplePage/simplePage.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="3174" max-vertical-offset="7668">
-          <caret line="184" column="0" selection-start-line="184" selection-start-column="0" selection-end-line="184" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1137,7 +1125,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.93143594" vertical-offset="0" max-vertical-offset="846">
           <caret line="40" column="17" selection-start-line="40" selection-start-column="17" selection-end-line="40" selection-end-column="17" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1145,14 +1132,21 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.767141" vertical-offset="1855" max-vertical-offset="2682">
           <caret line="136" column="18" selection-start-line="136" selection-start-column="18" selection-end-line="136" selection-end-column="18" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/public/js/app/user/simplePage/alternateViews/personal-form.stache">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.4273743" vertical-offset="144" max-vertical-offset="2934">
+        <state vertical-scroll-proportion="-11.333333" vertical-offset="144" max-vertical-offset="2934">
           <caret line="25" column="18" selection-start-line="25" selection-start-column="18" selection-end-line="25" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/js/app/user/simplePage/simplePage.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.20526315" vertical-offset="3156" max-vertical-offset="7668">
+          <caret line="184" column="0" selection-start-line="184" selection-start-column="0" selection-end-line="184" selection-end-column="0" />
           <folding />
         </state>
       </provider>
