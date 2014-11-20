@@ -12,6 +12,7 @@
             </div>
 
             <div class="rulesPopup {{appState.rulesPopupActive}}">
+                <div class="close">X</div>
                 <ol>
                     <li>Сайт – анкета ANKETA.CO (далі - Сайт) створений з метою дослідження Інтернет користування
                         лікарів.

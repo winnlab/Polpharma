@@ -199,8 +199,13 @@
       margin: 4% 0;
       color: #8a8a8a; }
       .frame3 .content .personalDataConfirm .rulesPopupBtn {
-        color: #9095B4; }
+        color: #9095B4;
+        -webkit-transition: color 150ms ease-out 0s;
+        -moz-transition: color 150ms ease-out 0s;
+        -o-transition: color 150ms ease-out 0s;
+        transition: color 150ms ease-out 0s; }
         .frame3 .content .personalDataConfirm .rulesPopupBtn:hover {
+          color: #484b62;
           cursor: pointer; }
       .frame3 .content .personalDataConfirm input {
         padding: 0;
@@ -225,6 +230,18 @@
       -moz-transition: all 150ms ease-out 0s;
       -o-transition: all 150ms ease-out 0s;
       transition: all 150ms ease-out 0s; }
+      .frame3 .content .rulesPopup .close {
+        position: absolute;
+        top: 0;
+        right: 0;
+        z-index: 1;
+        -webkit-transition: color 150ms ease-out 0s;
+        -moz-transition: color 150ms ease-out 0s;
+        -o-transition: color 150ms ease-out 0s;
+        transition: color 150ms ease-out 0s; }
+        .frame3 .content .rulesPopup .close:hover {
+          cursor: pointer;
+          color: #363636; }
       .frame3 .content .rulesPopup ol {
         list-style: decimal; }
         .frame3 .content .rulesPopup ol li {

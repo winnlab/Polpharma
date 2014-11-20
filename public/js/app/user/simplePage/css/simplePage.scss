@@ -215,8 +215,13 @@
 
 			.rulesPopupBtn {
 				color: #9095B4;
+				-webkit-transition: color 150ms ease-out 0s;
+				-moz-transition: color 150ms ease-out 0s;
+				-o-transition: color 150ms ease-out 0s;
+				transition: color 150ms ease-out 0s;
 
 				&:hover {
+					color: #484b62;
 					cursor: pointer;
 				}
 			}
@@ -243,6 +248,22 @@
 			-moz-transition: all 150ms ease-out 0s;
 			-o-transition: all 150ms ease-out 0s;
 			transition: all 150ms ease-out 0s;
+
+			.close {
+				position: absolute;
+				top: 0;
+				right: 0;
+				z-index: 1;
+				-webkit-transition: color 150ms ease-out 0s;
+				-moz-transition: color 150ms ease-out 0s;
+				-o-transition: color 150ms ease-out 0s;
+				transition: color 150ms ease-out 0s;
+
+				&:hover {
+					cursor: pointer;
+					color: #363636;
+				}
+			}
 
 			ol {
 				list-style: decimal;

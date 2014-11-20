@@ -412,7 +412,17 @@ define([
 				ev.preventDefault();
 				ev.stopPropagation();
 
-				console.log('click');
+				this.toggleRightsPopup();
+			},
+
+			'.rulesPopup .close click': function(el, ev) {
+				ev.preventDefault();
+				ev.stopPropagation();
+
+				this.toggleRightsPopup();
+			},
+
+			toggleRightsPopup: function () {
 				if ( appState.attr('rulesPopupActive') == 'active' ) {
 					appState.attr('rulesPopupActive', '');
 				} else {
