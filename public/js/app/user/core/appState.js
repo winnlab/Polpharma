@@ -28,7 +28,8 @@ define([
 				},
 				socialConfig: data && data.socialConfig ? data.socialConfig : false,
 				cityMatches: null,
-				networkMatches: null
+				networkMatches: null,
+				rulesPopupActive: ''
 
 			}),
 			appState = new AppState();

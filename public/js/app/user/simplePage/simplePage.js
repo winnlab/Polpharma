@@ -406,6 +406,18 @@ define([
 
 				$childBlock.find('.question.validate').append('<div class="valid wrong"></div>');
 				$otherBlocks.find('.wrong').remove();
+			},
+
+			'.rulesPopupBtn click': function (el, ev) {
+				ev.preventDefault();
+				ev.stopPropagation();
+
+				console.log('click');
+				if ( appState.attr('rulesPopupActive') == 'active' ) {
+					appState.attr('rulesPopupActive', '');
+				} else {
+					appState.attr('rulesPopupActive', 'active');
+				}
 			}
 
 			//'.personalDataCheck change': function (el, ev) {

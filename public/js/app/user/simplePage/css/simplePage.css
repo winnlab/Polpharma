@@ -198,10 +198,45 @@
     .frame3 .content .personalDataConfirm {
       margin: 4% 0;
       color: #8a8a8a; }
+      .frame3 .content .personalDataConfirm .rulesPopupBtn {
+        color: #9095B4; }
+        .frame3 .content .personalDataConfirm .rulesPopupBtn:hover {
+          cursor: pointer; }
       .frame3 .content .personalDataConfirm input {
         padding: 0;
         width: auto;
         height: auto; }
+    .frame3 .content .rulesPopup {
+      position: absolute;
+      visibility: hidden;
+      opacity: 0;
+      z-index: 1;
+      top: 130px;
+      width: 100%;
+      background: #FFFFFF;
+      padding: 3%;
+      color: #8a8a8a;
+      -moz-transform: scale(0.9);
+      -o-transform: scale(0.9);
+      -ms-transform: scale(0.9);
+      -webkit-transform: scale(0.9);
+      transform: scale(0.9);
+      -webkit-transition: all 150ms ease-out 0s;
+      -moz-transition: all 150ms ease-out 0s;
+      -o-transition: all 150ms ease-out 0s;
+      transition: all 150ms ease-out 0s; }
+      .frame3 .content .rulesPopup ol {
+        list-style: decimal; }
+        .frame3 .content .rulesPopup ol li {
+          margin-bottom: 10px; }
+      .frame3 .content .rulesPopup.active {
+        visibility: visible;
+        opacity: 1;
+        -moz-transform: scale(1);
+        -o-transform: scale(1);
+        -ms-transform: scale(1);
+        -webkit-transform: scale(1);
+        transform: scale(1); }
     .frame3 .content .left-side {
       float: left;
       font-size: 110%;

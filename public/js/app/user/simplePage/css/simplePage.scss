@@ -213,10 +213,49 @@
 			margin: 4% 0;
 			color: $textColor;
 
+			.rulesPopupBtn {
+				color: #9095B4;
+
+				&:hover {
+					cursor: pointer;
+				}
+			}
+
 			input {
 				padding: 0;
 				width: auto;
 				height: auto;
+			}
+		}
+
+		.rulesPopup {
+			position: absolute;
+			visibility: hidden;
+			opacity: 0;
+			z-index: 1;
+			top: 130px;
+			width: 100%;
+			background: #FFFFFF;
+			padding: 3%;
+			color: #8a8a8a;
+			@include transform(scale(0.9));
+			-webkit-transition: all 150ms ease-out 0s;
+			-moz-transition: all 150ms ease-out 0s;
+			-o-transition: all 150ms ease-out 0s;
+			transition: all 150ms ease-out 0s;
+
+			ol {
+				list-style: decimal;
+
+				li {
+					margin-bottom: 10px;
+				}
+			}
+
+			&.active {
+				visibility: visible;
+				opacity: 1;
+				@include transform(scale(1));
 			}
 		}
 
