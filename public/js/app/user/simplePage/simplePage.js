@@ -305,11 +305,22 @@ define([
 			},
 
 			textValidate: function (el) {
-				if (el.val().length > 0) {
-					el.parents('.question').find('.valid').removeClass('wrong').addClass('correct');
-				} else if ( el.val().length == 0 ) {
-					el.parents('.question').find('.valid').removeClass('correct').addClass('wrong');
+				var maxLength = el.data('max_length');
+
+				if (maxLength) {
+					if (el.val().length > 0 && el.val().length < maxLength) {
+						el.parents('.question').find('.valid').removeClass('wrong').addClass('correct');
+					} else if ( el.val().length == 0 || el.val().length > maxLength) {
+						el.parents('.question').find('.valid').removeClass('correct').addClass('wrong');
+					}
+				} else {
+					if (el.val().length > 0) {
+						el.parents('.question').find('.valid').removeClass('wrong').addClass('correct');
+					} else if ( el.val().length == 0 ) {
+						el.parents('.question').find('.valid').removeClass('correct').addClass('wrong');
+					}
 				}
+
 			},
 
 			'input.city keyup': function (el, ev) {
@@ -415,7 +426,7 @@ define([
 				this.toggleRightsPopup();
 			},
 
-			'.rulesPopup .close click': function(el, ev) {
+			'.rulesPopup .closeRules click': function(el, ev) {
 				ev.preventDefault();
 				ev.stopPropagation();
 

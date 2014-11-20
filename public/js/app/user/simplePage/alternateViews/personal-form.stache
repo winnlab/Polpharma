@@ -2,17 +2,13 @@
 
     <form class="personalData">
 
-        <div class="content">
+        <div class="rulesPopup {{appState.rulesPopupActive}}">
 
-            <div class="personalDataConfirm">
-                <label>
-                    <input type="checkbox" class="personalDataCheck" name="personalDataCheck"/>
-                    Согласен с <span class="rulesPopupBtn">правилами</span> сайта
-                </label>
-            </div>
+            <div class="closeRules closeRulesBackground"></div>
 
-            <div class="rulesPopup {{appState.rulesPopupActive}}">
-                <div class="close">X</div>
+            <div class="rulesPopupContent">
+
+                <div class="close closeRules">X</div>
                 <ol>
                     <li>Сайт – анкета ANKETA.CO (далі - Сайт) створений з метою дослідження Інтернет користування
                         лікарів.
@@ -53,7 +49,12 @@
                     <li>У разі незгоди Користувача з усіма правилами, Користувач зобов'язується негайно припинити використання Сайту і всіх його сервісів.
                     </li>
                 </ol>
+
             </div>
+
+        </div>
+
+        <div class="content">
 
             <div class="left-side">Давайте познакомимся:</div>
             <img class="right-side" src="{{appState.imgPath}}screen3_mini_logo.png"/>
@@ -70,7 +71,7 @@
             </div>
 
             <div class="question">
-                <input class="validate" type="text" placeholder="Возраст" name="age" value="{{appState.user.age}}"/>
+                <input class="validate" data-max_length="2" type="text" placeholder="Возраст" name="age" value="{{appState.user.age}}"/>
                 <div class="symb"><span>?</span></div>
                 <div class="valid {{checkInput appState.user.age}}"></div>
             </div>
@@ -191,6 +192,13 @@
 
                 </div>
 
+            </div>
+
+            <div class="personalDataConfirm">
+                <label>
+                    <input type="checkbox" class="personalDataCheck" name="personalDataCheck"/>
+                    Согласен с <span class="rulesPopupBtn">правилами</span> сайта
+                </label>
             </div>
 
             <input type="submit" class="start toQues" value="Перейти к вопросам">
