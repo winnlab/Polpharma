@@ -75,7 +75,7 @@ exports.exportToExcel = (req, res)->
 
 			visitorsSheet.set 1, 1, 'Имя'
 			visitorsSheet.set 2, 1, 'Фамилия'
-			visitorsSheet.set 3, 1, 'День рождения'
+			visitorsSheet.set 3, 1, 'Возраст'
 			visitorsSheet.set 4, 1, 'Email'
 			visitorsSheet.set 5, 1, 'Город'
 			visitorsSheet.set 6, 1, 'Кем работает'
@@ -120,7 +120,7 @@ exports.exportToExcel = (req, res)->
 
 				visitorsSheet.set 1, key+2, visitor.firstName
 				visitorsSheet.set 2, key+2, visitor.lastName
-				visitorsSheet.set 3, key+2, visitor.birthDay + '.' +visitor.birthMonth + '.' +visitor.birthYear
+				visitorsSheet.set 3, key+2, visitor.age
 				visitorsSheet.set 4, key+2, visitor.email
 				visitorsSheet.set 5, key+2, visitor.city
 				visitorsSheet.set 6, key+2, jobType

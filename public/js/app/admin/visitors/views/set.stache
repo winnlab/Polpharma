@@ -26,9 +26,9 @@
                     </div>
 
                     <div class="form-group">
-                        <label class="col-md-2 control-label" for="name">День рождения:</label>
+                        <label class="col-md-2 control-label" for="name">Возраст:</label>
                         <div class="col-md-10">
-                            <p class="form-control">{{visitor.birthDay}}.{{visitor.birthMonth}}.{{visitor.birthYear}}</p>
+                            <p class="form-control">{{visitor.age}}</p>
                             <div class="help help-block"></div>
                         </div>
                     </div>
