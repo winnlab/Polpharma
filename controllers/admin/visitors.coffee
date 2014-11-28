@@ -71,7 +71,7 @@ exports.exportToExcel = (req, res)->
 		(visitors, next)->
 
 #			Sheet name, columns, rows
-			visitorsSheet = workbook.createSheet 'Лист посетителей', 28, visitors.length + 1
+			visitorsSheet = workbook.createSheet 'Лист посетителей', 30, visitors.length + 1
 
 			visitorsSheet.set 1, 1, 'Имя'
 			visitorsSheet.set 2, 1, 'Фамилия'
@@ -82,31 +82,34 @@ exports.exportToExcel = (req, res)->
 			visitorsSheet.set 7, 1, 'Специальность'
 			visitorsSheet.set 8, 1, 'Тип учреждения'
 
-			visitorsSheet.set 9, 1, 'Пользуется соц. сетями'
-			visitorsSheet.set 10, 1, 'Какими соц. сетями'
-			visitorsSheet.set 11, 1, 'Интернет для получения проф. знаний'
-			visitorsSheet.set 12, 1, 'Ресурсы проф. знаний'
+			visitorsSheet.set 9, 1, 'Сеть и город'
+			visitorsSheet.set 10, 1, 'Номер/адрес'
 
-			visitorsSheet.set 13, 1, 'Интернет для общения с пациентами'
-			visitorsSheet.set 14, 1, 'Средства общения с пациентами'
-			visitorsSheet.set 15, 1, 'Считает интернет важным источником знаний'
-			visitorsSheet.set 16, 1, 'Считает, что в Интернет много лодной информации'
+			visitorsSheet.set 11, 1, 'Пользуется соц. сетями'
+			visitorsSheet.set 12, 1, 'Какими соц. сетями'
+			visitorsSheet.set 13, 1, 'Интернет для получения проф. знаний'
+			visitorsSheet.set 14, 1, 'Ресурсы проф. знаний'
 
-			visitorsSheet.set 17, 1, 'Полезные для пациентов сайты'
-			visitorsSheet.set 18, 1, 'Пользуется смартфонами'
-			visitorsSheet.set 19, 1, 'Какими смартфонами'
+			visitorsSheet.set 15, 1, 'Интернет для общения с пациентами'
+			visitorsSheet.set 16, 1, 'Средства общения с пациентами'
+			visitorsSheet.set 17, 1, 'Считает интернет важным источником знаний'
+			visitorsSheet.set 18, 1, 'Считает, что в Интернет много лодной информации'
 
-			visitorsSheet.set 20, 1, 'Vk ID'
-			visitorsSheet.set 21, 1, 'Vk Имя'
-			visitorsSheet.set 22, 1, 'Vk Фамилия'
+			visitorsSheet.set 19, 1, 'Полезные для пациентов сайты'
+			visitorsSheet.set 20, 1, 'Пользуется смартфонами'
+			visitorsSheet.set 21, 1, 'Какими смартфонами'
 
-			visitorsSheet.set 23, 1, 'Fb ID'
-			visitorsSheet.set 24, 1, 'Fb Имя'
-			visitorsSheet.set 25, 1, 'Fb Фамилия'
+			visitorsSheet.set 22, 1, 'Vk ID'
+			visitorsSheet.set 23, 1, 'Vk Имя'
+			visitorsSheet.set 24, 1, 'Vk Фамилия'
 
-			visitorsSheet.set 26, 1, 'Ok ID'
-			visitorsSheet.set 27, 1, 'Ok Имя'
-			visitorsSheet.set 28, 1, 'Ok Фамилия'
+			visitorsSheet.set 25, 1, 'Fb ID'
+			visitorsSheet.set 26, 1, 'Fb Имя'
+			visitorsSheet.set 27, 1, 'Fb Фамилия'
+
+			visitorsSheet.set 28, 1, 'Ok ID'
+			visitorsSheet.set 29, 1, 'Ok Имя'
+			visitorsSheet.set 30, 1, 'Ok Фамилия'
 
 			for visitor, key in visitors
 				speciality = getSpeciality visitor.speciality_doc, visitor.speciality_apt, visitor.jobType
@@ -127,31 +130,34 @@ exports.exportToExcel = (req, res)->
 				visitorsSheet.set 7, key+2, speciality
 				visitorsSheet.set 8, key+2, institutionType
 
-				visitorsSheet.set 9, key+2, acceptReject visitor.useSocial
-				visitorsSheet.set 10, key+2, socialNetworks
-				visitorsSheet.set 11, key+2, acceptReject visitor.useInternet
-				visitorsSheet.set 12, key+2, visitor.usedResources
+				visitorsSheet.set 9, key+2, visitor.network
+				visitorsSheet.set 10, key+2, visitor.numberAddress
 
-				visitorsSheet.set 13, key+2, acceptReject visitor.useInternetTalk
-				visitorsSheet.set 14, key+2, visitor.useInternetTalkResources
-				visitorsSheet.set 15, key+2, acceptReject visitor.knowledgeSource
-				visitorsSheet.set 16, key+2, acceptReject visitor.falseInformation
+				visitorsSheet.set 11, key+2, acceptReject visitor.useSocial
+				visitorsSheet.set 12, key+2, socialNetworks
+				visitorsSheet.set 13, key+2, acceptReject visitor.useInternet
+				visitorsSheet.set 14, key+2, visitor.usedResources
 
-				visitorsSheet.set 17, key+2, visitor.usefulSites
-				visitorsSheet.set 18, key+2, acceptReject visitor.useSmartphones
-				visitorsSheet.set 19, key+2, visitor.useSmartphonesTypes
+				visitorsSheet.set 15, key+2, acceptReject visitor.useInternetTalk
+				visitorsSheet.set 16, key+2, visitor.useInternetTalkResources
+				visitorsSheet.set 17, key+2, acceptReject visitor.knowledgeSource
+				visitorsSheet.set 18, key+2, acceptReject visitor.falseInformation
 
-				visitorsSheet.set 20, key+2, visitor.vk?.uid
-				visitorsSheet.set 21, key+2, visitor.vk?.first_name
-				visitorsSheet.set 22, key+2, visitor.vk?.last_name
+				visitorsSheet.set 19, key+2, visitor.usefulSites
+				visitorsSheet.set 20, key+2, acceptReject visitor.useSmartphones
+				visitorsSheet.set 21, key+2, visitor.useSmartphonesTypes
 
-				visitorsSheet.set 23, key+2, visitor.facebook?.id
-				visitorsSheet.set 24, key+2, visitor.facebook?.first_name
-				visitorsSheet.set 25, key+2, visitor.facebook?.last_name
+				visitorsSheet.set 22, key+2, visitor.vk?.uid
+				visitorsSheet.set 23, key+2, visitor.vk?.first_name
+				visitorsSheet.set 24, key+2, visitor.vk?.last_name
 
-				visitorsSheet.set 26, key+2, visitor.odnoklassniki?.id
-				visitorsSheet.set 27, key+2, visitor.odnoklassniki?.name?.givenName
-				visitorsSheet.set 28, key+2, visitor.odnoklassniki?.name?.familyName
+				visitorsSheet.set 25, key+2, visitor.facebook?.id
+				visitorsSheet.set 26, key+2, visitor.facebook?.first_name
+				visitorsSheet.set 27, key+2, visitor.facebook?.last_name
+
+				visitorsSheet.set 28, key+2, visitor.odnoklassniki?.id
+				visitorsSheet.set 29, key+2, visitor.odnoklassniki?.name?.givenName
+				visitorsSheet.set 30, key+2, visitor.odnoklassniki?.name?.familyName
 
 			workbook.save next
 
