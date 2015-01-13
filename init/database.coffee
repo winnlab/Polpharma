@@ -5,7 +5,7 @@ opts =
 	server: { auto_reconnect: true, primary:null, poolSize: 50 },
 	user: 'admin',
 	pass: 'UCLZk2ddmQa8CsH',
-	host: 'localhost'
+	host: '127.0.0.1'
 	port: '27017'
 	database: 'Polpharma'
 	primary: null
