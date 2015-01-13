@@ -13,12 +13,13 @@ opts =
 connString = 'mongodb://'+opts.user+":"+opts.pass+"@"+opts.host+":"+opts.port+"/"+opts.database+"?auto_reconnect=true"
 
 mongoose.connection.on 'error', (err) ->
-	console.log 'Could not connect to mongo server'
-	return console.log err
+	setTimeout(() ->
+		mongoose.connect connString, opts
+		console.log 'Could not connect to mongo server'
+		console.log err
+	, 5000)
 
 mongoose.connection.on 'open', (err) ->
 	console.log 'Connected to mongo server'
 
-mongoose.connect connString, opts, () ->
-	console.log 'Mongoose connect callback:'
-	console.log arguments
+mongoose.connect connString, opts
