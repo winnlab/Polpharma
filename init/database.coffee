@@ -13,7 +13,7 @@ opts =
 connString = 'mongodb://'+opts.user+":"+opts.pass+"@"+opts.host+":"+opts.port+"/"+opts.database+"?auto_reconnect=true"
 
 mongoose.connection.on 'error', (err) ->
-	console.log err
+	console.dir err
 	process.exit()
 #	setTimeout(() ->
 #		mongoose.connect connString, opts
