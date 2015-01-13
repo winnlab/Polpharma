@@ -17,7 +17,7 @@ mongoose.connection.on 'error', (err) ->
 		mongoose.connect connString, opts
 		console.log 'Could not connect to mongo server'
 		console.log err
-	, 5000)
+	, 1000)
 
 mongoose.connection.on 'open', (err) ->
 	console.log 'Connected to mongo server'
