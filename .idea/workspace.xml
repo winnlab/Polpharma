@@ -30,8 +30,8 @@
       <file leaf-file-name="database.coffee" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/init/database.coffee">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.44243208" vertical-offset="0" max-vertical-offset="773">
-              <caret line="19" column="7" selection-start-line="19" selection-start-column="7" selection-end-line="19" selection-end-column="7" />
+            <state vertical-scroll-proportion="0.3725744" vertical-offset="0" max-vertical-offset="773">
+              <caret line="16" column="18" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="18" />
               <folding />
             </state>
           </provider>
@@ -561,7 +561,13 @@
       <option name="project" value="LOCAL" />
       <updated>1421147947313</updated>
     </task>
-    <option name="localTasksCounter" value="58" />
+    <task id="LOCAL-00058" summary="changed mongoose connection error output3">
+      <created>1421150011015</created>
+      <option name="number" value="00058" />
+      <option name="project" value="LOCAL" />
+      <updated>1421150011016</updated>
+    </task>
+    <option name="localTasksCounter" value="59" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -605,7 +611,6 @@
     <option name="myTodoPanelSettings">
       <TodoPanelSettings />
     </option>
-    <MESSAGE value="test3" />
     <MESSAGE value="social input done" />
     <MESSAGE value="validation done" />
     <MESSAGE value="email and bday from social done" />
@@ -630,7 +635,8 @@
     <MESSAGE value="changed mongoose version" />
     <MESSAGE value="changed mongoose connection error output" />
     <MESSAGE value="changed mongoose connection error output2" />
-    <option name="LAST_COMMIT_MESSAGE" value="changed mongoose connection error output2" />
+    <MESSAGE value="changed mongoose connection error output3" />
+    <option name="LAST_COMMIT_MESSAGE" value="changed mongoose connection error output3" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -992,8 +998,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/init/database.coffee">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.44243208" vertical-offset="0" max-vertical-offset="773">
-          <caret line="19" column="7" selection-start-line="19" selection-start-column="7" selection-end-line="19" selection-end-column="7" />
+        <state vertical-scroll-proportion="0.3725744" vertical-offset="0" max-vertical-offset="773">
+          <caret line="16" column="18" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="18" />
           <folding />
         </state>
       </provider>
